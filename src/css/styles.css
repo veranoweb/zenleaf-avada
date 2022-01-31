@@ -1,0 +1,340 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "./eminent.css";
+
+@import "./atoms/button.css";
+@import "./atoms/headings.css";
+@import "./atoms/typography.css";
+@import "./atoms/lists.css";
+
+
+@import "./template-parts/masthead.css";
+@import "./template-parts/footer.css";
+@import "./template-parts/states-toggle.css";
+
+
+/* COMPOENTS ORGANIZED BY PAGE FIRST SEEN IN */
+
+@import "./components/ageGate.css";
+
+/* HOME */
+@import "./components/homeHero.css"; 
+@import "./components/brandcloud.css";
+@import "./components/featuredDeal.css";
+@import "./components/learnGrid.css";
+@import "./components/ctaLocation.css";
+
+
+@import "./components/blogGrid.css"; 
+
+
+/* ABOUT */
+@import "./components/pageHeader.css";  
+@import "./components/about-history.css"; 
+@import "./components/mission-and-values_wrapper.css"; 
+
+/*@import "./components/breadcrumbs.css";  */
+/*@import "./components/infoBlock.css";  */
+
+/* EVENTS ARCHIVE */
+/*@import "./components/searchFilter.css";  */
+/*@import "./components/datePicker.css";  */
+/*@import "./components/cardEvent.css";  */
+/*@import "./components/pagination.css";  */
+
+/* SINGLE EVENT  */
+/*@import "./components/ctaCalendar.css";  */
+/*@import "./components/ctaShare.css";  */
+/*@import "./components/aside.css"; */
+/*@import "./components/eventDetails.css"; */
+/*@import "./components/venueDetails.css"; */
+
+/* CAREERS  */
+/*@import "./components/careersEmbed.css"; */
+@import "./components/greenhouse.css"; 
+  
+/* LOCATIONS*/ 
+@import "./components/locationSearch.css"; 
+/*@import "./components/locationsResults.css"; */
+/*@import "./components/locationsMap.css"; */
+
+/* SINGLE LOCATION */ 
+@import "./components/heroLocation.css";
+/*@import "./components/locationJumpoffs.css"; */
+@import "./components/location-about.css"; 
+@import "./components/napCard.css";
+/*@import "./components/faq.css"; */
+@import "./components/ctaPrimary.css"; 
+
+/* DEALS
+/*@import "./components/cardDeal.css"; */
+/*@import "./components/dealGrid.css"; */
+
+
+/* LEARN*/
+@import "./components/learnPage-grid.css";
+@import "./components/text-half.css";
+
+@import "./components/contact_grid.css";
+
+@import "./components/post.css";
+
+/* Single State */
+@import "./components/pageTitle-singleState.css";
+@import "./components/grid-stateLocations.css";
+@import "./components/heading-singleStateTwo.css";
+@import "./components/faqs.css";
+@import "./components/infoBlock_resources.css";
+/* blogGrid.css already included above, here for notation */
+/* bctaPrimary.css already included above, here for notation */
+
+
+
+
+
+/* 
+/* Single Menu
+
+
+
+State Resources
+	Header-page
+	Breadcrumbs
+	Text
+	Image
+	Table
+Cannabis Products
+	Header-page
+	Breadcrumbs
+	H
+	P
+	Cards
+	Cta
+Cannabis Strains
+	Header-page
+	Breadcrumbs
+	H
+	P
+	Cards
+	Cta
+Terpenes
+	Header-page
+	Breadcrumbs
+	H
+	P
+	Cards
+	Cta
+Admin Methods
+	Header-page
+	Breadcrumbs
+	H
+	P
+	Cards
+	Cta
+
+Blog
+	Header-page
+	Breadcrumbs
+	Search and filter
+	Blog grid
+	pagination
+Blog Category
+	+header-page
+	+breadcrumbs
+	+search and filter
+	Blog grid
+	+pagination? 
+Single Blog
+	Header-page
+	Breadcrumbs
+	Featured-image
+	Article body
+	Author card
+	Aside
+Contact
+	Header-page
+	Breadcrumbs
+	Contact Description
+Privacy Policy
+	Header-page
+	Breadcrumbs
+	Content-- needs populated
+HIPPA
+Terms
+Acessibiity
+Age Gate
+404
+*/
+
+/* Removed sharing box from single event for now as it's not styled but not important */
+.fusion-sharing-box {
+	display:none !important;
+}
+
+
+
+
+/* PUT IN EVENTS */
+.single-tribe_events, .post-type-archive-tribe_events  {
+	#main {
+
+		.fusion-row {
+			max-width:1100px !important;
+		}
+
+
+		.tribe-events-single-event-title {
+			font-size:24px !important;
+		}
+		.tribe-events-single-event-description {
+			padding: 0 40px;
+		}
+
+
+		.tribe-common .tribe-common-h6--min-medium,  .tribe-common .tribe-events-c-day-marker__date,  .tribe-common .tribe-events-pro-week-mobile-events__event-type-separator{
+			font-size:30px;
+		}
+		
+		.tribe-events .tribe-events-calendar-day__event-description,  .tribe-events .tribe-events-calendar-list__event-description{
+			border-bottom:1px solid;
+		}
+		
+		.tribe-events .tribe-events-calendar-day__event-description,  .tribe-events .tribe-events-calendar-list__event-description p{
+			margin-bottom:60px;
+		}
+
+		.tribe-events .tribe-events-c-top-bar__datepicker .tribe-events-c-top-bar__datepicker-button{
+			padding: 11px 20px 11px 20px;
+			
+			background: #000 0% 0% no-repeat padding-box;
+			color: #ffffff !important;
+			border-radius: 5px !important;
+		 
+			font-size: 18px !important;
+			border:none;
+		}
+
+	}
+
+}
+
+
+
+.fusion-events-single-title-content {
+	
+	h2.entry-title {
+		margin-bottom:0;
+	}
+
+	h3  {
+		font-size:18px !important;
+		text-transform:  none !important;
+		font: normal normal normal 18px/20px FiraSansCondensed-Regular;
+	}
+
+}
+
+tribe-common tribe-events tribe-events-view tribe-events-view--list
+tribe-common tribe-events tribe-events-view tribe-events-view--list tribe-common--breakpoint-xsmall tribe-common--breakpoint-medium tribe-common--breakpoint-full
+
+
+/* Single Event using the tribles plugin */ 
+
+.tribe_events-template-default.single {
+	#content {
+		margin-bottom:120px;
+	}
+}
+
+
+
+
+
+
+.fusion-body .tribe-common .tribe-common-cta--thin-alt, .fusion-body .tribe-common .tribe-events-c-nav__next:not(:disabled), .fusion-body .tribe-common .tribe-events-c-nav__prev:not(:disabled), .fusion-body .tribe-common .tribe-events-c-nav__today, .fusion-body .tribe-common a{
+    color:#212934 !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-common-c-btn.tribe-events-c-search__button{
+    font-family:"FiraSansCondensed-Regular";
+    color:#000 !important;
+}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--tabs .tribe-events-c-view-selector__list{
+    font-family:"FiraSansCondensed-Regular";
+}
+
+
+
+.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title, .single-tribe_events main .fusion-content-widget-area .tribe-events-tickets-title, .single-tribe_events main .fusion-content-widget-area .widget .widget-title{
+    background:#000 !important;
+    color:#ffffff !important;
+}
+.tribe-recurring-event-parent{ 
+    background-color:#ffffff !important;
+    color:#000 !important;
+}
+.tribe-events-calendar-month__multiday-event-bar-inner {
+  background-color: #ffffff !important;
+}
+ 
+.tribe-events-calendar-month__multiday-event-bar-title {
+  color: #000 !important;
+}
+h3.tribe-events-calendar-month__multiday-event-hidden-title.tribe-common-h8{
+    font-size:60px !important;
+}
+h3.tribe-events-calendar-month__calendar-event-tooltip-title.tribe-common-h7{
+    color:#ffffff !important;
+    
+}
+div.tribe-events-calendar-month__calendar-event-tooltip-description.tribe-common-b3{
+    color:#ffffff !important;
+}
+.tooltipster-base.tribe-events-tooltip-theme{
+    background-color:initial !important;
+}
+.tooltipster-sidetip .tooltipster-box{ 
+    background: #565656;
+    border: 2px
+    solid #000;
+    border-radius: 4px;
+}
+.tooltipster-base.tribe-events-tooltip-theme {
+    height: auto!important;
+    max-width: 254px;
+    padding: var(--tec-spacer-5); 
+}
+.tooltipster-sidetip .tooltipster-content {
+    color: #fff;
+    line-height: 18px;
+    padding: 6px 14px;
+}
+.tooltipster-base.tribe-events-tooltip-theme {
+    height: auto!important;
+    max-width: 254px;
+    padding: var(--tec-spacer-5);
+}
+a.tribe-events-calendar-month__calendar-event-tooltip-title-link.tribe-common-anchor-thin{
+    color:#ffffff !important;
+}
+div.tribe-events-calendar-month__calendar-event-tooltip-datetime{
+    color:#ffffff !important;
+    font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section .opening a:hover {
+    background-color: transparent !important;
+}

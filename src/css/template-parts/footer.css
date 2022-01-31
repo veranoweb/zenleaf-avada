@@ -1,0 +1,280 @@
+.fusion-footer {
+/* Footer Home Title Text */
+    .footer_menu_text_bold a {
+        color: white;
+    }
+
+
+    .footer_menu_text_action {
+
+    }
+
+
+    @media screen and (max-width: 800px) {
+        .fusion-builder-nested-column-5 .fusion-builder-nested-column-9, .fusion-builder-nested-column-11, .fusion-builder-nested-column-10 {
+            margin-top:0px !important;
+            margin-bottom:0px !important;
+            padding-top:20px !important;
+            padding-bottom:20px !important;
+        }
+
+
+        /* CTA part 1 of wrapper */
+        .fusion-builder-nested-column-0, .fusion-builder-nested-column-3 {
+            margin-top: 30px !important;
+            margin-bottom: 0 !important;
+        }
+     /* CTA part 2 of wrapper */
+        .fusion-builder-nested-column-2, .fusion-builder-nested-column-5 {
+            padding-top: 0 !important;
+            margin-top: 20px !important;
+        }
+
+        .last_on_mobile {
+            order:10 !important;
+        } 
+    }
+    @media screen and (max-width: 540px) {
+
+    .fusion-button {
+        margin-top:40px;
+    }
+    }
+
+    a.fusion-button.button-4, a.fusion-button.button-3, a.fusion-button.button-2, a.fusion-button.button-1, a.fusion-button.button-5, .footer_action_button.inverse, a.footer_action_button.inverse { 
+        background-color: #000 !important;
+        color:#FFF !important;
+        border-width:2px !important;
+        border-color:#FFF !important;
+        .fusion-button-text {
+            color:white !important;
+        }
+      
+        @apply border-2 border-black hover:bg-white;
+        &:hover {
+            background-color: #FFF !important;
+          .fusion-button-text {
+              
+              color:#000 !important;
+          }
+        }
+      }
+
+
+    .fusion-author .fusion-author-title, .fusion-body #main .tribe-events .tribe-events-calendar-month__body .tribe-events-calendar-month__day, .fusion-body #main .tribe-events .tribe-events-calendar-month__body .tribe-events-calendar-month__day-date, .fusion-body #main .tribe-events .tribe-events-calendar-month__header-column-title, .fusion-body .tooltipster-base h3, .fusion-modal .modal-title, .fusion-modal h3, .fusion-tb-footer h3, .fusion-tb-page-title-bar h3, .fusion-widget-area h3, .post-content h3, .project-content h3, .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-single-section-title, .single-tribe_events .fusion-events-featured-image .fusion-events-single-title-content .tribe-events-schedule, .single-tribe_events .fusion-events-featured-image .fusion-events-single-title-content .tribe-events-schedule h3, .single-tribe_events .tribe-block__venue .tribe-block__venue__meta .tribe-block__venue__name h3{
+        font-size:38px !important;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .fusion-button.button-5 {
+        @apply hover:bg-black hover:border-white border-white bg-white text-black hover:text-white border-2 uppercase tracking-widest font-bold;
+        border: 2px solid white; 
+        font-family: "FiraSansCondensed-Regular";
+        &:hover {
+            background-color:black !important;
+            
+        }
+
+    }
+
+
+    .fusion-button.button-custom .fusion-button-text {
+        @apply text-black !important; 
+    }
+
+    .fusion-button.button-custom:hover  {
+        background:black !important;
+    }
+
+    .fusion-button.button-custom:hover .fusion-button-text {
+        color:white !important;
+        
+    }    
+
+
+
+    .fusion-button.button-1 .fusion-button-text {
+        @apply text-black; 
+    }
+
+    .fusion-button.button-1:hover  {
+        background:black !important;
+    }
+
+    .fusion-button.button-1:hover .fusion-button-text {
+        color:white !important;
+        
+    }    
+
+
+    .fusion-button.button-2 .fusion-button-text {
+        @apply text-black; 
+    }
+
+    .fusion-button.button-2:hover  {
+        background:black !important;
+    }
+
+    .fusion-button.button-2:hover .fusion-button-text {
+        color:white !important;
+        
+    }      
+
+    .fusion-button.button-5 .fusion-button-text {
+        @apply text-black;
+    }
+    .fusion-button.button-5:hover .fusion-button-text {
+        color:white !important;
+    }
+
+}
+
+.footer_menu_text_relax {
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 0.25em;
+    font-weight:500;
+    @apply text-white;
+    text-transform: uppercase;
+    font-size:14px;
+
+}
+
+
+.fusion-social-networks {
+    
+    margin: 0px auto 20px;
+
+}
+
+.footer_menu_text_bold {
+    margin-bottom:10px;
+}
+
+.bordered_disclaimer {
+    text-align:center;
+    border: 1px solid #222222;
+    border-radius: 6px;
+    padding-left:50px;
+    padding-right:50px; 
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px;
+}
+
+ 
+
+.footer_link {
+    
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        @apply text-white;
+        color:white !important;
+    }
+}
+.footer_action_button {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    line-height: 23px !important;
+    margin-top: 1px !important;
+    font-size: 14px !important;
+    margin-bottom: 1px !important;
+    width: 224px;
+    text-transform: uppercase;
+}
+
+.footer_action_button:hover {
+    color: #ffffff;
+}
+
+.footer_action_button>.fusion-button-text span {
+    color: #ffffff;
+}
+
+.footer_action_button.inverse>.fusion-button-text span {
+    color: #234D4C !important;;
+}
+
+.footer_action_button.inverse {
+    color: #234D4C !important;
+    background-color: #ffffff !important;
+}
+
+.disclaimer_container {
+    line-height:20px !important;
+}
+.footer_menu_text_disclaimer {
+    text-align: center;
+    font: normal normal normal 13px/20px FiraSansCondensed-Regular;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.footer_menu_text_disclaimer_bold_span {
+    font: normal normal bold 13px/20px FiraSansCondensed-Regular;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+
+
+
+.footer_menu_text_bold {
+    font: normal normal normal 18px/22px FiraSansCondensed-Regular;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.footer_menu_text_ethereal {
+    font: normal normal normal 16px/34px FiraSansCondensed-Regular;
+    letter-spacing: 0px;
+    color: #FFFFFF; 
+    opacity: 0.7;
+}
+.footer_menu_text_copy {
+    font: normal normal normal 12px/22px FiraSansCondensed-Regular;
+    letter-spacing: .1em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.footer_menu_text_action {
+    font: normal normal normal 50px/63px FiraSansCondensed-Regular;
+    letter-spacing: 0px;
+    color: #FFFFFF !important;
+    opacity: 1;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+.disclaimer_container, .footer_menu_text_disclaimer  {
+    text-align:left !important;
+
+}
+
+@media screen and (max-width: 800px) {
+    .footer_CTA_text_Column {
+        margin-top: 40px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .fusion-footer .fusion-button {
+        margin-top: 40px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .fusion-footer .fusion-button, .fusion-footer .footer_action_button {
+        margin-top: 0px !important;
+        margin-bottom: 40px !important;
+    }
+    
+    .footer-cta-button-column {
+        margin-top: 20px;
+        margin-bottom:40px;
+    }
+}

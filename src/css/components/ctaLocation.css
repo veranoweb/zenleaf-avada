@@ -1,0 +1,18 @@
+.ctaLocation {
+    #wpsl-widget-form {
+        .wpsl-icon-direction { /* GELOCATION ICON */
+            display:none !important;
+        }
+    }
+
+    strong {
+        font-size: 34px;
+    line-height: 45px;
+    text-transform: uppercase;
+    }
+} 
+
+
+.wpsl-error.pac-target-input {
+    border: 2px solid #bd0028 !important;
+}

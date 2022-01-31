@@ -1,0 +1,105 @@
+.zenleaf-hero-text-container{ 
+    margin-right: -60px;
+    z-index: 100;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.43) 32%, rgba(255, 255, 255, 0.93) 100%);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.43);
+    border-radius: 4px;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    padding-right: 65px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    overflow: visible;
+    position: relative;
+    margin-top:0;
+    width:510px; 
+
+    &.medium {
+        margin-top:0px;
+    }
+    &.medium>p {
+        margin-bottom:0px;
+    }
+    &.medium>h1 {
+        margin-top:1rem;
+        margin-bottom:1rem;
+        font-weight: bold;
+    }
+
+
+    
+    @media screen and (max-width: 640px) {
+        .fusion-builder-column-5 {
+            margin-top:0px !important;
+        }
+    }
+
+    @media screen and (min-width: 640px) and (max-width: 800px) {
+
+    .fusion-builder-row, .fusion-row .fusion-flex-column { 
+        flex-direction: column-reverse !important;
+    }
+    }
+        
+
+    /* RELAX RECHARGE REFRESH */
+    .vibe_text {
+        letter-spacing: 0.25em;
+        font-weight:600;
+        @apply text-gray-700;
+    }
+
+    /* FIND YOUR ZEN */
+    h1.action_text { 
+        @apply text-black text-6xl uppercase;
+        letter-spacing: 4px;
+        @media screen and (max-width: 570px) {
+            font-size: 34px !important;
+        }
+    }
+
+    .zen_button { 
+        @apply mt-3 hover:bg-white hover:border-black border-black bg-black text-white hover:text-black border-2 uppercase tracking-widest;
+        border: 2px solid black; 
+
+    }
+
+    .info_text {
+        @apply tracking-wide leading-8 text-base;
+        
+    }
+
+
+
+}
+
+
+.shifted-background-image::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    margin-top: -25%;
+    pointer-events: none;
+    margin-left:-25%;
+    @media screen and (max-width: 570px) {
+        width:100vw;
+    }
+}
+
+
+
+.fusion-modal h1, .fusion-page-title-bar h1, .fusion-tb-footer h1, .fusion-tb-page-title-bar h1, .fusion-title h1, .fusion-widget-area h1, .post-content h1, .search-page-search-form h1, .single-tribe_events h1.tribe-events-single-event-title {
+    font-weight:900;
+}
+
+.fusion-modal h1, .fusion-tb-footer h1, .fusion-tb-page-title-bar h1, .fusion-widget-area h1, .post-content h1, .search-page-search-form h1, .single-tribe_events h1.tribe-events-single-event-title {
+    @apply text-5xl;
+}
+
+

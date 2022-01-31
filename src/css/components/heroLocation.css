@@ -1,0 +1,82 @@
+.heroLocation {
+
+    padding-top:60px;
+
+    h1 {
+        @apply text-white text-center tracking-widest;
+        letter-spacing:.3em !important;
+        
+        &.track-tighter {
+            letter-spacing:0 !important;
+        }
+
+        @media screen and (max-width: 800px) {
+            font-size: 28px !important;
+        }
+        
+         
+    }
+
+
+    .fusion-button { 
+        
+        margin-top: 40px;
+
+        @apply bg-black border-white;
+        &.button-1 {
+            @apply bg-black border-white;
+        }
+
+        &:hover {
+            
+        }
+
+        .fusion-button-text {
+            letter-spacing: .2em;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: white !important;
+            letter-spacing: 0.1em;
+            font-size: 22px;
+            font-family: FiraSansCondensed-Regular;
+
+            &:hover {
+            }
+        }
+
+
+
+    }
+
+    @media screen and (max-width: 800px) {
+        .fusion-text p {
+            font-size: 16px;
+        }
+
+        .fusion-button {
+            width:100%;
+            margin-left: 0px !important;
+            margin-right: 0px  !important;
+            display:block;
+
+        }
+    
+
+        .fusion-builder-nested-column-0 {
+            .fusion-column-wrapper {
+                div {
+                    width:100%;
+                }
+            }
+        }
+    }
+
+
+}  
+
+
+.brand-img.local-joint {
+    margin-top:40px;
+}
+
+

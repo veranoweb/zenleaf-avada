@@ -1,0 +1,11 @@
+.heading-singleState {
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    .fusion-body .fusion-builder-column-5 {
+        margin-bottom:0 !important;
+        
+    }    
+} 

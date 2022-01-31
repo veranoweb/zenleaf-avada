@@ -1,0 +1,51 @@
+.location-about {
+    .loc-htwo {
+        font: normal normal bold 28px/32px FiraSansCondensed-Regular !important;
+        letter-spacing: .05em !important;
+        @media screen and (max-width: 800px) {
+            padding-left:10px;
+            padding-right:10px;
+        }
+
+    }
+}
+
+
+.fusion-body .fusion-flex-container.fusion-builder-row-4 {
+    padding-left:10px !important;
+    padding-right:10px !important;
+}
+
+.fusion-text-10 {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.fusion-footer {
+    .fusion-text-10 {
+        padding-left:0px;
+        padding-right:0px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    table.wpsl-opening-hours time {
+        font-size:16px;
+    }
+
+    .wpsl-opening-hours tr td {
+        font-size: 16px;
+    }
+    
+    .fusion-builder-column-5 {
+        margin-bottom:0 !important;
+    }
+
+
+}
+
+/* For have a heart cincy */
+.HaH-af.bg-after::after {
+    background-image: url('/wp-content/uploads/2021/12/HaH-bg-icon.png');
+    z-index: -100;
+}

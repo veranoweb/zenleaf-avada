@@ -1,0 +1,39 @@
+.learnPage-grid {
+
+    .button-custom {
+        background:#000 !important;
+        color:#FFF !important;
+        
+    padding: 10px 25px !important;
+
+    border-radius: 5px !important; 
+    transition: all !important;
+    transition-duration: 300ms !important;
+    border-width:2px !important;
+    line-height:30px !important;
+    border-color:black !important;
+    &:hover {
+        background-color:#FFF !important;
+        color:#000 !important;      
+        border-color:#000;
+    }
+    .fusion-button-text
+        {
+            font: normal normal bold 16px/20px FiraSansCondensed-Regular;
+            @apply uppercase tracking-widest;       
+        
+        }
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 16px;
+        margin-top: 6px;
+    }
+}
+
+.learnRow {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+

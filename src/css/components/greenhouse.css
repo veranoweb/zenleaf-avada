@@ -1,0 +1,55 @@
+
+/* Hide duplicate greenhouse display */
+.jobs {
+	display:none;
+}
+
+
+.job_apply {
+        border: 1px solid;
+        padding: 10px 20px;
+        margin-top: 10px;
+        display: inline-block;
+        border-radius: 6px;
+        margin-bottom: 20px;
+	&:hover {
+		@apply text-white bg-black;
+	}
+}
+
+#main section {
+    .all_jobs {
+            
+    
+        .opening {
+
+        a {
+            font-size: 38px !important;
+            background-color: white;
+            color: black;
+            margin-bottom: 0;
+            padding-bottom: 0;
+            
+            &:hover {
+                background-color: transparent !important;
+                .location {
+                    color: black !important;
+                }
+            }
+
+        }
+        br {display:none;}
+        .location {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+
+    }
+
+}
+
+section .opening a:hover {
+    background-color: transparent !important;
+}

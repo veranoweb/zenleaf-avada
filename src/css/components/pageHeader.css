@@ -1,0 +1,33 @@
+.component_pageHeader {
+    .fusion-text {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+
+ h1 {
+        @apply uppercase;
+        margin-bottom:20px;
+    }
+    h2, p {
+        font: normal normal normal 18px/22px FiraSansCondensed-Regular !important;
+        text-transform: none;
+    }
+} 
+
+.learn-header-padding { 
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;   
+    background-size:cover;
+    background-color: #f3f3f3 !important;
+    background-image:url("/wp-content/uploads/2021/12/trusted-bg-3.jpg");
+
+    h1 {
+        @apply uppercase;
+        margin-bottom:20px;
+    }
+    h2, p {
+        font: normal normal normal 18px/22px FiraSansCondensed-Regular !important;
+        text-transform: none;
+    }
+}

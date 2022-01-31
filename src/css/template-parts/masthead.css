@@ -1,0 +1,450 @@
+/*
+		Logo
+		Nav
+			Locations-drop
+				Your Location?
+			Order Online
+				State Selector
+				Store Selector
+                */
+
+
+				.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header, .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu, .fusion-top-header .fusion-header {
+					background: rgba(255,255,255,0.8);
+					backdrop-filter: blur(15px);
+				}
+
+			
+
+				.fusion-header {
+
+					font: normal normal normal 18px/22px FiraSansCondensed-Regular;
+
+					.zen-column-address {
+						padding-right: 10px;
+					}
+					
+					.shop-here-button {
+						background-color: #FFF !important;
+						text-align: center !important;
+						font-size: 14px;
+					
+					}
+
+
+					li.menu-item-object-custom > a > span.menu-text {		
+						@apply text-black tracking-widest uppercase text-base; 
+						font-family: "FiraSansCondensed-Regular";
+						font-weight:500;
+					}
+
+
+					.button-medium { }
+
+
+					li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium:hover {
+						color:black !important;
+						
+					}
+
+					.fusion-main-menu>ul>li {
+						padding-right:24px !important;
+					}
+	
+
+
+					li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium {
+						width:202px;
+						@apply uppercase tracking-widest border-2 border-black hover:bg-white hover:text-black font-bold;
+						font-family: "FiraSansCondensed-Regular";
+						
+						&:hover {
+							color:black !important;
+						}
+					}
+
+
+					
+					li.menu-item-object-custom:last-child div.fusion-megamenu-wrapper{
+						left:-40px !important;
+						max-width:450px !important;
+					}
+					
+					li.menu-item-object-custom:not(:last-child) > a > span.menu-text.fusion-button.button-default.button-medium {
+						border: 1px solid #000;
+						border-radius: 5px;
+						opacity: 1;
+						color: #000;
+						width: 140px;
+						padding-right: 2px;
+						margin-left:10px;
+						
+					}
+
+
+				}
+
+ 
+
+				
+
+.fusion-megamenu-title {
+    display: none;
+}
+
+.menu-subtitle {
+    font: normal normal bold 30px/47px Nourd-Bold;
+    text-transform: uppercase;
+    letter-spacing: .0em;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.left_menu_container {
+    padding-left: 10px;
+    padding-top: 20px;
+	text-align:center;
+	img {
+		margin: 0 auto;
+	}
+}
+.fusion-megamenu-submenu {
+    border: none !important;
+}
+.fusion-megamenu-holder {
+    border: none !important;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fusion-megamenu-wrapper {
+	margin-left:-200px;
+	@media screen and (max-width: 1180px) {
+		margin-left:0px;
+	}
+    
+
+}
+.menu-subtext {
+    font: normal normal normal 17px/38px FiraSansCondensed-Regular;
+    
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+	letter-spacing: .1em;
+    text-transform: uppercase;
+}
+li.fusion-dropdown-menu>ul.sub-menu {
+    border-radius: 6px;
+}
+
+
+.main_order_now_menu, .sub_order_now_menu {
+	.breadcrumb-states {
+		text-transform: uppercase;
+		letter-spacing: .1em;
+	}
+	.breadcrumb-states-subtext {
+		letter-spacing: .05em;
+		margin-bottom: 10px;
+		font-size:14px;
+		
+		a {
+			display:block;
+		} 
+	}
+}
+
+#menu-item-15092 .fusion-megamenu-widgets-container {
+    padding: 0 0 0 44px !important;
+}
+
+#shop_by_state a, #shop_by_state button {
+	padding: 0;
+}
+
+
+a.shop-here-button { 
+    padding: 15px 0px !important;
+    line-height: 14px !important;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: solid 1px #CCC;
+    border-radius: 6px;
+
+	color:#FFF;
+
+	.grey-text {
+		color:#FFF;
+	}
+	i {
+		color:#000;
+	}
+}
+
+a.shop-here-button::before {
+    content: '' !important; 
+    margin-right: 0px !important;
+}
+
+div.sub_order_now_menu p.shop-name {
+	@apply text-gray-900 tracking-normal;
+	font-size: 18px;
+	line-height: 19px;
+	margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tiny-zen-url {
+    @apply text-gray-900;
+    text-decoration: underline;
+}
+
+/* Scrollbar shown on shop by state */
+#shop_by_state::-webkit-scrollbar {
+	width: 6px;
+  }
+  
+  #shop_by_state::-webkit-scrollbar-thumb {
+	border-radius: 6px;
+  
+	background-color: #878787;
+	border: none;
+  }
+
+  .fusion-megamenu-wrapper .fusion-megamenu-submenu {
+	  padding:0px !important;
+  }
+  .fusion-megamenu-widgets-container.second-level-widget {
+	  margin-top:29px;
+	  margin-bottom:29px;
+  }
+
+  
+#shop_by_state::-webkit-scrollbar-track {
+	border: none;
+	padding: 2px 0;
+	background-color: white;
+	width:10px;
+  }
+  
+
+  .shop-here-button {
+.grey-text {display:none;}
+  }
+  
+  
+.before-goes-right {
+	line-height:0;
+}
+
+  #shop_by_state {
+	  scrollbar-color: #bdd5ba rgba(0,0,0,0);
+	  cursor: initial;
+  }
+  
+  #shop_by_state a, #shop_by_state button {
+	  cursor: pointer;
+  }
+  
+
+  .state_menu_option {
+    cursor: pointer;
+}
+
+
+p.state_menu_option {
+    color: #000;
+	font-size: 18px;
+}
+
+
+.fusion-mobile-nav-holder>ul li a {
+	font-family:FiraSansCondensed-Regular !important;
+}
+
+
+body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item a:hover {
+	background-color:#000;
+	color:#FFF;
+} 
+
+div.sub_order_now_menu>div.row>div.zen-column-address {
+	width:80%;
+	max-width:80%;
+}
+
+div.sub_order_now_menu>div.row>div.zen-column-img {
+    max-width:17%;
+    width:17%;
+    margin-left:24px !important;
+}
+div.sub_order_now_menu>div.row>div.zen-column-address {
+    max-width:80%;
+    width:80%;
+}
+div.sub_order_now_menu>div.row>div.zen-column-shop-now {
+    max-width:20%;
+    width:20%;
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+	.fusion-builder-column-5 {
+		margin-top:10px !important;
+	}
+	.shop-here-button, .zen-column-shop-now { 
+		display:none !important;
+	}
+	.tiny-zen-url {
+		font-size:14px;
+	}
+	.sub_order_now_menu.state-MA, .sub_order_now_menu.state-WV {
+		.breadcrumb-states-subtext {
+			padding:0 !important; 
+		}
+	}
+	div.sub_order_now_menu>div.row {
+		padding-left:10px; 	
+	}
+}
+ 
+
+
+ 
+
+	p.state_menu_option {
+		color: #000;
+		width: 100%;
+		display: block;
+		margin-top: 20px !important;
+		padding-left: 20px  !important;
+		margin-bottom: 30px  !important;
+		
+	}
+ 
+	.zen-column-address {
+		font-size:14px;
+	}
+
+	.main_order_now_menu .breadcrumb-states, .sub_order_now_menu .breadcrumb-states {
+		padding:20px 20px 0 20px;
+		font-size:12px;
+
+	} 
+
+	.fusion-mobile-nav-holder>ul>li.fusion-mobile-nav-item>a, .fusion-mobile-nav-item { 
+		font-size:14px;
+	}
+
+	.main_order_now_menu .breadcrumb-states-subtext, .sub_order_now_menu .breadcrumb-states-subtext {
+
+		margin-bottom: 10px;
+		padding: 0 20px;
+	}
+
+
+@media screen and (max-width:801px ) {
+
+	.fusion-mobile-menu-text-align-left li.fusion-mobile-nav-item li a {
+		padding-left:0;
+	}
+ 
+	div.sub_order_now_menu p.shop-name {
+		font-size:14px;
+	}
+
+	.fusion-header {
+		a.shop-link {
+			height:auto !important;
+			margin-bottom: 6px;
+			font-weight:700;
+				&:before {
+					display:none;
+				}
+			
+		}
+	}
+
+
+
+
+}
+
+@media screen and (max-width: 1080px) and (min-width:801px ) {
+
+	/* Fix for drop menu going off center and getting cropped */
+	.fusion-megamenu-wrapper {
+		left: 0 !important;
+		position: fixed !important;
+		width: 100vw !important;
+	}
+
+	.fusion-header {
+		height:auto !important;
+
+	img {
+		margin: 0 auto;
+	}
+
+ 	.fusion-logo {
+		margin: 10px 0 0 0;
+	}
+
+	.fusion-row {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+
+			a > span.menu-text.fusion-button.button-default.button-medium {
+			padding:11px !important;
+			span.menu-text {
+				font-size:16px  !important;
+				padding-right: 0px  !important; 
+				padding-left: 0  !important; 
+				letter-spacing: 0px;
+			}
+		}
+
+		a > span.menu-text.fusion-button.button-default.button-medium:before {
+		background-image: none !important;
+		content: none !important;
+		width:auto !important;
+		background-image: none !important;
+		content: none;
+		width:auto !important;
+		padding:0;
+		}
+
+		li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium {
+			width:auto !important;
+		}
+
+		 li.menu-item-object-custom:not(:last-child) > a > span.menu-text.fusion-button.button-default.button-medium {
+			width:auto !important;
+		}
+
+	}
+
+}
+
+
+
+.fusion-megamenu-holder {
+    cursor: default;
+}
+
+
+

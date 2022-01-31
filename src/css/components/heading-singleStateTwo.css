@@ -1,0 +1,19 @@
+
+.heading-singleStateTwo {
+    h2 {
+        font-size:42px !important;
+        @media screen and (max-width: 800px) {
+            font-size:24px !important;
+        }
+    }
+    p, h6 {
+        font: normal normal bold 18px/30px FiraSansCondensed-Regular;
+        text-transform: none;
+        max-width: 520px;
+        margin: 20px auto 0;
+        letter-spacing:.2em;
+        
+    }
+    
+}
+

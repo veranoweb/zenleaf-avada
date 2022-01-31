@@ -1,0 +1,38 @@
+.post.type-post {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: FiraSansCondensed-Regular !important;
+        text-transform: none !important;
+        
+    }
+    h1 {
+        font-size:36px !important;
+        margin-top:20px  !important;
+        letter-spacing: .05em  !important;
+    }
+    
+    h2 {
+        font-size: 28px  !important;
+        margin-bottom: 20px  !important;
+        letter-spacing: .05em  !important;
+    } 
+
+
+    h3 {
+        font-size: 24px  !important;
+        margin-bottom: 20px  !important;
+        letter-spacing: .05em  !important;
+    }     
+
+    .fusion-widget-area {
+        .heading {
+            h4 {
+                font-family: Norwester !important;
+                letter-spacing: .1px;
+                text-transform: uppercase !important;
+                font-size:24px !important;
+                margin-top: 20px !important;
+                margin-bottom: 20px !important;
+            }
+        }
+    }
+}

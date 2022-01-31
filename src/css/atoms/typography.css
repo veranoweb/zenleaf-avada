@@ -1,0 +1,109 @@
+.avada-text-sm {
+    @apply text-sm;
+}
+
+.avada-text-xs {
+    @apply text-xs;
+}
+
+.avada-text-base {
+    @apply text-base;
+}
+
+.avada-text-lg {
+    @apply text-lg;
+}
+
+.avada-text-xl {
+    @apply text-xl;
+}
+
+.avada-text-2xl {
+    @apply text-2xl;
+}
+
+/* Move, found on /state-resources/ */
+.byStates_title {
+    font-size: 32px !important;
+    margin-bottom: 20px;
+}
+.byStates_subtitle {
+    margin-bottom: 20px;
+} 
+
+.post-content h3 {
+    margin-top:40px;
+}
+
+.product_info_text, .post-content p {
+    font: normal normal normal 18px/24px FiraSansCondensed-Regular;
+    letter-spacing: .05em;
+    color: #000;
+
+}
+
+.heading-b, .heading-3b {
+    
+} 
+
+#content a {
+    text-decoration: underline; 
+    &.fusion-button-text, .content-box-heading {text-decoration: none;}   
+}
+
+
+/* FIX for above, homepage tiles getting underlined */
+#content a.heading-link, #content .fusion-blog-layout-grid a {
+    text-decoration: none;
+}
+/* Map text on about and state resources page. Only one admin variable for font color, so this overrides for light states to have black text. */
+#usvisns {
+    .idaho, .tennessee, .south-carolina, .utah, .nebraska, .kansas, .oklahoma, .texas, .iowa, .wisconsin, .indiana, .kentucky,  .north-carolina, .georgia, .alabama, .florida, .wyoming,  .north-dakota, .rhode-island, .mississippi, .louisiana, .missouri, .hawaii, .delaware, .vermont, .minnesota, .south-dakota, .virginia, .new-mexico   {
+        fill: #000;
+    }
+}
+
+
+.post-content h3, .post-content h3.product_title_text {
+    /* used in admin methods page, also used in featured deal though - which is currently cancelled, so not checking affects */
+
+    font: normal normal bold 20px/24px Nourd-Bold !important;
+    letter-spacing: 0px;
+    color: #000;
+    line-height: 1;
+    margin-bottom:16px;  
+    margin-top:16px;
+    letter-spacing: 0 !important;
+    text-transform: none;
+    .titleLarge {
+        font-size: 48px !important;
+        @apply block;
+    }
+}
+
+.post-content h4, .post-content h4.product_title_text {
+    font: normal normal bold 24px/28px Nourd-Bold !important;
+    letter-spacing: 0 !important;
+    text-transform: none;
+    font-size: 24px !important;
+}
+
+
+
+
+.post-content h5 {
+    font-size: 20px !important;
+    font: normal normal bold 20px/24px Nourd-Bold !important; 
+    margin-bottom:10px;
+}
+
+.paragraph {
+    font: normal normal normal 18px/24px FiraSansCondensed-Regular;
+    letter-spacing: .05em;
+    color: #000; 
+}
+
+
+body {
+    font: normal normal normal 18px/24px FiraSansCondensed-Regular;
+}

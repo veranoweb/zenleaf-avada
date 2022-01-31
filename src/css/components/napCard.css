@@ -1,0 +1,58 @@
+.zenleaf-gmb-link {
+    font-family: 'FiraSansCondensed-Regular';
+    font-size: 16px;
+    text-decoration: underline;
+    color: #000;
+}
+
+.green-icon {
+    background: white !important;
+    border-color: black !important;
+    
+    span.fusion-button-text {
+        color:black !important;
+        text-transform: uppercase !important;
+        font-family: 'FiraSansCondensed-Regular' !important;
+        font: normal normal bold 16px/20px FiraSansCondensed-Regular !important;
+        letter-spacing: 0.1em !important;
+    }
+}
+
+.green-icon>i::before {
+    color: #000;
+}
+
+ 
+.NAP {
+    a.fusion-button.button-4, a.fusion-button.button-2, a.fusion-button.button-3 {
+        background-color:white !important;
+        border-color: black !important;
+        padding: 10px 25px;
+        border-radius: 5px; 
+        transition: all;
+        transition-duration: 300ms;
+        border-width:2px !important;
+        line-height:30px;
+
+        .fusion-button-text
+        {
+                    
+            font: text-black normal normal bold 16px/20px FiraSansCondensed-Regular;
+            color:black !important;
+            @apply uppercase tracking-widest;       
+         
+        }
+    
+        &:hover {
+        @apply border-2 bg-white border-black;
+        background-color:white !important;
+        .fusion-button-text
+        {
+            color:black !important;
+            font: text-black normal normal bold 16px/20px FiraSansCondensed-Regular;
+            @apply uppercase tracking-widest;       
+         
+        }
+    }
+    }
+}

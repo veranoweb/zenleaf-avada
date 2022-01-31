@@ -1,0 +1,189 @@
+.zen_button, .zen_button_location, .fusion-button, .fusion-button-text {
+    text-decoration: none;
+}
+
+
+.zen_button {
+    font: normal normal bold 18px/22px FiraSansCondensed-Regular;
+    @apply text-white border-0 bg-black;
+    padding: 19px 49px;
+    border-radius: 5px;
+    z-index: 9001;
+    cursor: pointer;
+    margin-top:35px;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 300ms;
+    background-black: !important;
+    
+}
+.zen_button_location {
+    background-color: #BDD5BA;
+    font: normal normal bold 18px/22px FiraSansCondensed-Regular;
+    letter-spacing: 0px;
+    color: #000;
+    padding: 19px 49px;
+    border: none;
+    border-radius: 5px;
+    z-index: 9001;
+    cursor: pointer;
+    margin-top:35px;
+    margin-left:50px;
+    
+}
+.zen_button.peachy { 
+    background-color: #edcca1;
+    color:#252E2C !important;
+}
+
+
+.fusion-button.button-4 { 
+  background-color: #000 !important;
+  color:#FFF !important;
+  border-width:2px;
+  border-color:#000 !important;
+
+  @apply border-2 border-black hover:bg-white;
+  &:hover {
+    .fusion-button-text {
+        @apply text-black;
+    }
+  }
+}
+
+.fusion-button.button-4:hover .fusion-button-text, .fusion-button.button-4:hover i {
+    color: black !important;
+}
+ 
+
+.fusion-button.button-4 .fusion-button-text, .fusion-button.button-4 i {
+    @apply uppercase tracking-widest text-white hover:text-black font-bold;
+    color: white !important;
+
+
+}
+
+
+.fusion-button.button-4:hover, .fusion-button.button-4:active, .fusion-button.button-4:focus {
+    color: black !important;
+    border-color:#000 !important;
+    background:white !important;
+}
+
+
+
+/* Deals button */
+a.fusion-button.button-1 {
+    @apply border-2 bg-black border-white;
+    @apply border-2 border-black hover:bg-white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: all;
+    transition-duration: 300ms;
+    border-width:2px;
+    line-height:30px;
+    
+    .fusion-button-text
+    {
+        
+        font: normal normal bold 16px/20px FiraSansCondensed-Regular;
+        @apply uppercase tracking-widest text-white;        
+        
+     
+    }
+
+    &:hover, &:active {
+        border-width: 2px 2px 2px 2px !important;
+        color: black !important;
+        border-color:#000 !important;
+        background:#FFF !important;
+        .fusion-button-text  {
+            color: black !important;
+        }   
+    }
+         
+}
+
+
+a.fusion-button.button-2 {
+    @apply text-white border-2 bg-black border-white;
+
+    padding: 10px 25px;
+
+    border-radius: 5px; 
+    color:white ;
+    transition: all;
+    transition-duration: 300ms;
+    border-width:2px;
+    line-height:30px;
+    .fusion-button-text
+    {
+                
+        font: normal normal bold 16px/20px FiraSansCondensed-Regular;
+        @apply uppercase tracking-widest;       
+     
+    }
+
+    &:hover {
+        color: black !important;
+        border-color:#000 !important;
+        background:#FFF !important;
+        .fusion-button-text  {
+            color: black !important;
+        }   
+    }
+      
+}
+
+a.fusion-button.button-3 {
+    background: #000 !important;
+    border: white 2px solid !important;
+    padding: 10px 25px;
+    border-radius: 5px; 
+    transition: all;
+    transition-duration: 300ms;
+    border-width:2px;
+    line-height:30px;
+
+    .fusion-button-text
+    {
+                
+        font: normal normal bold 16px/20px FiraSansCondensed-Regular;
+        @apply uppercase tracking-widest text-white;       
+        
+
+     
+    }
+
+
+    &:hover {
+        color: black !important;
+        border-color:#000 !important;
+        background:#FFF !important;
+        border-width:2px;
+        .fusion-button-text  {
+            color: black !important;
+            
+        }   
+    }
+      
+}
+
+/* TODO - this was a quick fix to take the underline out on /learn page. 
+*
+* The buttons were inheriting from #content a. This needs to be refactored
+*
+*/
+#content a.fusion-button {
+    text-decoration: none;
+}
+
+.betaSymbol {
+    font: initial;
+    text-transform: none;
+    font-size: 54px;
+    margin-right: 10px;
+    font-weight: 600;
+}

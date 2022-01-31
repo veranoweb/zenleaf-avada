@@ -1,0 +1,11 @@
+/* Toggle components on/off by state using CSS, controlled by jQuery
+Future will have these toggles applied to the render of components directly, and not be CSS based but react based logic
+*/
+
+.state_AR, .state_MD, .state_MI {
+    display: none;
+}
+
+.state_AR.state_show, .state_MD.state_show, .state_MI.state_show {
+    display: inherit;
+}

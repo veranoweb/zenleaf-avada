@@ -1,0 +1,20 @@
+
+.infoBlock_resources {
+
+    h2 {
+        font-size:38px !important;
+        margin-bottom:20px;
+        @media screen and (max-width: 800px) {
+            font-size:24px !important;
+        }
+    }
+
+    h3, h4, h5, h6 {
+        font-size: 20px;
+        font-family: 'Nourd-Bold';
+        margin-bottom: 10px;
+        line-height: 24px !important;
+    }
+
+    
+}

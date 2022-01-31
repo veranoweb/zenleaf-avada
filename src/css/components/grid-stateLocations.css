@@ -1,0 +1,63 @@
+.grid-stateLocations {
+
+    .fusion-text {
+        padding-top: 60px !important;
+        padding-bottom: 0px  !important;
+
+        h2 {
+            font-size:42px !important;
+            font-family: Norwester !important;
+            letter-spacing: 0.05em !important;
+            margin-bottom:20px;
+
+            @media screen and (max-width: 800px) {
+                font-size:24px !important;
+            }
+    
+        }
+
+        h3 {
+
+            font-size:20px !important;
+            font-family: Nourd-Bold !important;
+            letter-spacing: 0.05em !important;
+            text-transform: none;
+            
+        }        
+
+        
+
+        .shop-the-menu-card-button {
+            color: #FFF; 
+            text-transform:uppercase !important;
+            background-color: #000000 !important;
+            position: absolute;
+            bottom: 20px !important;
+            right:20px !important;
+            font-size:16px !important;
+            padding: 10px 20px !important;
+            letter-spacing:0.1em;
+            cursor: pointer;
+            &:hover {
+                background-color: #FFF !important;
+                color: #000 !important;
+
+            }
+
+            
+        }
+
+    }
+}
+
+/* TEMPORARY FIX
+
+The `morgantown` location is coming soon, and this disables via a wrapper on the grid component.
+We will need to remove this code and build logic for show/hide - but may do this in headless version of page/component
+
+*/
+.temp-comingsoon {
+    .shop-the-menu-card-button {
+        display:none;
+    }
+}

@@ -1,0 +1,10 @@
+/* Found on deals page, maybe elsewhere */
+
+.text-half {
+    h3 {
+        line-height:1 !important;
+        strong {
+            font-size: 34px !important;
+        }
+    }
+}

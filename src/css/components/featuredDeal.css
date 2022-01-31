@@ -1,0 +1,100 @@
+.featured-deal_wrapper {
+    @apply rounded-xl;
+    h3 {
+        @apply uppercase mb-4 text-4xl block mt-2 tracking-widest;
+
+    }
+
+    .product_title_text {
+        font: normal normal bold 40px/50px Norwester;
+        letter-spacing: 0px;
+        color: #000;
+        font-size: 28px !important;
+        line-height: 1;
+        margin-bottom:16px;
+        margin-top:16px;
+        letter-spacing: 0.1em !important;
+    text-transform: uppercase;
+    .titleLarge {
+        font-size: 48px !important;
+        @apply block;
+    }
+    }
+    
+
+
+    .fusion-button { 
+        
+        &:hover {
+            @apply border-black;
+        }
+
+        .fusion-button-text {
+            @apply text-white tracking-wider;
+            color: white !important;
+            font-weight:500;
+            &:hover {
+                @apply text-black;
+                
+            }
+        }
+
+    }
+
+
+
+    .fusion-text {
+        margin-top:10px;
+        margin-bottom:10px;
+        
+        h1, h2, h3, h4 {
+
+        }
+
+        p {
+            max-width:460px;
+        }
+
+
+
+    }
+
+    .leaftwo-af.bg-after::after {
+        transform: scaleX(-1);
+        
+        }
+
+        .bg-after-right-side::after {
+            bottom:initial;
+            margin-top:-24px;
+            right: 40px;
+        }
+    
+
+        .featured-deal_wrapper .product_name_text span { 
+            max-width: 480px;
+            font-size: 20px; 
+            line-height: 30px;
+            font-weight: bold;
+            letter-spacing: 0.04em;
+        }
+
+
+        .texture {
+            background-image: url('/wp-content/uploads/2021/12/deals-banner-bg-copy.jpg');
+            @apply rounded-xl;
+        }
+
+        .product_name_text span {
+            font: normal normal normal 20px/26px FiraSansCondensed-Regular;
+            letter-spacing: 0px;
+            color: #000;
+        }
+
+} 
+
+
+.fusion-button.button-1:hover, .fusion-button.button-1:active, .fusion-button.button-1:focus {
+    @apply border-black text-black;
+    
+}

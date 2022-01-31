@@ -1,0 +1,240 @@
+#wpsl-search-wrap .wpsl-icon-direction { /* GELOCATION ICON */
+    display:none !important;
+}
+
+
+#wpsl-search-btn {
+    background-color: #000 !important;
+        font: normal normal  18px/18px FiraSansCondensed-Regular;
+     margin-bottom: 10px;
+    text-transform: uppercase !important;
+    background-image: none !important;
+    color: #FFF !important;
+    border: none !important;
+    letter-spacing: .1em;
+}
+
+.wpsl-store-location {
+    h3 {
+        font: normal normal bold 24px/26px FiraSansCondensed-Regular;
+        text-transform: none;
+        margin-bottom: 10px;
+    }
+} 
+
+#wpsl-radius .wpsl-dropdown #wpsl-radius-dropdown {
+	width: 179px;
+	height: 45px;
+}
+
+#wpsl-radius .wpsl-dropdown {
+	width: 179px;
+	height: 45px;
+}
+
+ 
+
+.zenmap-container>div {
+    background: white;
+}
+
+.zenmap-container>#wpsl-result-list p, .zenmap-container>#wpsl-result-list li, .zenmap-container>#wpsl-result-list a {
+    color: #000 !important;
+    background-color: white;
+}
+
+.zenmap-container>#wpsl-result-list {
+    padding: 10px;
+}
+
+.zenmap-container #wpsl-stores > ul > li {
+    border: none !important;
+}
+
+.zenmap-container #wpsl-stores::-webkit-scrollbar-track {
+  border: none;
+  padding: 2px 0;
+  background-color: white;
+}
+
+.zenmap-container #wpsl-stores::-webkit-scrollbar-track {
+    width:6px;
+}
+
+.zenmap-container #wpsl-stores::-webkit-scrollbar {
+  width: 6px;
+}
+
+.zenmap-container #wpsl-stores::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  
+  background-color: #878787;
+  border: none;
+} 
+
+.zenmap-container #wpsl-stores {
+    scrollbar-color: #878787;
+}
+
+.zenmap-container #wpsl-stores {
+    max-height: 700px !important;
+}
+.zenmap-container #wpsl-stores .wpsl-store-details.wpsl-store-listing.wpsl-active-details:before, .zenmap-container #wpsl-stores .wpsl-store-details.wpsl-store-listing:before {
+    color:#000;
+    border-top: 5px solid #fff;
+}
+
+
+.zenmap-container h3 {
+    font-size:14px;
+    margin-top:0;
+    margin-bottom:4px;
+}
+
+
+.zenmap-container {
+.wpsl-store-location {
+ h3 {
+     font-size:18px;
+ }
+}
+}
+
+
+
+/* Locations Listed page */
+
+
+/* State Selection Menu */
+.jumpwrapper {
+    z-index:9999;
+    background:white;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    .avada-menu-mobile-menu-trigger {
+        background:white;
+        color:black;
+        padding-left:0;
+        text-transform:uppercase;
+        width:100%;
+        font-size:18px;
+        
+        border-radius: 6px;
+        border: 2px solid #000 !important;
+        padding-left: 20px;
+
+        .collapsed-nav-icon {
+            margin-left: 0.5em;
+            right: 0;
+            margin-right: 18px;
+            position: absolute;
+        }
+        
+        
+    }
+
+
+    .fusion-menu-element-wrapper.direction-row .menu-text {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    
+    }
+
+    .fusion-builder-column-2 > .fusion-column-wrapper {
+        padding-top: 20px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    }
+
+
+#menu-states {
+
+    width: calc(100wv - 60px) !important;
+    margin-left:30px;
+    margin-right:30px;
+
+    @media screen and (max-width: 640px) {
+    
+    
+    
+    
+    border: 1px solid #000  !important;
+    border-radius: 0 0 6px 6px !important;
+    
+    }
+
+    li>a {
+        padding-right:0px !important;
+    }
+    
+   
+    justify-content: center;
+    background:#FFF; 
+    
+    .fusion-background-highlight {
+    background:#FFF !important;
+    @media screen and (max-width: 640px) {
+    padding-left:0px !important; 
+    
+    }
+}
+
+a  {
+
+
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none !important;
+    &:hover {
+        text-decoration: none !important;
+        .menu-text {
+            color: #000;
+            text-decoration: none !important;
+            margin: 0 auto;
+            text-align: left;
+            @media screen and (max-width: 640px) {
+            padding-left:0px;
+            } 
+            
+        }
+    }
+
+    .menu-text {
+        font-size: 16px; 
+        color:#000; 
+        
+        text-decoration: none !important;
+            &:hover {
+        color:#000;
+        font-weight: bold;
+    }
+    }
+
+ 
+}
+
+
+} 
+
+
+.hero-left-text {
+    padding-left: 109px !important;
+    @media screen and (max-width: 800px) {
+        padding-left:40px  !important;
+        } 
+} 
+
+.grid-stateLocations .fusion-text h2.state_title {
+    text-align: center !important;
+    font-size: 36px !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 2px;
+    @media screen and (max-width: 640px) {
+        font-size: 36px !important;
+        text-align:left !important;
+    }
+}

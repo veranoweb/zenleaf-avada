@@ -1,0 +1,180 @@
+                @media screen and (max-width: 980px) { 
+                    line-height: 32px;
+    font-size: 27px;
+                }.component_learnGrid {
+
+
+    .fusion-content-boxes .content-wrapper-background {
+        padding: 50px 20px 0px;
+        @media screen and (max-width: 1400px) {
+            padding: 30px 20px;
+        }
+    }
+
+
+    .home .heading-with-icon img {
+        text-align: center;
+        margin:0 auto; 
+    }
+
+    .cbequalheight .fusion-column, .cbequalheight .col.content-wrapper-background {
+        min-height: 205px;
+        max-height: 205px;
+        filter: drop-shadow(0 0mm 1mm rgb(211, 211, 211)); 
+        border-radius:4px;
+    }
+
+    .homeLearnContent {
+        strong {
+            text-transform: uppercase;
+
+            .lineone {
+                letter-spacing: 0px; 
+                display: block;
+                font-size: 43px;
+                line-height: 35px;
+                @media screen and (max-width: 980px) { 
+                    font-size: 31px;
+                }
+                
+            } 
+            .linetwo {
+                display: block;
+                letter-spacing: 2px;
+                line-height: 55px;
+                font-size: 40px;
+                @media screen and (max-width: 400px) {
+                    letter-spacing: 2px;
+                    line-height: 53px;
+                    font-size: 36px;
+                }
+                @media screen and (max-width: 1140px) { 
+                    line-height: 32px;
+                    font-size: 27px;
+                }
+            }
+            .linethree {
+                font-size: 80px;
+                letter-spacing: 4px;
+                line-height: 67px;
+                @media screen and (max-width: 400px) {
+                    font-size: 70px;
+                    letter-spacing: 0px;
+                    line-height: 57px;
+                }
+                @media screen and (max-width: 1140px) { 
+                    font-size: 53px;
+                    letter-spacing: 4px;
+                    line-height: 44px;
+                }
+
+
+            }
+        }
+
+        b {
+            margin-top: 0px;
+            padding-top: 20px;
+            max-width: 270px;
+            display: inline-block;
+            font-size: 24px;
+            line-height: 30px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            max-width: 290px;
+        }
+        .action_text {
+            font-family: 'FiraSansCondensed-Regular';
+            letter-spacing: 0px;
+            color: #637171;            
+        }
+        .info_text {
+            font-family: 'FiraSansCondensed-Regular';
+            letter-spacing: 0px;
+            color: #637171;
+        }
+
+
+ 
+    }
+    .learnGrid {
+        .fusion-content-boxes .heading h6.content-box-heading {
+            max-width: 120px;
+            margin: 0 auto;
+        } 
+    }
+
+    .zenleaf-background-square-dots::before{
+        background-image: url('/wp-content/uploads/2021/12/raked-circle.svg');
+    }
+
+    .shifted-background-image.zenleaf-background-square-dots::before {
+        
+    }
+
+    .dots-bf.bg-before::before {
+        background-image: url('/wp-content/uploads/2021/12/raked-circle.svg');
+    }
+
+    .dots-af.bg-after::after {
+        background-image: url('/wp-content/uploads/2021/12/raked-circle.svg');
+    }
+
+    .fusion-content-box-hover {
+        transition: all 0.5s;
+        border-radius:4px;
+
+    }
+
+    .fusion-content-box-hover:hover {
+        transform: scale(105%);
+        filter: drop-shadow(0 0mm 2mm rgba(211, 211, 211, 0.6));
+    }
+
+
+    /* Icon in card */
+    .content-box-wrapper img, .fusion-content-boxes .heading img, .fusion-content-boxes.content-boxes-icon-on-top .heading img, .image  {
+        margin: 0 auto 15%;
+    }
+    .image img {
+        margin: 0 auto 15%;
+        max-width: 95px !important;
+    }
+
+    img {
+        max-width: 95px !important;
+    }
+
+
+    .fusion-content-boxes-1 .heading .content-box-heading {
+        @apply font-bold tracking-wider text-black;
+    }
+
+    .fusion-content-boxes .fusion-column {
+       margin-bottom: 32px; 
+    }
+
+    .fusion-content-boxes-1 .heading .content-box-heading {
+        font-family:"FiraSansCondensed-Regular";
+}
+     
+
+h6 {
+    font-size:16px !important;
+
+    transform-origin: 0%;
+}
+ 
+
+
+.shifted-background-image::before{
+margin-left:0;
+right:0;
+}
+
+
+
+}
+

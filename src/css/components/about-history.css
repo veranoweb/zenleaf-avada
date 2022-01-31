@@ -1,0 +1,15 @@
+.about-history {
+    h3 {
+        line-height: 45px !important;
+    margin-bottom: 20px;
+        strong {
+            font-size: 36px;
+
+        }
+
+    }
+
+    p {
+       max-width:480px; 
+    }
+}

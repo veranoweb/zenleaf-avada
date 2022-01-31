@@ -1,0 +1,66 @@
+.pageTitle-singleState {
+@media screen and (max-width: 800px) {
+    background-size:cover !important;
+
+    div {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width:100%;
+    }
+}
+
+
+ h1  {
+     letter-spacing:.1em;
+     margin-bottom:20px;
+ }
+ .zen_button {
+     margin-top:10px;
+     @apply bg-black border-black text-white;
+     border-color:black !important;
+     line-height:30px !important;
+
+     span.fusion-button-text {
+        @apply text-white;
+        border-color:white !important;
+     }
+ }
+ @media screen and (max-width: 640px) {
+    p {
+        font: normal normal normal 16px/18px FiraSansCondensed-Regular;
+     }
+
+     .fusion-text h1 {
+        font-size: 34px !important;
+     }
+}
+}
+
+
+
+
+
+
+
+
+.heading-singleStateTwo {
+    h2 {
+        font-size:42px !important;
+    }
+    p, h6 {
+        font: normal normal bold 18px/30px FiraSansCondensed-Regular;
+        text-transform: none;
+        max-width: 520px;
+        margin: 20px auto 0;
+        letter-spacing:.2em;
+        
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    .location-about .loc-htwo{
+        line-height:32px;
+    }
+     
+}
