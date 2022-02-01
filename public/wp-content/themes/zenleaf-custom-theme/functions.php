@@ -927,7 +927,6 @@ function get_store_from_url()
 }
 
 
-remove_filter('the_content', 'wpautop');
 
 
 function myfunction_is_hundred_percent_template() {
