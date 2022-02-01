@@ -77,3 +77,11 @@ function viewMainMenu() {
     jQuery('.sub_order_now_menu').hide();
     jQuery('.main_order_now_menu').show();
 }
+
+// Fix all empty alt tag for placeholder image by fusion builder
+window.addEventListener('load', (event) => {
+    let emptyImgFusion = document.querySelectorAll('.fusion-empty-dims-img-placeholder');
+    emptyImgFusion.forEach( e => {
+        e.setAttribute('alt', 'Placeholder Image');
+    });
+});

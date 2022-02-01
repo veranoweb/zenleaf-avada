@@ -979,3 +979,7 @@ table.wpsl-opening-hours time {
     margin:20px 0 30px 0;
     text-align:left;
 } 
+
+.search-field {
+    display:none;
+}

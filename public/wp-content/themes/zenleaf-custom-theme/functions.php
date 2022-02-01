@@ -3,7 +3,7 @@
 function theme_enqueue_styles()
 {
     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', []);
-    wp_enqueue_style('tailwind-style', get_stylesheet_directory_uri() . '/assets/css/styles.css', []);
+    wp_enqueue_style('tailwind-style', get_stylesheet_directory_uri() . '/assets/css/styles.css?', array(), '1', 'all' );
 }
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 20);
@@ -928,3 +928,15 @@ function get_store_from_url()
 
 
 remove_filter('the_content', 'wpautop');
+
+
+function myfunction_is_hundred_percent_template() {
+    if (is_page_template( array('100-width.php','page-full-width-blank.php') ) ){
+    $value=true;
+    }
+    return $value;
+    }
+    add_filter( 'fusion_is_hundred_percent_template', 'myfunction_is_hundred_percent_template', 11, 0 );
+
+
+    

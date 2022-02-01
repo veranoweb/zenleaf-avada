@@ -1,0 +1,6 @@
+[role="tab"].active {
+    @apply bg-gray-100;
+    svg {
+        @apply text-yellow-400;
+    }
+}

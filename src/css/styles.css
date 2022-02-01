@@ -90,7 +90,8 @@
 /* blogGrid.css already included above, here for notation */
 /* bctaPrimary.css already included above, here for notation */
 
-
+/* REWARDS */
+@import "./components/tabs.css";
 
 
 
@@ -323,17 +324,6 @@ div.tribe-events-calendar-month__calendar-event-tooltip-datetime{
     color:#ffffff !important;
     font-size:16px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 section .opening a:hover {
     background-color: transparent !important;

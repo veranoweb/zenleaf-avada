@@ -167,11 +167,9 @@
  
 
 .footer_link {
-    
-    text-decoration: none;
-    cursor: pointer;
+    @apply block cursor-pointer hover:text-white no-underline	;
+
     &:hover {
-        @apply text-white;
         color:white !important;
     }
 }
