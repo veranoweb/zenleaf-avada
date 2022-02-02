@@ -205,7 +205,7 @@ a  {
     .menu-text {
         font-size: 16px; 
         color:#000; 
-        
+        background-color: #FFF;
         text-decoration: none !important;
             &:hover {
         color:#000;
