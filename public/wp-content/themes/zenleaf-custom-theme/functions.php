@@ -938,4 +938,26 @@ function myfunction_is_hundred_percent_template() {
     add_filter( 'fusion_is_hundred_percent_template', 'myfunction_is_hundred_percent_template', 11, 0 );
 
 
-    //test 2 for buddy
+    function blog_author_data_func(){
+        global $post;
+        $post_id = $post->ID;
+        $catName = "";
+        $categories = get_the_category($post_id);
+        $number_to_list = count($categories);
+        $counter = 0;
+        foreach((get_the_category($post_id)) as $category){
+            $link = get_category_link($category);
+            $catName .= '<a href="'.$link.'">'.$category->name . "</a>";
+            $counter++;
+            if ($counter !== $number_to_list) {
+                $catName .= ", ";
+            }
+    
+        }
+        $post_date = get_the_date('F jS Y', $post_id);
+        $author = get_the_author($post_id);
+        return "<p class='author_post_text'>This entry was posted in " . $catName . " on " . $post_date . " by " . $author."</p>";
+    }
+    
+    add_shortcode('blog_author_data','blog_author_data_func');
+    
