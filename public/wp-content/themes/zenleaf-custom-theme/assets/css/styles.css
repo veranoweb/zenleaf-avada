@@ -1179,6 +1179,18 @@ video {
   vertical-align: middle;
 }
 
+.font-heading {
+  font-family: Norwester;
+}
+
+.font-subheading {
+  font-family: Nourd-Bold;
+}
+
+.font-body {
+  font-family: FiraSansCondensed-Regular;
+}
+
 .text-sm {
   font-size: .875rem;
 }
@@ -4878,6 +4890,15 @@ form.age-gate-form>* {
 .component_learnGrid .shifted-background-image::before{
   margin-left:0;
   right:0;
+}
+
+.learnCard a {
+  display: block;
+  font-family: Nourd-Bold;
+  font-size: 20px;
+  font-weight: 700;
+  height: 24px;
+  line-height: 24px;
 }
 
 .ctaLocation #wpsl-widget-form .wpsl-icon-direction {
