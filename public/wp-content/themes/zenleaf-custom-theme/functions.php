@@ -938,4 +938,4 @@ function myfunction_is_hundred_percent_template() {
     add_filter( 'fusion_is_hundred_percent_template', 'myfunction_is_hundred_percent_template', 11, 0 );
 
 
-    
+    //test 2 for buddy
