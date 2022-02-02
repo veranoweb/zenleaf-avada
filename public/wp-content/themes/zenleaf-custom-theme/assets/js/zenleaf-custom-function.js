@@ -88,4 +88,6 @@ window.addEventListener('load', (event) => {
     viewPortMeta.forEach( e => {
         e.remove();
     });
+    let duplicateId = document.querySelectorAll('#querySelectorAll');
+    console.log(duplicateId)
 });

@@ -1,0 +1,28 @@
+.nav-link{
+    @apply text-black px-3 py-4 rounded-md text-sm font-medium hover:font-bold xl:text-base float-left hover:bg-gray-200 hover:underline tracking-widest;
+}
+.megamenu-button{
+    @apply uppercase tracking-widest hover:bg-gray-200 px-3 py-4 flex;
+}
+.nav-sub-link{
+    @apply block p-4 hover:bg-gray-200 hover:underline tracking-widest font-medium;
+}
+.dropdown{
+    @apply text-black rounded-md text-sm font-medium tracking-widest hover:font-bold xl:text-base uppercase float-left overflow-hidden;
+}
+
+.nav-sub-link-m, .nav-link-m, .megamenu-button-m{
+    @apply block px-6 py-1 text-sm sm:text-base text-gray-700;
+}
+.nav-link-m, .megamenu-button-m{
+    @apply hover:underline;
+}
+.megamenu-button-m{
+    @apply uppercase w-full;
+}
+.mobile-sub-menu{
+    @apply w-80 max-w-full rounded-sm shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none py-4 hidden;
+}
+.back-to-main-m{
+    @apply block px-4 pt-1 pb-3 text-sm sm:text-base text-gray-700 uppercase;
+}

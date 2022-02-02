@@ -9,89 +9,83 @@
                 */
 
 
-				.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header, .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu, .fusion-top-header .fusion-header {
-					background: rgba(255,255,255,0.8);
-					backdrop-filter: blur(15px);
-				}
-
-			
-
-				.fusion-header {
-
-					font: normal normal normal 18px/22px FiraSansCondensed-Regular;
-
-					.zen-column-address {
-						padding-right: 10px;
-					}
-					
-					.shop-here-button {
-						background-color: #FFF !important;
-						text-align: center !important;
-						font-size: 14px;
-					
-					}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header, .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu, .fusion-top-header .fusion-header {
+	background: rgba(255,255,255,0.8);
+	backdrop-filter: blur(15px);
+}
 
 
-					li.menu-item-object-custom > a > span.menu-text {		
-						@apply text-black tracking-widest uppercase text-base; 
-						font-family: "FiraSansCondensed-Regular";
-						font-weight:500;
-					}
 
+.fusion-header {
 
-					.button-medium { }
+	font: normal normal normal 18px/22px FiraSansCondensed-Regular;
 
-
-					li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium:hover {
-						color:black !important;
-						
-					}
-
-					.fusion-main-menu>ul>li {
-						padding-right:24px !important;
-					}
+	.zen-column-address {
+		padding-right: 10px;
+	}
 	
+	.shop-here-button {
+		background-color: #FFF !important;
+		text-align: center !important;
+		font-size: 14px;
+	
+	}
 
 
-					li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium {
-						width:202px;
-						@apply uppercase tracking-widest border-2 border-black hover:bg-white hover:text-black font-bold;
-						font-family: "FiraSansCondensed-Regular";
-						
-						&:hover {
-							color:black !important;
-						}
-					}
+	li.menu-item-object-custom > a > span.menu-text {		
+		@apply text-black tracking-widest uppercase text-base; 
+		font-family: "FiraSansCondensed-Regular";
+		font-weight:500;
+	}
 
 
-					
-					li.menu-item-object-custom:last-child div.fusion-megamenu-wrapper{
-						left:-40px !important;
-						max-width:450px !important;
-					}
-					
-					li.menu-item-object-custom:not(:last-child) > a > span.menu-text.fusion-button.button-default.button-medium {
-						border: 1px solid #000;
-						border-radius: 5px;
-						opacity: 1;
-						color: #000;
-						width: 140px;
-						padding-right: 2px;
-						margin-left:10px;
-						
-					}
+	.button-medium { }
 
 
-				}
+	li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium:hover {
+		color:black !important;
+		
+	}
 
- 
+	.fusion-main-menu>ul>li {
+		padding-right:24px !important;
+	}
 
-				
 
+
+	li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium {
+		width:202px;
+		@apply uppercase tracking-widest border-2 border-black hover:bg-white hover:text-black font-bold;
+		font-family: "FiraSansCondensed-Regular";
+		
+		&:hover {
+			color:black !important;
+		}
+	}
+
+
+	
+	li.menu-item-object-custom:last-child div.fusion-megamenu-wrapper{
+		left:-40px !important;
+		max-width:450px !important;
+	}
+	
+	li.menu-item-object-custom:not(:last-child) > a > span.menu-text.fusion-button.button-default.button-medium {
+		border: 1px solid #000;
+		border-radius: 5px;
+		opacity: 1;
+		color: #000;
+		width: 140px;
+		padding-right: 2px;
+		margin-left:10px;
+		
+	}
+
+
+}
 .fusion-megamenu-title {
     display: none;
 }
-
 .menu-subtitle {
     font: normal normal bold 30px/47px Nourd-Bold;
     text-transform: uppercase;
