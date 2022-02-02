@@ -1,5 +1,5 @@
-(function ($) {
-    $(document).ready(function () {
+(function($) {
+    $(document).ready(function() {
         get_list_of_stores_for_states();
         bind_events();
     });
@@ -8,8 +8,8 @@
 
 
 function bind_events() {
-    jQuery(document).ready(function () {
-        jQuery('.wpsl-dropdown>div>ul>li').each( function() {
+    jQuery(document).ready(function() {
+        jQuery('.wpsl-dropdown>div>ul>li').each(function() {
             jQuery(this).on("click", function(event) {
                 if (jQuery('#wpsl-search-input').val().length > 0) {
                     jQuery('#wpsl-search-btn').click();
@@ -18,8 +18,8 @@ function bind_events() {
                 }
             });
         });
-        jQuery('.custom-reset-button').each( function() {
-            jQuery(this).on("click",function(event) {
+        jQuery('.custom-reset-button').each(function() {
+            jQuery(this).on("click", function(event) {
                 jQuery('.wpsl-icon-reset').click();
             });
         });
@@ -33,7 +33,7 @@ function get_list_of_stores_for_states() {
         type: "get",
         dataType: "json",
         url: zenleaf.ajaxurl,
-        data: {action: "get_list_of_zenleaf_stores", nonce: zenleaf.nonce},
+        data: { action: "get_list_of_zenleaf_stores", nonce: zenleaf.nonce },
     }).then(result => {
         let menu_element = jQuery('#shop_by_state');
         let order_online_element = jQuery('#mobile-menu-item-15535');
@@ -81,13 +81,11 @@ function viewMainMenu() {
 // Fix all empty alt tag for placeholder image by fusion builder
 window.addEventListener('load', (event) => {
     let emptyImgFusion = document.querySelectorAll('.fusion-empty-dims-img-placeholder');
-    emptyImgFusion.forEach( e => {
+    emptyImgFusion.forEach(e => {
         e.setAttribute('alt', 'Placeholder Image');
     });
     let viewPortMeta = document.querySelectorAll('[name="viewport"]');
-    viewPortMeta.forEach( e => {
+    viewPortMeta.forEach(e => {
         e.remove();
     });
-    let duplicateId = document.querySelectorAll('#querySelectorAll');
-    console.log(duplicateId)
 });

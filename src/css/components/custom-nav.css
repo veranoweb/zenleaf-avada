@@ -1,5 +1,5 @@
 .nav-link{
-    @apply text-black px-3 py-4 rounded-md text-sm font-medium hover:font-bold xl:text-base float-left hover:bg-gray-200 hover:underline tracking-widest;
+    @apply text-black px-3 py-4 rounded-md text-sm font-medium xl:text-base float-left hover:bg-gray-200 hover:underline tracking-widest;
 }
 .megamenu-button{
     @apply uppercase tracking-widest hover:bg-gray-200 px-3 py-4 flex;
@@ -8,7 +8,7 @@
     @apply block p-4 hover:bg-gray-200 hover:underline tracking-widest font-medium;
 }
 .dropdown{
-    @apply text-black rounded-md text-sm font-medium tracking-widest hover:font-bold xl:text-base uppercase float-left overflow-hidden;
+    @apply text-black rounded-md text-sm font-medium tracking-widest xl:text-base uppercase float-left overflow-hidden;
 }
 
 .nav-sub-link-m, .nav-link-m, .megamenu-button-m{

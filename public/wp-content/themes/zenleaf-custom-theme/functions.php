@@ -3,7 +3,7 @@
 function theme_enqueue_styles()
 {
     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', []);
-    wp_enqueue_style('tailwind-style', get_stylesheet_directory_uri() . '/assets/css/styles.css?', array(), '1', 'all' );
+    wp_enqueue_style('tailwind-style', get_stylesheet_directory_uri() . '/assets/css/styles.css?', array(), filemtime(get_template_directory() . '/assets/css/styles.css'), 'all' );
 }
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 20);
@@ -525,9 +525,9 @@ function write_shop_card_element($store)
 
     $output = "<div class='card'>";
     $output .= "<div class='card-top card-halve' style='background-image: url(" . $store->thumb_url . ")'>";
-    $output .= "<a href='" . site_url() . strtolower($store->url) . "'><button class='shop-the-menu-card-button fusion-button button-flat fusion-button-default-size button-custom button-3 fusion-button-default-span fusion-button-default-type fusion-button-text'>";
+    $output .= "<a class='shop-the-menu-card-button fusion-button button-flat fusion-button-default-size button-custom button-3 fusion-button-default-span fusion-button-default-type fusion-button-text' href='" . site_url() . strtolower($store->url) . "'>";
     $output .= "Shop The Menu";
-    $output .= "</button></a>";
+    $output .= "</a>";
     $output .= "</div>";
     $output .= "<div class='card-bottom card-halve'>";
 
