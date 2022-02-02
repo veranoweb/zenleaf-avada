@@ -84,4 +84,8 @@ window.addEventListener('load', (event) => {
     emptyImgFusion.forEach( e => {
         e.setAttribute('alt', 'Placeholder Image');
     });
+    let viewPortMeta = document.querySelectorAll('[name="viewport"]');
+    viewPortMeta.forEach( e => {
+        e.remove();
+    });
 });
