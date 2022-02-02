@@ -9,6 +9,9 @@
 @import "./atoms/typography.css";
 @import "./atoms/lists.css";
 
+/* Image Set as molecule to accomodate for captions, etc */
+@import "./molecules/image.css";
+
 
 @import "./template-parts/masthead.css";
 @import "./template-parts/footer.css";
