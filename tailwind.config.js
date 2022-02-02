@@ -1,11 +1,20 @@
 module.exports = {
     purge: {
         enabled: true,
-        content: ['./src/*.html'],
+        content: [
+            './src/*.html',
+            './public/wp-content/themes/zenleaf-custom-theme/*.php',
+            './public/wp-content/themes/zenleaf-custom-theme/template-parts/*.php',
+        ],
     },
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+        extend: {
+            screens: {
+                'sm': '768px',
+                // => @media (min-width: 640px) { ... }
+            },
+        },
         fontSize: {
             'xs': '.75rem',
             'sm': '.875rem',
