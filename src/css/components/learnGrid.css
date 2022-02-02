@@ -178,3 +178,9 @@ right:0;
 
 }
 
+
+.learnCard {
+    a {
+        @apply block font-subheading text-xl font-bold leading-6;
+    }
+}
