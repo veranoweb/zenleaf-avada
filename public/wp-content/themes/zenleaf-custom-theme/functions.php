@@ -525,9 +525,6 @@ function write_shop_card_element($store)
 
     $output = "<div class='card'>";
     $output .= "<div class='card-top card-halve' style='background-image: url(" . $store->thumb_url . ")'>";
-    $output .= "<a class='shop-the-menu-card-button fusion-button button-flat fusion-button-default-size button-custom button-3 fusion-button-default-span fusion-button-default-type fusion-button-text' href='" . site_url() . strtolower($store->url) . "'>";
-    $output .= "Shop The Menu";
-    $output .= "</a>";
     $output .= "</div>";
     $output .= "<div class='card-bottom card-halve'>";
 
