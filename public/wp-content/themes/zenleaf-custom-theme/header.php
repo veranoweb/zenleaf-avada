@@ -41,7 +41,7 @@ $wrapper_class .= ( is_page_template( 'blank.php' ) ) ? ' wrapper_blank' : '';
 
 	<!-- Get Age Get for all pages except 'terms-of-use' & 'privacy-policy' -->
 	<?php if(!is_page( array( 'terms-of-use', 'privacy-policy' ) )): ?>
-		<?php get_template_part('template-parts/age-get'); ?>
+		<?php get_template_part('template-parts/age-gate'); ?>
 	<?php endif; ?>
 
 	<?php do_action( 'avada_before_body_content' ); ?>
