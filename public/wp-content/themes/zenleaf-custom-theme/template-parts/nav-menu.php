@@ -14,10 +14,10 @@
             <div class="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start">
                 <!-- Logo -->
                 <a class="flex-shrink-0 flex items-center" href="/">
-                    <picture class="h-10 md:h-10 w-auto lg:mt-1 hidden md:block" style="max-width:50vw">
-                        <source media="(min-width: 768px)" srcset="/wp-content/uploads/2022/01/zen-leaf-logo-with-text-67h.svg" alt="Zen Leaf Dispensaries">
-                        <source media="(min-width: 10px)" srcset="/wp-content/uploads/2022/01/zen-leaf-logo-67h.svg" alt="Zen Leaf Dispensaries">
-                        <img src="O/wp-content/uploads/2022/01/zen-leaf-logo-with-text-67h.svg" alt="Zen Leaf Dispensaries">
+                    <picture class="" >
+                        <source media="(min-width: 768px)" srcset="/wp-content/uploads/2022/01/zen-leaf-logo-with-text-67h.svg">
+                        <source media="(min-width: 10px)" srcset="/wp-content/uploads/2022/01/zen-leaf-logo-67h.svg">
+                        <img src="/wp-content/uploads/2022/01/zen-leaf-logo-with-text-67h.svg" alt="Zen Leaf Dispensaries" class="h-10 md:h-10 w-auto lg:mt-1 md:block" style="max-width:50vw">
                     </picture>
                 </a>
                 <!-- Desktop Menu -->
