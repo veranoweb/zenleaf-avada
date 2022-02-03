@@ -5,17 +5,18 @@
             <img class="mx-auto mb-2" src="/wp-content/uploads/2021/12/zen-leaf-logo-262.svg" alt="Zen Leaf Dispensaries">
             <h2 class="text-xl mb-0 font-bold tracking-wider">WELCOME TO ZEN LEAF</h2>
             
-            <p class="pt-5 text-2xl">
-                Are you at least 21 years old?
+            <p class="mt-5 text-2xl">
+                Are you at least 21 years old?*
             </p>
-            <p class="text-sm italic text-gray-700">
-                *For Pennsylvania and Maryland you must be 18+
-            </p>
-            <div class="mt-9 mb-3 flex gap-4 max-w-xs mx-auto">
-                <button onclick="ragevAgeVerificationConfirm()" class="w-1/2 bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md">YES</button>
-                <button onclick="ragevAgeVerificationFailed()" class="w-1/2 bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md">NO</button>
+
+            <div class="mt-2 mb-2 flex gap-4 max-w-xs mx-auto ">
+                <button onclick="ragevAgeVerificationConfirm()" class="w-1/2 border-2 border-black  bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">YES</button>
+                <button onclick="ragevAgeVerificationFailed()" class="w-1/2  border-2 border-black bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">NO</button>
             </div>
-            <p class="text-sm text-gray-600">
+            <p class="text-sm italic text-gray-700 mb-4">
+                *For Pennsylvania and Maryland you must be 18+
+            </p>            
+            <p class="text-sm text-gray-600 tracking-wider">
                 By clicking “YES” and entering this website, you agree to be bound by the <a class="text-black underline font-bold" href="/terms-of-use/" rel="noopener">Terms of Service</a> &amp; <a class="text-black underline font-bold" href="/privacy-policy/"
                     rel="noopener">Privacy Policy</a>.
             </p>
