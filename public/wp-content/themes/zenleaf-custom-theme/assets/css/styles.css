@@ -4645,6 +4645,7 @@ article.fusion-post-grid .entry-title a{
   font-family: FiraSansCondensed-Regular !important;
   font-size: 18px !important;
   font-weight: 900 !important;
+  line-height: 1 !important;
   --tw-text-opacity: 1 !important;
   color: rgba(0, 0, 0, var(--tw-text-opacity)) !important;
   text-decoration: underline !important;

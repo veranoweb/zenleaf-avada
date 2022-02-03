@@ -1,7 +1,7 @@
 article.fusion-post-grid{
     .entry-title{
         a{
-            @apply font-body text-black font-black underline text-base !important;
+            @apply font-body text-black font-black underline text-base leading-none	 !important;
         }
     }
     .fusion-post-content-container{
