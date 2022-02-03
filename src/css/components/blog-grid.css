@@ -1,0 +1,14 @@
+article.fusion-post-grid{
+    .entry-title{
+        a{
+            @apply font-body text-black font-black underline !important;
+        }
+    }
+    .fusion-post-content-container{
+        p{
+            a{
+                @apply hidden;
+            }
+        }
+    }
+}

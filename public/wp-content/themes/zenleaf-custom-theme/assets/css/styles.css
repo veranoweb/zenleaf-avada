@@ -4641,133 +4641,16 @@ Future will have these toggles applied to the render of components directly, and
   border: 2px solid #bd0028 !important;
 }
 
-.fusion-post-grid div.fusion-post-content-wrapper div.fusion-post-content-container>p>a {
-  bottom: 38px;
-  border: 1px solid #000;
-  color: #000;
-  border-radius: 3px;
-  font-size: 12px;
-  padding: 6px 19px;
-  display: block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  position: absolute;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  font-weight: 500;
+article.fusion-post-grid .entry-title a{
+  font-family: FiraSansCondensed-Regular !important;
+  font-weight: 900 !important;
+  --tw-text-opacity: 1 !important;
+  color: rgba(0, 0, 0, var(--tw-text-opacity)) !important;
+  text-decoration: underline !important;
 }
 
-.fusion-post-grid div.fusion-post-content-wrapper div.fusion-post-content-container>p>a:hover {
-  background-color: white;
-  border: 1px solid #000;
-}
-
-h2 {
-}
-
-.blogGrid.hidden {
-  display:none;
-}
-
-/* Title of each blog article inside the cards */
-
-.blogGrid .entry-title {
-  line-height:1 !important;
-  margin-bottom:10px;
-}
-
-.blogGrid .entry-title a {
-  font-size:20px !important;
-}
-
-.blogGrid h2, .blogGrid h3, .blogGrid h2.action_text_xl, .blogGrid h3.action_text_xl {
-  display:block;
-  font-family:Norwester;
-  font-size:48px;
-  font-weight:400;
-  letter-spacing:normal;
-  margin-bottom:30px;
-}
-
-@media screen and (max-width: 800px) {
-  .blogGrid h2, .blogGrid h3, .blogGrid h2.action_text_xl, .blogGrid h3.action_text_xl {
-    font-size:24px !important
-  }
-}
-
-.blogGrid h2 strong, .blogGrid h3 strong, .blogGrid h2.action_text_xl strong, .blogGrid h3.action_text_xl strong {
-  display:block;
-  font-family: 'Nourd-Bold';
-  font-size:48px;
-  font-weight:400;
-  letter-spacing:normal;
-}
-
-@media screen and (max-width: 800px) {
-  .blogGrid h2 strong, .blogGrid h3 strong, .blogGrid h2.action_text_xl strong, .blogGrid h3.action_text_xl strong {
-    font-size: 18px;
-    line-height: 8px
-  }
-}
-
-.blogGrid .blog-shortcode-post-title a {
-  font-family:"FiraSansCondensed-Regular" !important;
-  color:#000 !important;
-  font-weight:900 !important;
-}
-
-.blogGrid h4.action_text_xl, .blogGrid h5.action_text_xl, .blogGrid h6.action_text_xl, .blogGrid p.action_text_xl {
-  font: normal normal normal 18px/20px FiraSansCondensed-Regular;
-  letter-spacing: 0px;
-  color: #000;
-  margin-top:10px;
-  text-transform:none;
-}
-
-.blogGrid .fusion-button-text {
-  text-transform:uppercase;
-  letter-spacing:.1em;
-}
-
-.blogGrid .fusion-button {
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-
-.blog-shortcode-post-title a {
-  font-family:"FiraSansCondensed-Regular" !important;
-  color:#000 !important;
-  font-weight:900 !important;
-  text-transform:none !important;
-}
-
-@media screen and (max-width: 800px) {
-  .fusion-tb-page-title-bar img {
-    display: none !important;
-  }
-
-  .fusion-post-content-container a {
-    display:none !important;
-  }
-
-  .fusion-post-content-container .post-content h2 a {
-    text-decoration: underline;
-  }
-
-  .fusion-post-content-container {
-    padding-bottom:0;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #content a.heading-link, #content .fusion-blog-layout-grid a {
-    text-decoration: underline;
-  }
+article.fusion-post-grid .fusion-post-content-container p a{
+  display: none;
 }
 
 /* ABOUT */
@@ -5812,10 +5695,6 @@ We will need to remove this code and build logic for show/hide - but may do this
   --tw-ring-opacity: 1;
   --tw-ring-color: rgba(0, 0, 0, var(--tw-ring-opacity));
   --tw-ring-opacity: 0.05;
-}
-
-.blogGrid.mobile-sub-menu {
-  display:none;
 }
 
 .back-to-main-m{
