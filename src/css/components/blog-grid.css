@@ -6,6 +6,9 @@ article.fusion-post-grid{
     }
     .fusion-post-content-container{
         p{
+            &:after{
+                @apply hidden;
+            }
             a{
                 @apply hidden;
             }

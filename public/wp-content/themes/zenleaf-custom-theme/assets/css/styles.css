@@ -4649,6 +4649,10 @@ article.fusion-post-grid .entry-title a{
   text-decoration: underline !important;
 }
 
+article.fusion-post-grid .fusion-post-content-container p:after{
+  display: none;
+}
+
 article.fusion-post-grid .fusion-post-content-container p a{
   display: none;
 }
