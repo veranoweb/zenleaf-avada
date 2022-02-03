@@ -1,18 +1,19 @@
 article.fusion-post-grid{
-    .entry-title{
+    .entry-title, #wrapper #main .fusion-post-content > .blog-shortcode-post-title{
         a{
-            @apply font-body text-black font-black underline text-base leading-none	 !important;
+            @apply font-body text-black font-black underline text-lg leading-none !important;
+
         }
     }
     .fusion-post-content-container{
         p{
 
-            @apply text-sm;
+            @apply text-base;
             &:after{
                 @apply hidden;
             }
             a{
-                @apply hidden;
+                @apply hidden; 
             }
         }
     }

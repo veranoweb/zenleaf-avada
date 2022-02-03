@@ -714,8 +714,8 @@ video {
   margin-bottom: 0px;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-3 {
@@ -728,10 +728,6 @@ video {
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .mb-10 {
@@ -852,6 +848,10 @@ video {
 
 .max-w-xs {
   max-width: 20rem;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .max-w-7xl {
@@ -1139,6 +1139,10 @@ video {
   padding-bottom: 5rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1247,10 +1251,6 @@ video {
   line-height: 1.5rem;
 }
 
-.leading-10 {
-  line-height: 2.5rem;
-}
-
 .leading-none {
   line-height: 1;
 }
@@ -1289,6 +1289,11 @@ video {
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
 .hover\:text-black:hover {
@@ -4641,9 +4646,9 @@ Future will have these toggles applied to the render of components directly, and
   border: 2px solid #bd0028 !important;
 }
 
-article.fusion-post-grid .entry-title a{
+article.fusion-post-grid .entry-title a, article.fusion-post-grid #wrapper #main .fusion-post-content > .blog-shortcode-post-title a {
   font-family: FiraSansCondensed-Regular !important;
-  font-size: 18px !important;
+  font-size: 1.125rem !important;
   font-weight: 900 !important;
   line-height: 1 !important;
   --tw-text-opacity: 1 !important;
@@ -4652,7 +4657,7 @@ article.fusion-post-grid .entry-title a{
 }
 
 article.fusion-post-grid .fusion-post-content-container p{
-  font-size: .875rem;
+  font-size: 18px;
 }
 
 article.fusion-post-grid .fusion-post-content-container p:after{
@@ -5946,11 +5951,6 @@ section .opening a:hover {
 }
 
 @media (min-width: 768px) {
-  .sm\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
   .sm\:block {
     display: block;
   }
