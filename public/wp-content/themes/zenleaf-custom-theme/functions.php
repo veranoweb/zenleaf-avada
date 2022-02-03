@@ -3,7 +3,7 @@
 function theme_enqueue_styles()
 {
     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', []);
-    wp_enqueue_style('tailwind-style', get_stylesheet_directory_uri() . '/assets/css/styles.css', array(), filemtime( get_stylesheet_directory_uri() . '/assets/css/styles.css'), 'all' );
+    wp_enqueue_style('tailwind-style', get_stylesheet_directory_uri() . '/assets/css/styles.css?', array(), filemtime( get_stylesheet_directory() . '/assets/css/styles.css'), 'all' );
 }
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles', 20);
