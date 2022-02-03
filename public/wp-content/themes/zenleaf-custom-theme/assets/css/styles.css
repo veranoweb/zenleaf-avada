@@ -4643,10 +4643,15 @@ Future will have these toggles applied to the render of components directly, and
 
 article.fusion-post-grid .entry-title a{
   font-family: FiraSansCondensed-Regular !important;
+  font-size: 18px !important;
   font-weight: 900 !important;
   --tw-text-opacity: 1 !important;
   color: rgba(0, 0, 0, var(--tw-text-opacity)) !important;
   text-decoration: underline !important;
+}
+
+article.fusion-post-grid .fusion-post-content-container p{
+  font-size: .875rem;
 }
 
 article.fusion-post-grid .fusion-post-content-container p:after{

@@ -1,11 +1,13 @@
 article.fusion-post-grid{
     .entry-title{
         a{
-            @apply font-body text-black font-black underline !important;
+            @apply font-body text-black font-black underline text-base !important;
         }
     }
     .fusion-post-content-container{
         p{
+
+            @apply text-sm;
             &:after{
                 @apply hidden;
             }
