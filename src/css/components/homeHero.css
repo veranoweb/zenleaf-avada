@@ -54,7 +54,7 @@
 
     /* FIND YOUR ZEN */
     h1.action_text { 
-        @apply text-black text-6xl uppercase;
+        @apply text-black text-6xl uppercase !important;
         letter-spacing: 4px;
         @media screen and (max-width: 570px) {
             font-size: 34px !important;

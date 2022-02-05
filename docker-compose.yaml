@@ -38,7 +38,7 @@ services:
       - '8000:80'
     restart: always
     volumes: [
-      './public:/var/www/html',
+      './public:/var/www/html/wp-content',
     ]
     environment:
       WORDPRESS_DB_HOST: db:3306

@@ -5,6 +5,10 @@ public/wp-content/*
 !public/wp-content/themes/
 public/wp-content/themes/*
 !public/wp-content/themes/zenleaf-custom-theme
+/public/*
+!public/themes/
+public/themes/*
+!public/themes/zenleaf-custom-theme
 
 # ignore node dependency directories
 node_modules/
