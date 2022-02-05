@@ -4,8 +4,8 @@
   "description": "ZLD v2 initialized by Eminent",
   "main": "index.js",
   "scripts": {
-    "watch": "npx tailwindcss -i src/css/styles.css -o public/themes/zenleaf-custom-theme/assets/css/styles.css --postcss --watch",
-    "build": "npx tailwindcss -i src/css/styles.css -o public/themes/zenleaf-custom-theme/assets/css/styles.css --postcss --minify"
+    "watch": "npx tailwindcss -i src/css/styles.css -o public/wp-content/themes/zenleaf-custom-theme/assets/css/styles.css --postcss --watch",
+    "build": "npx tailwindcss -i src/css/styles.css -o public/wp-content/themes/zenleaf-custom-theme/assets/css/styles.css --postcss --minify"
   },
   "repository": {
     "type": "git",
