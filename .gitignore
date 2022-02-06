@@ -8,6 +8,7 @@ public/wp-content/themes/*
 
 # ignore node dependency directories
 node_modules/
+vendor/
 
 # ignore log files and databases
 *.log
