@@ -4256,6 +4256,9 @@ Future will have these toggles applied to the render of components directly, and
 
 .zenleaf-hero-text-container .zen_button {
   border: 2px solid black;
+  margin-top: 20px;
+  text-decoration: none !important;
+  display: inline-block;
 }
 
 .zenleaf-hero-text-container .info_text {
