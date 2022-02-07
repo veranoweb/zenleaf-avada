@@ -3,6 +3,7 @@ module.exports = {
         enabled: true,
         content: [
             './src/*.html',
+            './src/safelist.txt',
             './public/wp-content/themes/zenleaf-custom-theme/*.php',
             './public/wp-content/themes/zenleaf-custom-theme/template-parts/*.php',
         ],

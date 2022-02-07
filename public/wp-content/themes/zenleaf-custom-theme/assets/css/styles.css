@@ -1072,6 +1072,10 @@ video {
   background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
