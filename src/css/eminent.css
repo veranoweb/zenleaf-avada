@@ -983,11 +983,3 @@ table.wpsl-opening-hours time {
 .search-field {
     display:none;
 }
-
-.fusion-breadcrumbs.fusion-breadcrumbs-1 a{
-    @apply underline;
-}
-.parent-pageid-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column,
-.page-id-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-    @apply bg-contain !important;
-}

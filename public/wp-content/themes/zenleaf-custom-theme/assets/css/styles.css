@@ -3010,14 +3010,6 @@ table.wpsl-opening-hours time {
   display:none;
 }
 
-.fusion-breadcrumbs.fusion-breadcrumbs-1 a{
-  text-decoration: underline;
-}
-
-.parent-pageid-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column, .page-id-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-  background-size: contain !important;
-}
-
 .zen_button, .zen_button_location, .fusion-button, .fusion-button-text {
   text-decoration: none;
 }
@@ -4351,6 +4343,10 @@ Future will have these toggles applied to the render of components directly, and
   }
 }
 
+.fusion-breadcrumbs.fusion-breadcrumbs-1 a{
+  text-decoration: underline;
+}
+
 .featured-deal_wrapper {
   border-radius: 0.75rem;
 }
@@ -4710,6 +4706,10 @@ article.fusion-post-grid .fusion-post-content-container p a{
 .learn-header-padding h2, .learn-header-padding p {
   font: normal normal normal 18px/22px FiraSansCondensed-Regular !important;
   text-transform: none;
+}
+
+.parent-pageid-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column, .page-id-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
+  background-size: contain !important;
 }
 
 .about-history h3 {
@@ -5611,6 +5611,16 @@ We will need to remove this code and build logic for show/hide - but may do this
   .nav-link {
     font-size: 18px;
   }
+}
+
+.nav-link {
+  outline-width: initial;
+  outline-style: initial;
+}
+
+.nav-link:focus {
+  outline-width: 2px;
+  outline-style: dotted;
 }
 
 .megamenu-button{

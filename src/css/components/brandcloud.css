@@ -37,4 +37,6 @@
         }
     }
 
- 
+.fusion-breadcrumbs.fusion-breadcrumbs-1 a{
+    @apply underline;
+}

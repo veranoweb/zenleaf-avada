@@ -31,3 +31,8 @@
         text-transform: none;
     }
 }
+.parent-pageid-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column,
+.page-id-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
+    @apply bg-contain !important;
+}
+ 
