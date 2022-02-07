@@ -34,4 +34,5 @@ a{
 a:focus {
     outline-width: 2px;
     outline-style: dotted;
+    outline-color: #000;
 }
