@@ -338,14 +338,14 @@ body {
 	@apply bg-white text-black;
 }
 
-.saboxplugin-authorname .vcard.author .fn { 
+.author .fn { 
 
-        outline-width: initial;
-    outline-style: initial;
+        outline-width: initial !important;
+    outline-style: initial !important;
   &:focus {
 
-           outline-width: 2px;
-    outline-style: dotted;
+           outline-width: 2px !important;
+    outline-style: dotted !important;
 
 }
 }
