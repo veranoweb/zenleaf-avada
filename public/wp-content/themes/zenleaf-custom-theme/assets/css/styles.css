@@ -5613,16 +5613,6 @@ We will need to remove this code and build logic for show/hide - but may do this
   }
 }
 
-.nav-link {
-  outline-width: initial;
-  outline-style: initial;
-}
-
-.nav-link:focus {
-  outline-width: 2px;
-  outline-style: dotted;
-}
-
 .megamenu-button{
   display: flex;
 }
@@ -5747,6 +5737,16 @@ We will need to remove this code and build logic for show/hide - but may do this
   .back-to-main-m {
     font-size: 18px;
   }
+}
+
+a{
+  outline-width: initial;
+  outline-style: initial;
+}
+
+a:focus {
+  outline-width: 2px;
+  outline-style: dotted;
 }
 
 /* 

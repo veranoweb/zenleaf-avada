@@ -1,11 +1,6 @@
 .nav-link{
     @apply text-black px-3 py-4 rounded-md text-sm font-medium xl:text-base float-left hover:bg-gray-200 hover:underline tracking-widest;
-    outline-width: initial;
-    outline-style: initial;
-}
-.nav-link:focus {
-    outline-width: 2px;
-    outline-style: dotted;
+    
 }
 .megamenu-button{
     @apply uppercase tracking-widest hover:bg-gray-200 px-3 py-4 flex;
@@ -31,4 +26,12 @@
 }
 .back-to-main-m{
     @apply block px-4 pt-1 pb-3 text-sm sm:text-base text-gray-700 uppercase;
+}
+a{
+    outline-width: initial;
+    outline-style: initial;
+}
+a:focus {
+    outline-width: 2px;
+    outline-style: dotted;
 }
