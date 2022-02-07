@@ -337,3 +337,15 @@ section .opening a:hover {
 body {
 	@apply bg-white text-black;
 }
+
+.saboxplugin-authorname .vcard.author .fn { 
+
+        outline-width: initial;
+    outline-style: initial;
+  &:focus {
+
+           outline-width: 2px;
+    outline-style: dotted;
+
+}
+}

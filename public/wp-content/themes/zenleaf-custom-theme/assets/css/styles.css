@@ -5986,6 +5986,16 @@ body {
   color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
+.saboxplugin-authorname .vcard.author .fn {
+  outline-width: initial;
+  outline-style: initial;
+}
+
+.saboxplugin-authorname .vcard.author .fn:focus {
+  outline-width: 2px;
+  outline-style: dotted;
+}
+
 @media (min-width: 768px) {
   .sm\:block {
     display: block;
