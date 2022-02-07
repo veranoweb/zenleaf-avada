@@ -332,3 +332,8 @@ div.tribe-events-calendar-month__calendar-event-tooltip-datetime{
 section .opening a:hover {
     background-color: transparent !important;
 }
+
+
+body {
+	@apply bg-white text-black;
+}
