@@ -175,46 +175,46 @@
     background:#FFF; 
     
     .fusion-background-highlight {
-    background:#FFF !important;
-    @media screen and (max-width: 640px) {
-    padding-left:0px !important; 
-    
-    }
-}
-
-a  {
-
-
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none !important;
-    &:hover {
-        text-decoration: none !important;
-        .menu-text {
-            color: #000;
-            text-decoration: none !important;
-            margin: 0 auto;
-            text-align: left;
-            @media screen and (max-width: 640px) {
-            padding-left:0px;
-            } 
-            
+        background:#FFF !important;
+        color: #000 !important;
+        @media screen and (max-width: 640px) {
+            padding-left:0px !important; 
         }
     }
 
-    .menu-text {
-        font-size: 16px; 
-        color:#000; 
-        background-color: #FFF;
-        text-decoration: none !important;
-            &:hover {
-        color:#000;
-        font-weight: bold;
-    }
-    }
+    a  {
 
- 
-}
+
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none !important;
+        &:hover {
+            text-decoration: none !important;
+            .menu-text {
+                color: #000;
+                text-decoration: none !important;
+                margin: 0 auto;
+                text-align: left;
+                @media screen and (max-width: 640px) {
+                padding-left:0px;
+                } 
+                
+            }
+        }
+
+        .menu-text {
+            font-size: 16px; 
+            color:#000; 
+            background-color: #FFF;
+            text-decoration: none !important;
+                &:hover {
+            color:#000;
+            font-weight: bold;
+        }
+        }
+
+    
+    }
 
 
 } 
@@ -238,3 +238,7 @@ a  {
         text-align:left !important;
     }
 }
+
+#state-menu.fusion-menu-element-wrapper .fusion-menu-element-list>li:not(.fusion-menu-item-button).current-menu-item>a{
+    color: #000 !important;
+}  
