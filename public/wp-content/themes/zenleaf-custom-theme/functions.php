@@ -864,7 +864,7 @@ function get_zenleaf_store_hours_day_by_day_schema($id)
     if (isset($store_hours_data['sunday'][0])) {
         $time_raw = explode(",", $store_hours_data['sunday'][0]);
         $schema_hours .= '{ "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "' .
-            $time_raw[0] . '", "closes": "' . $time_raw[1] . '"},';
+            $time_raw[0] . '", "closes": "' . $time_raw[1] . '"}';
     }
     return $schema_hours;
 }
@@ -893,7 +893,7 @@ function zenleaf_store_schema_data()
     "addressLocality": "' . $store_data->city . '",
     "postalCode": "' . $store_data->zip . '",
     "addressCountry": "US",
-    "addressRegion": "' . $store_data->state_abbr . '",
+    "addressRegion": "' . $store_data->state_abbr . '"
   },
   "geo": {
     "@type": "GeoCoordinates",
