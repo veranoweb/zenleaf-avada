@@ -3015,7 +3015,7 @@ table.wpsl-opening-hours time {
 }
 
 .parent-pageid-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column, .page-id-14972 .fusion-column-wrapper.fusion-flex-justify-content-flex-start.fusion-content-layout-column {
-  background-size: contain;
+  background-size: contain !important;
 }
 
 .zen_button, .zen_button_location, .fusion-button, .fusion-button-text {
