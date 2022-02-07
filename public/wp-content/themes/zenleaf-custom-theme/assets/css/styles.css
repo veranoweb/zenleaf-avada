@@ -5986,14 +5986,14 @@ body {
   color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
-.saboxplugin-authorname .vcard.author .fn {
-  outline-width: initial;
-  outline-style: initial;
+.author .fn {
+  outline-width: initial !important;
+  outline-style: initial !important;
 }
 
-.saboxplugin-authorname .vcard.author .fn:focus {
-  outline-width: 2px;
-  outline-style: dotted;
+.author .fn:focus {
+  outline-width: 2px !important;
+  outline-style: dotted !important;
 }
 
 @media (min-width: 768px) {
