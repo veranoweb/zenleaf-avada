@@ -5045,6 +5045,7 @@ section .opening a:hover {
 
 #state-menu.fusion-menu-element-wrapper .fusion-menu-element-list>li:not(.fusion-menu-item-button).current-menu-item>a{
   color: #000 !important;
+  background-color: #fff !important;
 }
 
 /*@import "./components/locationsResults.css"; */
