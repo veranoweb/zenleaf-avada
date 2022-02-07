@@ -338,7 +338,7 @@ body {
 	@apply bg-white text-black;
 }
 
-.author .fn { 
+.saboxplugin-authorname .vcard.author .fn, .fusion-image-wrapper a { 
 
         outline-width: initial !important;
     outline-style: initial !important;
@@ -349,3 +349,4 @@ body {
 
 }
 }
+

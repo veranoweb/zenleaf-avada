@@ -5986,12 +5986,12 @@ body {
   color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
-.author .fn {
+.saboxplugin-authorname .vcard.author .fn, .fusion-image-wrapper a {
   outline-width: initial !important;
   outline-style: initial !important;
 }
 
-.author .fn:focus {
+.saboxplugin-authorname .vcard.author .fn:focus, .fusion-image-wrapper a:focus {
   outline-width: 2px !important;
   outline-style: dotted !important;
 }
@@ -6156,3 +6156,4 @@ body {
 
 @media (min-width: 1536px) {
 }
+
