@@ -3006,6 +3006,10 @@ table.wpsl-opening-hours time {
   display:none;
 }
 
+.fusion-breadcrumbs.fusion-breadcrumbs-1 a{
+  text-decoration: underline;
+}
+
 .zen_button, .zen_button_location, .fusion-button, .fusion-button-text {
   text-decoration: none;
 }

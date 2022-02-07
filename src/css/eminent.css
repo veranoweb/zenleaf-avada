@@ -983,3 +983,7 @@ table.wpsl-opening-hours time {
 .search-field {
     display:none;
 }
+
+.fusion-breadcrumbs.fusion-breadcrumbs-1 a{
+    @apply underline;
+}
