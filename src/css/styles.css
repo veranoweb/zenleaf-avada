@@ -332,3 +332,21 @@ div.tribe-events-calendar-month__calendar-event-tooltip-datetime{
 section .opening a:hover {
     background-color: transparent !important;
 }
+
+
+body {
+	@apply bg-white text-black;
+}
+
+.saboxplugin-authorname .vcard.author .fn, .fusion-image-wrapper a { 
+
+        outline-width: initial !important;
+    outline-style: initial !important;
+  &:focus {
+
+           outline-width: 2px !important;
+    outline-style: dotted !important;
+
+}
+}
+
