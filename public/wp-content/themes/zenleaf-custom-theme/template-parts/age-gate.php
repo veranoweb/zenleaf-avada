@@ -52,7 +52,7 @@
     function ragevAgeVerificationHide() {
         var ragevAgeVerificationModel = document.getElementById('age-verification');
         ragevAgeVerificationModel.style.display = 'none';
-        document.getElementsByTagName('body')[0].style.overflow = 'auto';
+        document.getElementsByTagName('html')[0].style.overflow = 'auto';
     }
 
     function ragevAgeVerificationShow() {
