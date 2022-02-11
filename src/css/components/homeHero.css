@@ -73,6 +73,8 @@
 
     .info_text {
         @apply tracking-wide leading-8 text-base;
+        max-width: 80vw;
+
         
     }
 

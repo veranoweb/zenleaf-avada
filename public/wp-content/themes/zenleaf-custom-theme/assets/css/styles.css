@@ -4265,6 +4265,7 @@ Future will have these toggles applied to the render of components directly, and
   font-size: 18px;
   line-height: 2rem;
   letter-spacing: 0.025em;
+  max-width: 80vw;
 }
 
 .shifted-background-image::before{
