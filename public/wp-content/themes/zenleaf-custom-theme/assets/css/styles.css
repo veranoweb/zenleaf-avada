@@ -4216,7 +4216,7 @@ Future will have these toggles applied to the render of components directly, and
 
 @media screen and (max-width: 570px) {
   .zenleaf-hero-text-container h1.action_text {
-    font-size: 34px !important
+    font-size: 2.25rem !important
   }
 }
 
