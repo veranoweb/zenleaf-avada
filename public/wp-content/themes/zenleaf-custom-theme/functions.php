@@ -461,9 +461,9 @@ function write_element_for_zenleaf_store_result($store)
     $output = "<div class='row glowrow state-" . $store->state_abbr . "'>";
     $output .= "<div class='zen-column-img'>";
     if ($store->subtitle && (strlen($store->subtitle) > 0)) {
-        $output .= "<img class='shop-now-thumbnail' alt='". $store->subtitle ."' src='" . $store->thumb_url . "'>";
+        $output .= "<img class='shop-now-thumbnail' alt='Photo of ". $store->subtitle ." Shop' src='" . $store->thumb_url . "'>";
     } else {
-        $output .= "<img class='shop-now-thumbnail' alt='". $store->name ."' src='" . $store->thumb_url . "'>";
+        $output .= "<img class='shop-now-thumbnail' alt='Photo of ". $store->name ." Shop' src='" . $store->thumb_url . "'>";
     }
     $output .= "</div>";
     $output .= "<div class='zen-column-address'>";
