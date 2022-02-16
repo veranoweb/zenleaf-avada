@@ -9,7 +9,7 @@
                 Are you at least 21 years old?*
             </p>
 
-            <div class="mt-2 mb-2 flex gap-4 max-w-xs mx-auto w-full justify-center">
+            <div class="mt-2 mb-2 flex max-w-xs mx-auto w-full justify-center space-x-4">
                 <button onclick="ragevAgeVerificationConfirm()" class="grow border-2 border-black  bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">YES</button>
                 <button onclick="ragevAgeVerificationFailed()" class="grow border-2 border-black bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">NO</button>
             </div>
