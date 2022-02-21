@@ -1,5 +1,5 @@
 <section id="age-verification" style="z-index: 9999999999;" class="fixed top-0 left-0 w-full h-screen flex overflow-hidden text-center sm:text-justify">
-    <img class="flex-auto w-1/2 object-cover sm:block hidden" src="/wp-content/uploads/2021/11/zen-leaf-building-age-gate.png" alt="Zen Leaf Storefront">
+    <img class="flex-auto w-1/2 object-cover sm:block hidden" src="/wp-content/uploads/2022/02/zen-leaf-building-age-gate.jpeg" alt="Zen Leaf Storefront">
     <div class="flex-auto w-1/2 flex items-center justify-center bg-white text-black">
         <div class="w-full max-w-sm px-5 pb-5 text-center">
             <img class="mx-auto mb-2" src="/wp-content/uploads/2021/12/zen-leaf-logo-262.svg" alt="Zen Leaf Dispensaries">
