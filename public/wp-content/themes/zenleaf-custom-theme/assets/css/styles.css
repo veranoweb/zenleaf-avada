@@ -1298,6 +1298,11 @@ video {
   color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration: underline;
 }
