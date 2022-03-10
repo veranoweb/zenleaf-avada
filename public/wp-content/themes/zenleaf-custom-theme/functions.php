@@ -153,7 +153,7 @@ function get_zenleaf_store_tiny_thumbnail($id)
 
 function get_zenleaf_store_hours($id)
 {
-    $store_hours_data = get_post_meta($id, 'wpsl_hours')[0];
+  /*  $store_hours_data = get_post_meta($id, 'wpsl_hours')[0];
 
     $today = new DateTime('NOW');
     $day_of_week = intval($today->format('w'));
@@ -207,7 +207,7 @@ function get_zenleaf_store_hours($id)
     } else {
         $final_string = 'Closed';
     }
-    return $final_string;
+    return $final_string; */
 }
 
 
