@@ -350,3 +350,17 @@ body {
 }
 }
 
+
+.hoursli {
+    grid-template-columns: 80px auto;
+  margin: 0 auto;
+  text-align:left;
+}
+
+#locationHeroHours {
+  display:grid;
+}
+
+#content a.no-underline {
+  text-decoration:none;
+}

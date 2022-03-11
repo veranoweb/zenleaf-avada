@@ -4028,6 +4028,11 @@ p.state_menu_option {
   text-decoration: none;
 }
 
+#content a.footer_link {
+  text-decoration:none;
+  text-decoration:none;
+}
+
 .footer_link:hover {
   color:white !important;
 }
@@ -5257,6 +5262,20 @@ section .opening a:hover {
   letter-spacing: 0.1em;
 }
 
+.hoursli {
+  grid-template-columns: 80px auto;
+  margin: 0 auto;
+  text-align:left;
+}
+
+#locationHeroHours {
+  display:grid;
+}
+
+#content a.no-underline {
+  text-decoration:none;
+}
+
 /*@import "./components/faq.css"; */
 
 .ctaPrimary {
@@ -6002,6 +6021,20 @@ body {
   outline-style: dotted !important;
 }
 
+.hoursli {
+  grid-template-columns: 80px auto;
+  margin: 0 auto;
+  text-align:left;
+}
+
+#locationHeroHours {
+  display:grid;
+}
+
+#content a.no-underline {
+  text-decoration:none;
+}
+
 @media (min-width: 768px) {
   .sm\:block {
     display: block;
@@ -6162,4 +6195,3 @@ body {
 
 @media (min-width: 1536px) {
 }
-
