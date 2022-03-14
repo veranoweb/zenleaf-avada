@@ -30,9 +30,10 @@
                             </svg>
                         </button>
                         <div class="dropdown-content hidden absolute z-50 bg-white p-4 w-80 -ml-6">
+                            <a href="/discounts" class="nav-sub-link">Discounts</a>
+                            <a href="/about/medical-faqs" class="nav-sub-link">Medical Marijuana FAQs</a>
                             <a href="/about" class="nav-sub-link">Our History</a>
                             <a href="/about/careers" class="nav-sub-link">Careers</a>
-                            <a href="/discounts" class="nav-sub-link">Discounts</a>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -113,8 +114,11 @@
                     </a>
                     <hr class="mb-4" />
 
+                    <a href="/discounts" class="nav-sub-link-m" role="menuitem" tabindex="-1">Discounts</a>
+                    <a href="/about/medical-faqs" class="nav-sub-link-m" role="menuitem" tabindex="-1">Medical Marijuana FAQs</a></p>
                     <a href="/about" class="nav-sub-link-m" role="menuitem" tabindex="-1">Our History</a>
                     <a href="/about/careers" class="nav-sub-link-m" role="menuitem" tabindex="-1">Careers</a></p>
+
                 </div>
                 <div class="mobile-sub-menu" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1" id="mobile-menu-learn">
                     <a href="#" class="back-to-main-m return-to-root" role="menuitem" tabindex="-1">
