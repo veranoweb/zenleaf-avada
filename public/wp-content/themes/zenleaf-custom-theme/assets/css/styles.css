@@ -6035,6 +6035,16 @@ body {
   text-decoration:none;
 }
 
+ol {
+  list-style-type: decimal;
+}
+
+ol li {
+  margin-bottom: 0.75rem;
+  margin-left: 1.25rem;
+  padding-left: 0.5rem;
+}
+
 @media (min-width: 768px) {
   .sm\:block {
     display: block;

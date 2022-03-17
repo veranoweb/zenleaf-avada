@@ -364,3 +364,10 @@ body {
 #content a.no-underline {
   text-decoration:none;
 }
+
+ol {
+	@apply list-decimal; 
+	li {
+		@apply ml-5 pl-2 mb-3;
+	}
+}
