@@ -469,9 +469,9 @@ function write_element_for_zenleaf_store_result($store)
     $output .= "<div class='zen-column-address'>";
     if ($store->url) {
         if ($store->subtitle && (strlen($store->subtitle) > 0)) {
-            $output .= "<a class='shop-link' href='".site_url().$store->url."'><p class='shop-name'>" . $store->subtitle . "</p></a>";
+            $output .= "<a class='shop-link' href='".$store->url."'><p class='shop-name'>" . $store->subtitle . "</p></a>";
         } else {
-            $output .= "<a class='shop-link' href='".site_url().$store->url."'><p class='shop-name'>" . $store->name . "</p></a>";
+            $output .= "<a class='shop-link' href='".$store->url."'><p class='shop-name'>" . $store->name . "</p></a>";
         }
     }
     else {
@@ -485,7 +485,7 @@ function write_element_for_zenleaf_store_result($store)
     $output .= "<p class='shop-hours'>" . $store->hours_today . "</p>";
     $output .= "</div>";
     $output .= "<div class='zen-column-shop-now'>";
-    $output .= "<a class='shop-here-button' href='" . site_url() . strtolower($store->url) . "'><span class='grey-text'>SHOP HERE</span>&nbsp;&nbsp;<i class='fa fa-angle-right' aria-hidden='true'></i></a>";
+    $output .= "<a class='shop-here-button' href='" .  strtolower($store->url) . "'><span class='grey-text'>SHOP HERE</span>&nbsp;&nbsp;<i class='fa fa-angle-right' aria-hidden='true'></i></a>";
     $output .= "</div>";
     $output .= "</div>";
     return $output;
@@ -520,7 +520,7 @@ function write_shop_card_container($content_array)
             $content .= write_empty_shop_card();
         }
         $content .= "<div style='flex-basis:100%;'></div>";
-    }
+    } 
     return "<div class='stores-in-state-container'>" . $content . "</div>";
 }
 
