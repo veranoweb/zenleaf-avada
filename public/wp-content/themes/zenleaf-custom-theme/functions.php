@@ -534,10 +534,10 @@ function write_shop_card_element($store)
 
     if ($store->url) {
         if ($store->subtitle && ($store->subtitle !== '')) {
-            $output .= "<a class='card-url' href='".site_url() . $store->url ."'><h3 class='card-title-text'>" . $store->subtitle . "</h3></a>";
+            $output .= "<a class='card-url' href='". $store->url ."'><h3 class='card-title-text'>" . $store->subtitle . "</h3></a>";
             $output .= "<h4 class='card-subtitle-text'>" . $store->city . "</h4>";
         } else {
-            $output .= "<a class='card-url' href='".site_url() . $store->url ."'><h3 class='card-title-text'>" . $store->city . "</h3></a>";
+            $output .= "<a class='card-url' href='" . $store->url ."'><h3 class='card-title-text'>" . $store->city . "</h3></a>";
             $output .= "<h4 class='card-subtitle-text'>" . $store->name . "</h4>";
         }
     } else {
