@@ -972,6 +972,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .content-center {
   align-content: center;
 }
@@ -1176,10 +1180,6 @@ video {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
-
 .align-middle {
   vertical-align: middle;
 }
@@ -1300,11 +1300,6 @@ video {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 .underline {
@@ -4115,7 +4110,7 @@ p.state_menu_option {
 }
 
 .disclaimer_container, .footer_menu_text_disclaimer  {
-  text-align:left !important;
+  text-align:center;
 }
 
 @media screen and (max-width: 800px) {
@@ -4145,9 +4140,9 @@ p.state_menu_option {
 Future will have these toggles applied to the render of components directly, and not be CSS based but react based logic
 */
 
-.state_AR, .state_MD, .state_MI {
+.state_AR, .state_MD, .state_MI, .state_MA {
   display: none;
-}
+} 
 
 .state_AR.state_show, .state_MD.state_show, .state_MI.state_show {
   display: inherit;
