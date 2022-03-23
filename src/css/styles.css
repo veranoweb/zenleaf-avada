@@ -352,7 +352,7 @@ body {
 
 
 .hoursli {
-    grid-template-columns: 80px auto;
+    grid-template-columns: 100px auto;
   margin: 0 auto;
   text-align:left;
 }
@@ -440,4 +440,8 @@ element.style {
     
     background-color: transparent !important;
  
+}
+
+.hover:text-white {
+	@apply hover:text-white;
 }

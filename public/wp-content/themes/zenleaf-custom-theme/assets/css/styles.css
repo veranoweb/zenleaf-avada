@@ -6022,7 +6022,7 @@ body {
 }
 
 .hoursli {
-  grid-template-columns: 80px auto;
+  grid-template-columns: 100px auto;
   margin: 0 auto;
   text-align:left;
 }
@@ -6111,6 +6111,11 @@ element.style {
 
 .store-toggles.fusion-accordian .panel-title .active .fa-fusion-box::before {
   background-color: transparent !important;
+}
+
+.hover:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
