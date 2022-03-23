@@ -4142,9 +4142,9 @@ Future will have these toggles applied to the render of components directly, and
 
 .state_AR, .state_MD, .state_MI, .state_MA {
   display: none;
-} 
+}
 
-.state_AR.state_show, .state_MD.state_show, .state_MI.state_show {
+.state_AR.state_show, .state_MD.state_show, .state_MI.state_show, .state_MA.state_show {
   display: inherit;
 }
 
@@ -6038,6 +6038,47 @@ ol li {
   margin-bottom: 0.75rem;
   margin-left: 1.25rem;
   padding-left: 0.5rem;
+}
+
+.fusion-accordian .panel-heading a {
+  font-family: 'Nourd-Bold';
+  font-size:18px;
+}
+
+element.style {
+}
+
+.fusion-accordian .fusion-panel {
+  background-color: #ededed !important;
+}
+
+.fusion-accordian .fusion-panel {
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid #e5e4e3;
+  border-radius: 0;
+  background-clip: padding-box;
+}
+
+.fusion-accordian .fusion-panel, .fusion-title.sep-underline, .fusion-title .title-sep {
+  border-color: #e2e2e2;
+}
+
+.fusion-accordian .fusion-panel {
+  background-color: #ededed !important;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fusion-accordian #accordion-15774-1 .panel-title a .fa-fusion-box {
+  color: #000;
+}
+
+.store-toggles.fusion-accordian .panel-title .fa-fusion-box:before {
+  background-color: #ededed !important;
 }
 
 @media (min-width: 768px) {

@@ -2,10 +2,10 @@
 Future will have these toggles applied to the render of components directly, and not be CSS based but react based logic
 */
 
-.state_AR, .state_MD, .state_MI {
+.state_AR, .state_MD, .state_MI, .state_MA {
     display: none;
 }
 
-.state_AR.state_show, .state_MD.state_show, .state_MI.state_show {
+.state_AR.state_show, .state_MD.state_show, .state_MI.state_show, .state_MA.state_show {
     display: inherit;
 }
