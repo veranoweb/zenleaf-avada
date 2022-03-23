@@ -6049,7 +6049,7 @@ element.style {
 }
 
 .fusion-accordian .fusion-panel {
-  background-color: #ededed !important;
+  background-color: #f2f5f4 !important;
 }
 
 .fusion-accordian .fusion-panel {
@@ -6061,11 +6061,11 @@ element.style {
 }
 
 .fusion-accordian .fusion-panel, .fusion-title.sep-underline, .fusion-title .title-sep {
-  border-color: #e2e2e2;
+  border-color: #f2f5f4;
 }
 
 .fusion-accordian .fusion-panel {
-  background-color: #ededed !important;
+  background-color: #f2f5f4 !important;
   margin-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -6078,7 +6078,7 @@ element.style {
 }
 
 .store-toggles.fusion-accordian .panel-title .fa-fusion-box:before {
-  background-color: #ededed !important;
+  background-color: #f2f5f4 !important;
 }
 
 .store-toggles span.fusion-toggle-icon-wrapper {
