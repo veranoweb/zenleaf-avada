@@ -411,3 +411,33 @@ element.style {
 .store-toggles.fusion-accordian .panel-title .fa-fusion-box:before {
 	background-color: #ededed !important;
 }
+
+.store-toggles span.fusion-toggle-icon-wrapper {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.fusion-accordian #accordion-15774-1 .panel-title a .fa-fusion-box {
+    color: #000 !important;
+}
+
+.store-toggles span.fusion-toggle-icon-wrapper:hover {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.fusion-accordian .panel-heading a {
+	font-family: 'Nourd-Bold' !important;
+
+}
+
+.store-toggles.fusion-accordian .panel-title .fa-fusion-box {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.store-toggles.fusion-accordian .panel-title .active .fa-fusion-box::before {
+    
+    background-color: transparent !important;
+ 
+}
