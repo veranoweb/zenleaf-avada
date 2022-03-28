@@ -5785,8 +5785,12 @@ a:focus {
 }
 
 gform_wrapper .button, .gform_wrapper .gform_button {
-  background:black;
-  color:white;
+  background:black !important;
+  color:white !important;
+}
+
+.gform_submission_error {
+  font-size: 20px !important;
 }
 
 /* 
