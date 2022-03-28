@@ -5784,6 +5784,11 @@ a:focus {
   outline-color: #000;
 }
 
+gform_wrapper .button, .gform_wrapper .gform_button {
+  background:black;
+  color:white;
+}
+
 /* 
 /* Single Menu
 
