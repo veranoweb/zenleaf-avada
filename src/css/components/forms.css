@@ -6,3 +6,8 @@ gform_wrapper .button, .gform_wrapper .gform_button {
 .gform_submission_error {
     font-size: 20px !important;
 }
+
+.gfield input {
+    text-align: left;
+    color:black !important;
+}
