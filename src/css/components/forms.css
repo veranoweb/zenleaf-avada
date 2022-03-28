@@ -7,7 +7,7 @@ gform_wrapper .button, .gform_wrapper .gform_button {
     font-size: 20px !important;
 }
 
-.gfield input {
+.gfield input, .gform_wrapper .gfield select {
     text-align: left;
     color:black !important;
 }
