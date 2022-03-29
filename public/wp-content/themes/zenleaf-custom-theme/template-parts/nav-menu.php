@@ -47,7 +47,7 @@
                             <a href="/learn" class="nav-sub-link">Getting Started</a><a href="/state-resources" class="nav-sub-link">Resources by State</a>
                             <a href="/learn/cannabis-products/" class="nav-sub-link">Cannabis Products</a>
                             <a href="/learn/strain-guide" class="nav-sub-link">Cannabis Strain Guide</a>
-                            <a href="/learn/terpene guide" class="nav-sub-link">Terpene Guide</a>
+                            <a href="/learn/terpene-guide" class="nav-sub-link">Terpene Guide</a>
                             <a href="/learn/administration-methods" class="nav-sub-link">Administration Methods</a>
                             <a href="/learn/cannabis-glossary" class="nav-sub-link">Cannabis Glossary</a>
                         </div>
