@@ -73,3 +73,14 @@
 #content a.no-underline {
   text-decoration:none;
 } 
+
+
+
+@media only screen and (max-width: 800px){
+    .card.no-mobile {
+        display: none;
+    }
+    .card {
+        height: 450px;
+    }
+} 
