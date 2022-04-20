@@ -931,7 +931,7 @@ function get_store_from_url()
 
 
 function myfunction_is_hundred_percent_template() {
-    if (is_page_template( array('100-width.php','page-full-width-blank.php') ) ){
+    if (is_page_template( array('100-width.php','page-full-width-blank.php', "get-a-card.php") ) ){
     $value=true;
     }
     return $value;
