@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Get a Card Help
+ * Template Name: Get a Card Help - New Jersey
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
@@ -168,9 +168,9 @@ jQuery(document).ready(function() {
                         <select name="location" id="location" class="block w-full pl-3 pr-10 py-2 text-base border-gray-500 focus:outline-none focus:ring-black focus:border-black sm:text-sm rounded-md" style="border:1px solid #747474; font-size:18px; color:black;" required>
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
 
-                            <option value="elizabeth" class="text-black text-base py-2">Elizabeth</option>
-                            <option value="lawrence" class="text-black text-base py-2">Lawrence Township</option>
-                            <option value="neptune" class="text-black text-base py-2">Neptune Township</option>
+                            <option value="NJ002" class="text-black text-base py-2">Elizabeth</option>
+                            <option value="NJ003" class="text-black text-base py-2">Lawrence Township</option>
+                            <option value="NJ001" class="text-black text-base py-2">Neptune Township</option>
                         </select>
                     </div>
                 </div>

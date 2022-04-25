@@ -931,7 +931,7 @@ function get_store_from_url()
 
 
 function myfunction_is_hundred_percent_template() {
-    if (is_page_template( array('100-width.php','page-full-width-blank.php', "get-a-card.php") ) ){
+    if (is_page_template( array('100-width.php','page-full-width-blank.php', "get-a-card.php", "get-a-card-az.php", "get-a-card-ct.php", "get-a-card-il.php", "get-a-card-ma.php", "get-a-card-md.php", "get-a-card-mi.php", "get-a-card-nj.php", "get-a-card-oh.php", "get-a-card-oh.php", "get-a-card-pa.php", "get-a-card-wv.php") ) ){
     $value=true;
     }
     return $value;

@@ -23,12 +23,15 @@
         margin-top: 40px;
 
         @apply bg-black border-white;
+        background-color:black !important;
+        border-color:white !important;
+
         &.button-1 {
             @apply bg-black border-white;
         }
 
         &:hover {
-            
+              
         }
 
         .fusion-button-text {

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Get a Card Help
+ * Template Name: Get a Card Help - Michigan
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
@@ -82,14 +82,14 @@ get_header();
 jQuery(document).ready(function() {
     //set initial state.
     jQuery('#user_consent').val(this.checked);
-    jQuery('#state').val("NJ");
+    jQuery('#state').val("MI");
 
     jQuery('#agree').change(function() {
         jQuery('#user_consent').val(this.checked);     
         var today = new Date();
         var date = (today.getMonth()+1)+' / '+today.getDate()+' / '+today.getFullYear();
         document.getElementById("UsrConsentDate").value = date;
-        document.getElementById("state").value = "NJ";
+        document.getElementById("state").value = "MI";
     });
 });
 
@@ -97,8 +97,8 @@ jQuery(document).ready(function() {
 
 <div class="w-full bg-gray-100 text-black">
     <div class="max-w-5xl mx-auto py-6 px-4">    
-        <h1 class="text-3xl font-subheading normal-case text-center leading-normal" style="line-height:1.2em;">Get Help Becoming a <span class="block lg:inline">New Jersey</span> <span class="block lg:inline">Medical Cannabis Patient</span></h1>
-        <p class="text-lg lg:text-xl  mb-3 text-center mx-auto max-w-md lg:max-w-none" >Wondering how to get your medical cannabis card in New Jersey? <span class="lg:block">Curious as to what the qualifying conditions, purchase limits, and fees are?</span>
+        <h1 class="text-3xl font-subheading normal-case text-center leading-normal" style="line-height:1.2em;">Get Help Becoming a <span class="block lg:inline">Michigan</span> <span class="block lg:inline">Medical Marihuana Patient</span></h1>
+        <p class="text-lg lg:text-xl  mb-3 text-center mx-auto max-w-md lg:max-w-none" >Wondering how to get your medical marihuana card in Michigan? <span class="lg:block">Curious as to what the qualifying conditions, purchase limits, and fees are?</span>
 </p>
 
         <p class="text-xl font-bold mb-4 text-center">We are here to help.</p>
@@ -163,14 +163,12 @@ jQuery(document).ready(function() {
                 </div>
                 <div class="mb-2">
                     <div class="mt-1 mb-2">
-                    <input type="hidden" id="state" name="state" value="NJ" >
+                    <input type="hidden" id="state" name="state" value="MI" >
                         <label for="location" class="uppercase">Preferred Location:</label>
                         <select name="location" id="location" class="block w-full pl-3 pr-10 py-2 text-base border-gray-500 focus:outline-none focus:ring-black focus:border-black sm:text-sm rounded-md" style="border:1px solid #747474; font-size:18px; color:black;" required>
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
+                            <option value="MI001" class="text-black text-base py-2">Buchanan</option>
 
-                            <option value="elizabeth" class="text-black text-base py-2">Elizabeth</option>
-                            <option value="lawrence" class="text-black text-base py-2">Lawrence Township</option>
-                            <option value="neptune" class="text-black text-base py-2">Neptune Township</option>
                         </select>
                     </div>
                 </div>
@@ -190,7 +188,7 @@ jQuery(document).ready(function() {
                         </div>
                         <div class="ml-3 text-sm">
                             <label for="agree" class="font-medium text-gray-700 tracking-wider">
-                                By clicking Agree and Submit, I hereby agree and consent to have the Zen Leaf Outreach Team securely and electronically store and use my personal contact information which I have provided to contact me by telephone and/or e-mail to provide me with information, for informational purposes only, regarding the medical cannabis program and how to obtain a medical cannabis card in my state of residency.
+                                By clicking Agree and Submit, I hereby agree and consent to have the Zen Leaf Outreach Team securely and electronically store and use my personal contact information which I have provided to contact me by telephone and/or e-mail to provide me with information, for informational purposes only, regarding the medical marihuana program and how to obtain a medical marihuana card in my state of residency.
                             </label>
                         </div>
                         

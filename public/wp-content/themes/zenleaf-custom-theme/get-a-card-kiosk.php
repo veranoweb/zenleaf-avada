@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Template Name: Get a Card Help
+ * Template Name: Get a Card Help (Kiosk)
  *
  * @package WordPress
  * @subpackage Twenty_Fourteen
  * @since Twenty Fourteen 1.0
  */
 
-get_header();
+//get_header();
 
 ?>
 
@@ -38,11 +38,11 @@ get_header();
             "Commentary": "css-selector", // Notes
             "UsrCaregiverName": "css-selector", // Caregiver name
             "UsrPhysician": "css-selector", // Physician
-            "RegionStr": "#state", // State
+            "Region": "#state", // State
             "UsrRefStore": "#location", // Ref Store
             "UsrPreferredContMethod": "#contactMethod",
             "UsrHowCanWeHelp": "#UsrHowCanWeHelp",
-            "UsrConsentDate": "#UsrConsentDate",
+            "UsrConsentDate": "#date",
             "UsrConsentString": "#user_consent",
 
         },
@@ -82,14 +82,12 @@ get_header();
 jQuery(document).ready(function() {
     //set initial state.
     jQuery('#user_consent').val(this.checked);
-    jQuery('#state').val("NJ");
 
     jQuery('#agree').change(function() {
         jQuery('#user_consent').val(this.checked);     
         var today = new Date();
         var date = (today.getMonth()+1)+' / '+today.getDate()+' / '+today.getFullYear();
         document.getElementById("UsrConsentDate").value = date;
-        document.getElementById("state").value = "NJ";
     });
 });
 
@@ -163,7 +161,7 @@ jQuery(document).ready(function() {
                 </div>
                 <div class="mb-2">
                     <div class="mt-1 mb-2">
-                    <input type="hidden" id="state" name="state" value="NJ" >
+                    <input type="hidden" id="state" name="state" value="New Jersey" class="block" required>
                         <label for="location" class="uppercase">Preferred Location:</label>
                         <select name="location" id="location" class="block w-full pl-3 pr-10 py-2 text-base border-gray-500 focus:outline-none focus:ring-black focus:border-black sm:text-sm rounded-md" style="border:1px solid #747474; font-size:18px; color:black;" required>
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
@@ -203,5 +201,5 @@ jQuery(document).ready(function() {
 
 
 <?php
-get_footer();
+//get_footer();
 ?>
