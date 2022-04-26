@@ -54,7 +54,7 @@ get_header();
         customFields: {},
         landingId: "ffa79aef-613f-4429-8372-d19d51e8c8ff",
         serviceUrl: "https://verano.creatio.com:443/0/ServiceModel/GeneratedObjectWebFormService.svc/SaveWebFormObjectData",
-        redirectUrl: "https://www.zenleafdispensaries.com/card-help-success"
+        redirectUrl: "https://oh.zenleafdispensaries.com/card-help-success"
     };
     /**
      * The function below creates a object from the submitted data.
