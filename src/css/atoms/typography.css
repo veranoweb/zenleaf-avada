@@ -1,25 +1,25 @@
 .avada-text-sm {
-    @apply text-sm;
+    @apply text-sm !important;
 }
 
 .avada-text-xs {
-    @apply text-xs;
+    @apply text-xs !important;
 }
 
 .avada-text-base {
-    @apply text-base;
+    @apply text-base !important;
 }
 
 .avada-text-lg {
-    @apply text-lg;
+    @apply text-lg !important;
 }
 
 .avada-text-xl {
-    @apply text-xl;
+    @apply text-xl !important;
 }
 
 .avada-text-2xl {
-    @apply text-2xl;
+    @apply text-2xl !important;
 }
 
 /* Move, found on /state-resources/ */
