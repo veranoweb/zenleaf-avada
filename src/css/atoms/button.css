@@ -2,6 +2,16 @@
     text-decoration: none;
 }
 
+.fusion-body .fusion-button.button-3 {
+    @apply bg-black;
+    .fusion-button-text {
+        @apply text-white;
+        i {
+            @apply text-white;
+        }
+    }
+
+} 
 
 .zen_button {
     font: normal normal bold 18px/22px FiraSansCondensed-Regular;
