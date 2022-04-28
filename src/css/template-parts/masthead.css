@@ -446,3 +446,6 @@ div.sub_order_now_menu>div.row>div.zen-column-shop-now {
 }
 
 
+nav .dropdown button svg {
+    margin-top: 6px !important;
+}
