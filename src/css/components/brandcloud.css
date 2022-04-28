@@ -35,6 +35,11 @@
         @media screen and (max-width:800px) {
             max-height:fit-content;
         }
+
+        .fusion-builder-row {
+            align-items: center !important;
+            justify-content: center  !important;
+        }
     }
 
 .fusion-breadcrumbs.fusion-breadcrumbs-1 a{
