@@ -4,7 +4,7 @@
 
     h1 {
         @apply text-white text-center tracking-widest;
-        letter-spacing:.3em !important;
+        letter-spacing:.125em !important;
         
         &.track-tighter {
             letter-spacing:0 !important;
