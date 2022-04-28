@@ -8,7 +8,7 @@
                     <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
-                    <span class="ml-2 uppercase text-sm sm:text-base">Menu</span>
+                    <span class="ml-2 uppercase text-base sm:text-base">Menu</span>
                 </button>
             </div>
             <div class="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start">
@@ -59,12 +59,12 @@
             <div class="absolute inset-y-0 right-0 flex items-center pr-2">
                 <div class="relative">
                     <div class="flex space-x-4 ml-4">
-                        <a href="/locations" class="text-black px-3 py-2 rounded-md text-sm font-medium uppercase tracking-widest hidden lg:block lg:text-base hover:bg-gray-200 hover:underline group" id="locations-megamenu-button" aria-haspopup="true">
+                        <a href="/locations" class="text-black px-3 py-2 rounded-md text-base font-medium uppercase tracking-widest hidden lg:block lg:text-base hover:bg-gray-200 hover:underline group" id="locations-megamenu-button" aria-haspopup="true">
                             <span class="hidden xl:inline-block group-hover:underline">Store</span> Locations
                         </a>
                         <!-- Shop Button -->
                         <div class="dropdown">
-                            <button class="bg-black hover:bg-white ring-gray-700 border-solid border-2 border-black hover:text-black text-sm py-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white text-white px-4 sm:px-8 uppercase inline-flex items-center rounded-md tracking-widest sm:text-base lg:mt-2 font-bold group" id="user-menu-button" aria-haspopup="true">
+                            <button class="bg-black hover:bg-white ring-gray-700 border-solid border-2 border-black hover:text-black text-base py-2 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white text-white px-4 sm:px-8 uppercase inline-flex items-center rounded-md tracking-widest sm:text-base lg:mt-2 font-bold group" id="user-menu-button" aria-haspopup="true">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2 hidden sm:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                                 </svg>
