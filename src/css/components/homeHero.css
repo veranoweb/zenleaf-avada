@@ -30,6 +30,8 @@
     }
 
 
+
+
     
     @media screen and (max-width: 640px) {
         .fusion-builder-column-5 {
@@ -54,7 +56,7 @@
 
     /* FIND YOUR ZEN */
     h1.action_text { 
-        @apply text-black text-6xl uppercase !important;
+        @apply text-black text-4xl uppercase !important;
         letter-spacing: 4px;
         @media screen and (max-width: 570px) {
         
@@ -80,6 +82,12 @@
 
 
 
+}
+
+.homeHero {
+    h1 {
+        font-family: Norwester !important;
+    }
 }
 
 
