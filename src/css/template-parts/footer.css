@@ -6,7 +6,7 @@
 
 
     .footer_menu_text_action {
-
+        @apply font-heading;
     }
 
 
