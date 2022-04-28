@@ -52,7 +52,7 @@ get_header();
             "Email": "css-selector" // Contact's email
         },
         customFields: {},
-        landingId: "ffa79aef-613f-4429-8372-d19d51e8c8ff",
+        landingId: "4b9f8695-460f-43d5-a3d4-0467589194be",
         serviceUrl: "https://verano.creatio.com:443/0/ServiceModel/GeneratedObjectWebFormService.svc/SaveWebFormObjectData",
         redirectUrl: "https://oh.zenleafdispensaries.com/card-help-success"
     };
@@ -128,7 +128,7 @@ jQuery(document).ready(function() {
                             <option value="both" class="text-black text-base py-2">Both</option>
                         </select>
                 </div>
-                <input type="hidden" name="fullname" id="fullname">
+                
             </div>
             <div class="grid lg:grid-cols-2 gap-4 mt-2 lg:mt-0">
             <div class="mb-2">

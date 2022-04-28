@@ -168,10 +168,8 @@ jQuery(document).ready(function() {
                         <select name="location" id="location" class="block w-full pl-3 pr-10 py-2 text-base border-gray-500 focus:outline-none focus:ring-black focus:border-black sm:text-sm rounded-md" style="border:1px solid #747474; font-size:18px; color:black;" required>
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
                             <option value="IL003" class="text-black text-base py-2">Aurora</option>
-                            <option value="IL004" class="text-black text-base py-2">Charleston</option>
                             <option value="IL011" class="text-black text-base py-2">Chicago (Rogers Park)</option>
                             <option value="IL009" class="text-black text-base py-2">Chicago (West Loop)</option>
-                            <option value="IL001" class="text-black text-base py-2">Elizabeth</option>
                             <option value="IL002" class="text-black text-base py-2">Evanston</option>
                             <option value="IL006" class="text-black text-base py-2">Highland Park</option>
                             <option value="IL007" class="text-black text-base py-2">Lombard</option>

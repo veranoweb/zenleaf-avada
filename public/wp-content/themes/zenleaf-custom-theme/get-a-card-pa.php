@@ -166,21 +166,21 @@ jQuery(document).ready(function() {
                     <input type="hidden" id="state" name="state" value="PA" >
                         <label for="location" class="uppercase">Preferred Location:</label>
                         <select name="location" id="location" class="block w-full pl-3 pr-10 py-2 text-base border-gray-500 focus:outline-none focus:ring-black focus:border-black sm:text-sm rounded-md" style="border:1px solid #747474; font-size:18px; color:black;" required>
-                            <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>                            <option value="PA001" class="text-black text-base py-2">Harrisburg</option>
-                            <option value="PA002" class="text-black text-base py-2">York</option>
-                            <option value="PA003" class="text-black text-base py-2">West Chester</option>
-                            <option value="PA004" class="text-black text-base py-2">Altoona</option>
+                            <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>                            
                             <option value="PA008" class="text-black text-base py-2">Abington</option>
-                            <option value="PA009" class="text-black text-base py-2">Malvern</option>
-                            <option value="PA010" class="text-black text-base py-2">Sellersville</option>
-                            <option value="PA011" class="text-black text-base py-2">Cranberry</option>
-                            <option value="PA012" class="text-black text-base py-2">Monroeville</option>
-                            <option value="PA013" class="text-black text-base py-2">Washington</option>
+                            <option value="PA004" class="text-black text-base py-2">Altoona</option>
                             <option value="PA014" class="text-black text-base py-2">Chester</option>
+                            <option value="PA011" class="text-black text-base py-2">Cranberry Township</option>
+                            <option value="PA001" class="text-black text-base py-2">Harrisburg</option>
+                            <option value="PA009" class="text-black text-base py-2">Malvern</option>
+                            <option value="PA012" class="text-black text-base py-2">Monroeville</option>
+                            <option value="PA016" class="text-black text-base py-2">Philadelphia</option>
                             <option value="PA015" class="text-black text-base py-2">Pittsburgh / Robinson</option>
-
-
-                        </select>
+                            <option value="PA010" class="text-black text-base py-2">Sellersville</option>
+                            <option value="PA013" class="text-black text-base py-2">Washington</option>
+                            <option value="PA003" class="text-black text-base py-2">West Chester</option>
+                            <option value="PA002" class="text-black text-base py-2">York</option>
+                         </select>
                     </div>
                 </div>
                 
