@@ -97,8 +97,8 @@ jQuery(document).ready(function() {
 
 <div class="w-full bg-gray-100 text-black">
     <div class="max-w-5xl mx-auto py-6 px-4">    
-        <h1 class="text-3xl font-subheading normal-case text-center leading-normal" style="line-height:1.2em;">Get Help Becoming an Ohio <span class="block lg:inline">Medical Marijuana Patient</span></h1>
-        <p class="text-lg lg:text-xl  mb-3 text-center mx-auto max-w-md lg:max-w-none" >Wondering how to get your medical marijuana card in Ohio? <span class="lg:block">Curious as to what the qualifying conditions, purchase limits, and fees are?</span>
+        <h1 class="text-xl font-subheading normal-case text-center leading-normal" style="line-height:1.2em;">Get Help Becoming an Ohio <span class="block lg:inline">Medical Marijuana Patient</span></h1>
+        <p class="text-lg  mb-3 text-center mx-auto max-w-md lg:max-w-none" >Wondering how to get your medical marijuana card in Ohio? <span class="lg:block">Curious as to what the qualifying conditions, purchase limits, and fees are?</span>
 </p>
 
         <p class="text-xl font-bold mb-4 text-center">We are here to help.</p>
@@ -155,7 +155,7 @@ jQuery(document).ready(function() {
                         <select name="UsrHowCanWeHelp" id="UsrHowCanWeHelp" class="block w-full pl-3 pr-10 py-2 text-base border-gray-500 focus:outline-none focus:ring-black focus:border-black sm:text-sm rounded-md" style="border:1px solid #747474; font-size:18px; color:black;" required>
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
 
-                            <option value="New Patient" class="text-black text-base py-2">I am a new patient</option>
+                            <option value="New Patient" class="text-black text-base py-2">I need information on how to apply for my medical card</option>
                             <option value="Renewal" class="text-black text-base py-2">I need help renewing my card</option>
                             <option value="Other" class="text-black text-base py-2">Other</option>
                         </select>
