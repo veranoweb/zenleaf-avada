@@ -16,3 +16,10 @@
 .wpsl-error.pac-target-input {
     border: 2px solid #bd0028 !important;
 }
+
+.ctaLocation a.fusion-button.button-1 {
+    @apply bg-white text-black !important;
+    .fusion-button-text {
+        @apply text-black !important;
+    }
+}

@@ -22,12 +22,12 @@
         
         margin-top: 40px;
 
-        @apply bg-black border-white;
+        @apply bg-gray-900 border-white;
         background-color:black !important;
         border-color:white !important;
 
         &.button-1 {
-            @apply bg-black border-white;
+            @apply bg-gray-900 border-white;
         }
 
         &:hover {

@@ -16,7 +16,7 @@
  }
  .zen_button {
      margin-top:10px;
-     @apply bg-black border-black text-white;
+     @apply bg-gray-900 border-gray-900 text-white;
      border-color:black !important;
      line-height:30px !important;
 

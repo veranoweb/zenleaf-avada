@@ -1,0 +1,396 @@
+import { getNextStaticProps } from "@faustjs/next";
+import { GetStaticPropsContext } from "next";
+import { useRouter } from "next/router";
+import { client, DealIdType } from "../../client";
+import Head from "next/head";
+import { Footer, Header } from "../../components";
+import Link from "next/link";
+import { SkipNavContent } from "@reach/skip-nav";
+import Image from "next/image";
+import Moment from "react-moment";
+import "moment-timezone";
+
+export default function DealSingle() {
+  const router = useRouter();
+  const { dealSlug } = router.query;
+  const { useQuery } = client;
+  const generalSettings = useQuery().generalSettings;
+
+  const deal = useQuery().deal({
+    id: Array.isArray(dealSlug) ? dealSlug.join("/") : dealSlug,
+    idType: DealIdType.SLUG,
+  });
+  // TODO: Show actual 404 page when there is no matching deal
+  if (!deal) return <>404</>;
+
+  const todayDate = new Date();
+  const dayTwoDate = new Date(todayDate.getTime() + 86400000);
+  const dayThreeDate = new Date(todayDate.getTime() + 86400000 * 2);
+  const dayFourDate = new Date(todayDate.getTime() + 86400000 * 3);
+  const dayFiveDate = new Date(todayDate.getTime() + 86400000 * 4);
+
+  function isDateMatch(date, matchDate) {
+    const otherDate = new Date(date);
+
+    if (
+      otherDate.getDate() === matchDate.getDate() &&
+      otherDate.getMonth() === matchDate.getMonth() &&
+      otherDate.getFullYear() === matchDate.getFullYear()
+    ) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  let todayDeal = false;
+  let dayTwoDeal = false;
+  let dayThreeDeal = false;
+  let dayFourDeal = false;
+  let dayFiveDeal = false;
+
+  deal.deals.date.map(function (deal) {
+    if (isDateMatch(deal.date, todayDate)) {
+      todayDeal = true;
+    }
+  });
+
+  deal.deals.date.map(function (deal) {
+    if (isDateMatch(deal.date, dayTwoDate)) {
+      dayTwoDeal = true;
+    }
+  });
+
+  deal.deals.date.map(function (deal) {
+    if (isDateMatch(deal.date, dayThreeDate)) {
+      dayThreeDeal = true;
+    }
+  });
+
+  deal.deals.date.map(function (deal) {
+    if (isDateMatch(deal.date, dayFourDate)) {
+      dayFourDeal = true;
+    }
+  });
+
+  deal.deals.date.map(function (deal) {
+    if (isDateMatch(deal.date, dayFiveDate)) {
+      dayFiveDeal = true;
+    }
+  });
+
+  function KlaviyoForm() {
+    return (
+      <>
+       
+        
+      </>
+    );
+  }
+
+  return (
+    <>
+      <Head>
+        <title>
+          {generalSettings.title} - {generalSettings.description}
+        </title>
+      </Head>
+      <Header
+        title={generalSettings.title}
+        description={generalSettings.description}
+      />
+
+      <SkipNavContent />
+      {}
+      <main className="content text-eeire-black">
+        <section id="hero" className="">
+          <div className="mx-auto max-w-7xl relative">
+            <div className="px-4 lg:px-none md:h-[375px] lg:h-[500px] mt-4  flex flex-col md:block">
+              <div className="text-left lg:max-w-2xl bg-white bg-opacity-80 px-4 py-8 md:px-12 lg:p-16 rounded md:absolute md:top-1/2 md:-translate-y-1/2 z-20 backdrop-blur-lg ">
+                <h1 className="mt-1 text-2xl md:text-3xl lg:text-4xl font-extrabold text-gray-900  capitalize block font-subheading lg:max-w-sm ">
+                  Cannabis Deals in Arizona
+                </h1>
+                <p className="mt-5 text-lg lg:text-xl text-gray-500 block mb-6 max-w-sm">
+                  Consider this your guide to the best cannabis deals in the
+                  state of Arizona.
+                </p>
+                <Link href="/shop/az">
+                  <a className="bg-moss-green  px-12 py-2 rounded text-white tracking-widest hover:bg-moss-green-dark hover:no-underline border-2 border-moss-green transition-all duration-100 inline-block hover:text-white hover:shadow-xl uppercase">
+                    Shop Now
+                  </a>
+                </Link>
+              </div>
+              <div className="bg-black md:absolute z-10 right-0 md:h-[375px] md:w-[675px] lg:h-[500px] lg:w-[900px] rounded">
+                <Image
+                  src="https://admin.zenleafdispensaries.com/wp-content/uploads/2022/04/az-deals-header.jpg"
+                  width={900}
+                  height={500}
+                  className="rounded"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="infoBlock-imageRight">
+          <div className="container mx-auto py-20">
+            <div className="lg:text-center max-w-3xl mx-auto">
+              <h2 className="tracking-widest">Arizona Marijuana Deals</h2>
+              <p className="">
+                If you’re looking to save on the best cannabis products in the
+                state, you’ve come to the right place. Take a look at our week
+                of marijuana deals, available statewide at Arizona Zen Leaf
+                Dispensaries.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 container mb-20 gap-4">
+          {todayDeal && (
+            <div>
+              <div className="border-4 border-moss-green rounded p-4 lg:shadow-xl lg:scale-x-105 px-4 ">
+                <h3>Today</h3>
+                <h4 className="mb-4 text-base ">
+                  <strong>
+                    <Moment format="dddd, MMMM Do" tz="America/Phoenix">
+                      {todayDate}
+                    </Moment>
+                  </strong>
+                </h4>
+                <ul class="list-none	">
+                  {deal.deals.date.map(function (deal) {
+                    if (isDateMatch(deal.date, todayDate)) {
+                      let link =
+                        "/shop/az/";
+                      if (deal.itmCampaign) {
+                        let link =
+                          "/shop/az/?" +
+                          deal.itmCampaign;
+                      }
+                      return (
+                        <>
+                          <li
+                            className=" border-t border-davys-grey border-opacity-30 py-4"
+                            key={Math.random().toString(36).substr(2, 9)}
+                          >
+                            <Link href={link}>
+                              <a className="flex gap-4 text-eeire-black">
+                                <h5 className="text-xl text-center align-self my-0 mb-0 pb-0 py-0 flex items-center justify-center min-w-[100px]  max-w-[100px] ">
+                                  {deal.largeText}
+                                </h5>
+                                <p className="text-sm grow">{deal.smallText}</p>
+                              </a>
+                            </Link>
+                          </li>
+                        </>
+                      );
+                    }
+                  })}
+                </ul>
+              </div>
+            </div>
+          )}
+          {dayTwoDeal && (
+            <div className="">
+              <div className="border border-opacity-40 border-eeire-black rounded p-4 hover:shadow-xl">
+                <h3 className="mb-4 text-base ">
+                  <strong>
+                    <Moment format="dddd, MMMM Do" tz="America/Phoenix">
+                      {dayTwoDate}
+                    </Moment>
+                  </strong>
+                </h3>
+                <ul>
+                  {deal.deals.date.map(function (deal) {
+                    if (isDateMatch(deal.date, dayTwoDate)) {
+                      let link =
+                        "/shop/az/";
+                      if (deal.itmCampaign) {
+                        let link =
+                          "/shop/az/?" +
+                          deal.itmCampaign;
+                      }
+                      return (
+                        <>
+                          <li
+                            className=" border-t border-davys-grey border-opacity-30 py-4"
+                            key={Math.random().toString(36).substr(2, 9)}
+                          >
+                            <Link href={link}>
+                              <a className="flex gap-4 text-eeire-black">
+                                <h5 className="text-xl text-center align-self my-0 mb-0 pb-0 py-0 flex items-center justify-center min-w-[100px]  max-w-[100px] ">
+                                  {deal.largeText}
+                                </h5>
+                                <p className="text-sm grow">{deal.smallText}</p>
+                              </a>
+                            </Link>
+                          </li>
+                        </>
+                      );
+                    }
+                  })}
+                </ul>
+              </div>
+            </div>
+          )}
+
+          {dayThreeDeal && (
+            <div>
+              <div className="border border-opacity-40 border-eeire-black rounded p-4 hover:shadow-xl">
+                <h3 className="mb-4 text-base ">
+                  <strong>
+                    <Moment format="dddd, MMMM Do" tz="America/Phoenix">
+                      {dayThreeDate}
+                    </Moment>
+                  </strong>
+                </h3>
+                <ul>
+                  {deal.deals.date.map(function (deal) {
+                    if (isDateMatch(deal.date, dayThreeDate)) {
+                      let link =
+                        "/shop/az/";
+                      if (deal.itmCampaign) {
+                        let link =
+                          "/shop/az/?" +
+                          deal.itmCampaign;
+                      }
+                      return (
+                        <>
+                          <li
+                            className=" border-t border-davys-grey border-opacity-30 py-4"
+                            key={Math.random().toString(36).substr(2, 9)}
+                          >
+                            <Link href={link}>
+                              <a className="flex gap-4 text-eeire-black">
+                                <h5 className="text-xl text-center align-self my-0 mb-0 pb-0 py-0 flex items-center justify-center min-w-[100px]  max-w-[100px] ">
+                                  {deal.largeText}
+                                </h5>
+                                <p className="text-sm grow">{deal.smallText}</p>
+                              </a>
+                            </Link>
+                          </li>
+                        </>
+                      );
+                    }
+                  })}
+                </ul>
+              </div>
+            </div>
+          )}
+          {dayFourDeal && (
+            <div>
+              <div className="border border-opacity-40 border-eeire-black rounded p-4 hover:shadow-xl">
+                <h3 className="mb-4 text-base ">
+                  <strong>
+                    <Moment format="dddd, MMMM Do" tz="America/Phoenix">
+                      {dayFourDate}
+                    </Moment>
+                  </strong>
+                </h3>
+                <ul>
+                  {deal.deals.date.map(function (deal) {
+                    if (isDateMatch(deal.date, dayFourDate)) {
+                      let link =
+                        "/shop/az/";
+                      if (deal.itmCampaign) {
+                        let link =
+                          "/shop/az/?" +
+                          deal.itmCampaign;
+                      }
+                      return (
+                        <>
+                          <li
+                            className=" border-t border-davys-grey border-opacity-30 py-4"
+                            key={Math.random().toString(36).substr(2, 9)}
+                          >
+                            <Link href={link}>
+                              <a className="flex gap-4 text-eeire-black">
+                                <h5 className="text-xl text-center align-self my-0 mb-0 pb-0 py-0 flex items-center justify-center min-w-[100px]  max-w-[100px] ">
+                                  {deal.largeText}
+                                </h5>
+                                <p className="text-sm grow">{deal.smallText}</p>
+                              </a>
+                            </Link>
+                          </li>
+                        </>
+                      );
+                    }
+                  })}
+                </ul>
+              </div>
+            </div>
+          )}
+          {dayFiveDeal && (
+            <div>
+              <div className="border border-opacity-40 border-eeire-black rounded p-4 hover:shadow-xl">
+                <h3 className="mb-4 text-base ">
+                  <strong>
+                    <Moment format="dddd, MMMM Do" tz="America/Phoenix">
+                      {dayFiveDate}
+                    </Moment>
+                  </strong>
+                </h3>
+                <ul>
+                  {deal.deals.date.map(function (deal) {
+                    if (isDateMatch(deal.date, dayFiveDate)) {
+                      let link =
+                        "/shop/az/";
+                      if (deal.itmCampaign) {
+                        let link =
+                          "/shop/az/?" +
+                          deal.itmCampaign;
+                      }
+                      return (
+                        <>
+                          <li
+                            className=" border-t border-davys-grey border-opacity-30 py-4"
+                            key={Math.random().toString(36).substr(2, 9)}
+                          >
+                            <Link href={link}>
+                              <a className="flex gap-4 text-eeire-black">
+                                <h5 className="text-xl text-center align-self my-0 mb-0 pb-0 py-0 flex items-center justify-center min-w-[100px]  max-w-[100px] ">
+                                  {deal.largeText}
+                                </h5>
+                                <p className="text-sm grow">{deal.smallText}</p>
+                              </a>
+                            </Link>
+                          </li>
+                        </>
+                      );
+                    }
+                  })}
+                </ul>
+              </div>
+            </div>
+          )}
+          <div>
+            <div className="border border-opacity-40 border-eeire-black rounded p-4 hover:shadow-xl">
+              <h3 className="mb-4 text-base text-center ">
+                Zen Deals, Delivered
+              </h3>
+<p className="text-center text-sm tracking-normal max-w-sm mx-auto px-4 mb-2">Subscribe for Zen Leaf email communications to ensure you never miss a marijuana deal!</p>
+              <KlaviyoForm />
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer copyrightHolder={generalSettings.title} />
+    </>
+  );
+}
+
+export async function getStaticProps(context: GetStaticPropsContext) {
+  return getNextStaticProps(context, {
+    Page: DealSingle,
+    client,
+  });
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: "blocking",
+  };
+}

@@ -38,7 +38,7 @@
 .product_info_text, .post-content p {
     font: normal normal normal 18px/24px FiraSansCondensed-Regular;
     letter-spacing: .05em;
-    color: #000;
+    color: #1f1f1f;
 
 }
 
@@ -58,8 +58,8 @@
 }
 /* Map text on about and state resources page. Only one admin variable for font color, so this overrides for light states to have black text. */
 #usvisns {
-    .idaho, .tennessee, .south-carolina, .utah, .nebraska, .kansas, .oklahoma, .texas, .iowa, .wisconsin, .indiana, .kentucky,  .north-carolina, .georgia, .alabama, .florida, .wyoming,  .north-dakota, .rhode-island, .mississippi, .louisiana, .missouri, .hawaii, .delaware, .vermont, .minnesota, .south-dakota, .virginia, .new-mexico   {
-        fill: #000;
+    .idaho, .tennessee, .south-carolina, .utah, .nebraska, .kansas, .oklahoma, .texas, .iowa, .wisconsin, .indiana, .kentucky,  .north-carolina, .georgia, .alabama, .florida, .wyoming,  .north-dakota, .rhode-island, .mississippi, .louisiana, .missouri, .hawaii, .delaware,  .minnesota, .south-dakota  {
+        fill: #1f1f1f;
     }
 }
 
@@ -67,9 +67,9 @@
 .post-content h3, .post-content h3.product_title_text {
     /* used in admin methods page, also used in featured deal though - which is currently cancelled, so not checking affects */
 
-    font: normal normal bold 20px/24px Nourd-Bold !important;
+    
     letter-spacing: 0px;
-    color: #000;
+    color: #1f1f1f;
     line-height: 1;
     margin-bottom:16px;  
     margin-top:16px;
@@ -82,7 +82,7 @@
 }
 
 .post-content h4, .post-content h4.product_title_text {
-    font: normal normal bold 24px/28px Nourd-Bold !important;
+    font: normal normal bold 24px/28px "Fira Sans" !important;
     letter-spacing: 0 !important;
     text-transform: none;
     font-size: 24px !important;
@@ -100,7 +100,7 @@
 .paragraph {
     font: normal normal normal 18px/24px FiraSansCondensed-Regular;
     letter-spacing: .05em;
-    color: #000; 
+    color: #1f1f1f; 
 }
 
 

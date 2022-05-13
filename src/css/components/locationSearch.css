@@ -4,7 +4,7 @@
 
 
 #wpsl-search-btn {
-    background-color: #000 !important;
+    background-color: #1f1f1f !important;
         font: normal normal  18px/18px FiraSansCondensed-Regular;
      margin-bottom: 10px;
     text-transform: uppercase !important;
@@ -39,7 +39,7 @@
 }
 
 .zenmap-container>#wpsl-result-list p, .zenmap-container>#wpsl-result-list li, .zenmap-container>#wpsl-result-list a {
-    color: #000 !important;
+    color: #1f1f1f !important;
     background-color: white;
 }
 
@@ -80,7 +80,7 @@
     max-height: 700px !important;
 }
 .zenmap-container #wpsl-stores .wpsl-store-details.wpsl-store-listing.wpsl-active-details:before, .zenmap-container #wpsl-stores .wpsl-store-details.wpsl-store-listing:before {
-    color:#000;
+    color:#1f1f1f;
     border-top: 5px solid #fff;
 }
 
@@ -120,7 +120,7 @@
         font-size:18px;
         
         border-radius: 6px;
-        border: 2px solid #000 !important;
+        border: 2px solid #1f1f1f !important;
         padding-left: 20px;
 
         .collapsed-nav-icon {
@@ -142,12 +142,7 @@
     
     }
 
-    .fusion-builder-column-2 > .fusion-column-wrapper {
-        padding-top: 20px !important;
-    padding-right: 0px !important;
-    padding-bottom: 0px !important;
-    padding-left: 0px !important;
-    }
+  
 
 
 #menu-states {
@@ -161,7 +156,7 @@
     
     
     
-    border: 1px solid #000  !important;
+    border: 1px solid #1f1f1f  !important;
     border-radius: 0 0 6px 6px !important;
     
     }
@@ -176,7 +171,7 @@
     
     .fusion-background-highlight {
         background:#FFF !important;
-        color: #000 !important;
+        color: #1f1f1f !important;
         @media screen and (max-width: 640px) {
             padding-left:0px !important; 
         }
@@ -191,7 +186,7 @@
         &:hover {
             text-decoration: none !important;
             .menu-text {
-                color: #000;
+                color: #1f1f1f;
                 text-decoration: none !important;
                 margin: 0 auto;
                 text-align: left;
@@ -204,11 +199,11 @@
 
         .menu-text {
             font-size: 16px; 
-            color:#000; 
+            color:#1f1f1f; 
             background-color: #FFF;
             text-decoration: none !important;
                 &:hover {
-            color:#000;
+            color:#1f1f1f;
             font-weight: bold;
         }
         }
@@ -240,6 +235,6 @@
 }
 
 #state-menu.fusion-menu-element-wrapper .fusion-menu-element-list>li:not(.fusion-menu-item-button).current-menu-item>a{
-    color: #000 !important;
+    color: #1f1f1f !important;
     background-color: #fff !important;
 }  

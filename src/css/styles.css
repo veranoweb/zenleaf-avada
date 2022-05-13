@@ -215,7 +215,7 @@ Age Gate
 		.tribe-events .tribe-events-c-top-bar__datepicker .tribe-events-c-top-bar__datepicker-button{
 			padding: 11px 20px 11px 20px;
 			
-			background: #000 0% 0% no-repeat padding-box;
+			background: #1f1f1f 0% 0% no-repeat padding-box;
 			color: #ffffff !important;
 			border-radius: 5px !important;
 		 
@@ -266,7 +266,7 @@ tribe-common tribe-events tribe-events-view tribe-events-view--list tribe-common
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-common-c-btn.tribe-events-c-search__button{
     font-family:"FiraSansCondensed-Regular";
-    color:#000 !important;
+    color:#1f1f1f !important;
 }
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--tabs .tribe-events-c-view-selector__list{
     font-family:"FiraSansCondensed-Regular";
@@ -275,19 +275,19 @@ tribe-common tribe-events tribe-events-view tribe-events-view--list tribe-common
 
 
 .single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title, .single-tribe_events main .fusion-content-widget-area .tribe-events-tickets-title, .single-tribe_events main .fusion-content-widget-area .widget .widget-title{
-    background:#000 !important;
+    background:#1f1f1f !important;
     color:#ffffff !important;
 }
 .tribe-recurring-event-parent{ 
     background-color:#ffffff !important;
-    color:#000 !important;
+    color:#1f1f1f !important;
 }
 .tribe-events-calendar-month__multiday-event-bar-inner {
   background-color: #ffffff !important;
 }
  
 .tribe-events-calendar-month__multiday-event-bar-title {
-  color: #000 !important;
+  color: #1f1f1f !important;
 }
 h3.tribe-events-calendar-month__multiday-event-hidden-title.tribe-common-h8{
     font-size:60px !important;
@@ -305,7 +305,7 @@ div.tribe-events-calendar-month__calendar-event-tooltip-description.tribe-common
 .tooltipster-sidetip .tooltipster-box{ 
     background: #565656;
     border: 2px
-    solid #000;
+    solid #1f1f1f;
     border-radius: 4px;
 }
 .tooltipster-base.tribe-events-tooltip-theme {
@@ -407,7 +407,7 @@ element.style {
 }
 
 .fusion-accordian #accordion-15774-1 .panel-title a .fa-fusion-box {
-    color: #000;
+    color: #1f1f1f;
 }
 
 .store-toggles.fusion-accordian .panel-title .fa-fusion-box:before {
@@ -420,7 +420,7 @@ element.style {
 }
 
 .fusion-accordian #accordion-15774-1 .panel-title a .fa-fusion-box {
-    color: #000 !important;
+    color: #1f1f1f !important;
 }
 
 .store-toggles span.fusion-toggle-icon-wrapper:hover {
@@ -459,3 +459,40 @@ element.style {
         height: 450px;
     }
 } 
+
+#dealsApp {
+
+	.container:before {
+		display:none;
+	}
+	@media (min-width: 0px) {
+	.container {
+		@apply pl-0 pr-0;
+		width:auto;
+	}
+}
+
+	h3 {
+		font-size:18px;
+	}
+
+	ul {
+		@apply list-none pl-0;
+		
+	}
+	a {
+		@apply no-underline;
+	}
+	h5 {
+		width:100px;
+		max-width:100px;
+		min-width:100px;
+	}
+	p {
+		font-size:14px;
+	}
+	.fusion-flex-container.fusion-builder-row-1 {
+		@apply pl-0 pr-0;
+	}
+}
+ 

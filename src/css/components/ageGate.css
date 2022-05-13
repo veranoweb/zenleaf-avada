@@ -6,7 +6,7 @@
 }  
  
 .age-gate-subheading {
-    color: #000;
+    color: #1f1f1f;
     font-weight: 700;
 
 }
@@ -18,17 +18,17 @@
 .age-gate-form {
 
     button {
-        @apply bg-black text-white uppercase tracking-widest hover:border-black;
+        @apply gray-900black text-white uppercase tracking-widest hover:border-gray-900;
         font: normal normal bold 18px/22px FiraSansCondensed-Regular;
         padding: 19px 49px;
-        border: 2px solid #000; 
+        border: 2px solid #1f1f1f; 
         border-radius: 5px;
         z-index: 9001;
         cursor: pointer;
         margin-top: 35px;
         margin-right:20px;
         &:focus {
-            outline-color: #000;
+            outline-color: #1f1f1f;
         }
     }
 

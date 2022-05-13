@@ -8,7 +8,7 @@
     .product_title_text {
         font: normal normal bold 40px/50px Norwester;
         letter-spacing: 0px;
-        color: #000;
+        color: #1f1f1f;
         font-size: 28px !important;
         line-height: 1;
         margin-bottom:16px;
@@ -26,7 +26,7 @@
     .fusion-button { 
         
         &:hover {
-            @apply border-black;
+            @apply border-gray-900;
         }
 
         .fusion-button-text {
@@ -88,13 +88,13 @@
         .product_name_text span {
             font: normal normal normal 20px/26px FiraSansCondensed-Regular;
             letter-spacing: 0px;
-            color: #000;
+            color: #1f1f1f;
         }
 
 } 
 
 
 .fusion-button.button-1:hover, .fusion-button.button-1:active, .fusion-button.button-1:focus {
-    @apply border-black text-black;
+    @apply border-gray-900 text-black;
     
 }

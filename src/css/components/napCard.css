@@ -2,7 +2,7 @@
     font-family: 'FiraSansCondensed-Regular';
     font-size: 16px;
     text-decoration: underline;
-    color: #000;
+    color: #1f1f1f;
 }
 
 .green-icon {
@@ -19,7 +19,7 @@
 }
 
 .green-icon>i::before {
-    color: #000;
+    color: #1f1f1f;
 }
 
  
@@ -44,7 +44,7 @@
         }
     
         &:hover {
-        @apply border-2 bg-white border-black;
+        @apply border-2 bg-white border-gray-900;
         background-color:white !important;
         .fusion-button-text
         {

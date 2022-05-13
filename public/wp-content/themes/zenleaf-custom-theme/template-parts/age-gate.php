@@ -5,13 +5,13 @@
             <img class="mx-auto mb-2" src="/wp-content/uploads/2021/12/zen-leaf-logo-262.svg" alt="Zen Leaf Dispensaries">
             <h2 class="text-xl mb-0 font-bold tracking-wider">WELCOME TO ZEN LEAF</h2>
             
-            <p class="mt-5 text-2xl">
+            <p class="mt-5 text-xl">
                 Are you at least 21 years old?*
             </p>
 
             <div class="mt-2 mb-2 flex max-w-xs mx-auto w-full justify-center space-x-4">
-                <button onclick="ragevAgeVerificationConfirm()" class="grow border-2 border-black  bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">YES</button>
-                <button onclick="ragevAgeVerificationFailed()" class="grow border-2 border-black bg-black text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">NO</button>
+                <button onclick="ragevAgeVerificationConfirm()" class="grow border-2 border-black  bg-gray-900 text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">YES</button>
+                <button onclick="ragevAgeVerificationFailed()" class="grow border-2 border-black bg-gray-900 text-lg leading-6 text-white px-12 font-bold py-5 rounded-md hover:bg-white hover:text-black">NO</button>
             </div>
             <p class="text-sm italic text-gray-700 mb-4">
                 *For Pennsylvania and Maryland you must be 18+

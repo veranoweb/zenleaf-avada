@@ -3,7 +3,7 @@
 }
 
 .fusion-body .fusion-button.button-3 {
-    @apply bg-black;
+    @apply bg-gray-900;
     .fusion-button-text {
         @apply text-white;
         i {
@@ -55,7 +55,7 @@
   border-width:2px;
   border-color:#000 !important;
 
-  @apply border-2 border-black hover:bg-white;
+  @apply border-2 border-gray-900 hover:bg-white;
   &:hover {
     .fusion-button-text {
         @apply text-black;
@@ -85,19 +85,21 @@
 
 
 /* Deals button */
-a.fusion-button.button-1 {
-    @apply border-2 bg-black border-white;
-    @apply border-2 border-black hover:bg-white;
+a.fusion-button.button-1, .switchBtn {
+    @apply border-2 bg-gray-900 border-white;
+    @apply border-2 border-gray-900 hover:bg-white;
     padding: 10px 25px;
     border-radius: 5px;
     transition: all;
     transition-duration: 300ms;
     border-width:2px;
     line-height:30px;
+    background-color: #1F1F1F !important;
+    border-color: #1F1F1F !imnportant;
     
     .fusion-button-text
     {
-        
+        color:#FFF !important;
         font: normal normal bold 16px/20px FiraSansCondensed-Regular;
         @apply uppercase tracking-widest text-white;        
         
@@ -118,7 +120,7 @@ a.fusion-button.button-1 {
 
 
 a.fusion-button.button-2 {
-    @apply text-white border-2 bg-black border-white;
+    @apply text-white border-2 bg-gray-900 border-white;
 
     padding: 10px 25px;
 
@@ -189,7 +191,7 @@ a.fusion-button.button-3 {
 #content a.fusion-button {
     text-decoration: none;
 }
-
+ 
 .betaSymbol {
     font: initial;
     text-transform: none;
@@ -197,3 +199,6 @@ a.fusion-button.button-3 {
     margin-right: 10px;
     font-weight: 600;
 }
+
+
+

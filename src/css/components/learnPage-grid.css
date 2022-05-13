@@ -1,7 +1,7 @@
 .learnPage-grid {
 
     .button-custom {
-        background:#000 !important;
+        background:#1f1f1f !important;
         color:#FFF !important;
         
     padding: 10px 25px !important;
@@ -14,8 +14,8 @@
     border-color:black !important;
     &:hover {
         background-color:#FFF !important;
-        color:#000 !important;      
-        border-color:#000;
+        color:#1f1f1f !important;      
+        border-color:#1f1f1f;
     }
     .fusion-button-text
         {

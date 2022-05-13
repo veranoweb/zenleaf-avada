@@ -65,7 +65,7 @@
     }
 
     .zen_button { 
-        @apply mt-3 hover:bg-white hover:border-black border-black bg-black text-white hover:text-black border-2 uppercase tracking-widest;
+        @apply mt-3 hover:bg-white hover:border-gray-900 border-gray-900 bg-gray-900 text-white hover:text-gray-900 border-2 uppercase tracking-widest;
         border: 2px solid black; 
         margin-top: 20px;
         text-decoration: none !important;

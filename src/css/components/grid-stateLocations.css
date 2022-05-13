@@ -26,7 +26,7 @@
         .shop-the-menu-card-button {
             color: #FFF; 
             text-transform:uppercase !important;
-            background-color: #000000 !important;
+            background-color: #1f1f1f !important;
             position: absolute;
             bottom: 20px !important;
             right:20px !important;
@@ -36,7 +36,7 @@
             cursor: pointer;
             &:hover {
                 background-color: #FFF !important;
-                color: #000 !important;
+                color: #1f1f1f !important;
 
             }
 

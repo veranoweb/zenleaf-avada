@@ -43,7 +43,7 @@
 
     .faq-button {
 
-        background-color: #000000 !important;
+        background-color: #1f1f1f !important;
         cursor: pointer;
         padding: 10px 20px !important;
   
@@ -57,9 +57,9 @@
 
         &:hover {
             background-color: #FFF !important; 
-            color: #000 !important;
+            color: #1f1f1f !important;
             .swap-faq-text {
-                color: #000 !important;
+                color: #1f1f1f !important;
             }
         }
     }

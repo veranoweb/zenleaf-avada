@@ -440,18 +440,18 @@ textarea {
 
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
-  color: #a1a1aa;
+  color: #9ca3af;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1;
-  color: #a1a1aa;
+  color: #9ca3af;
 }
 
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
-  color: #a1a1aa;
+  color: #9ca3af;
 }
 
 button,
@@ -576,7 +576,8 @@ video {
 }
 
 *, ::before, ::after {
-  border-color: currentColor;
+  --tw-border-opacity: 1;
+  border-color: rgba(229, 231, 235, var(--tw-border-opacity));
 }
 
 .container {
@@ -652,14 +653,6 @@ video {
   z-index: 0;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
-.z-20 {
-  z-index: 20;
-}
-
 .z-50 {
   z-index: 50;
 }
@@ -688,11 +681,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-0 {
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .my-1 {
@@ -764,10 +752,6 @@ video {
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .ml-2 {
@@ -898,10 +882,6 @@ video {
   max-width: 42rem;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -1019,20 +999,12 @@ video {
   cursor: pointer;
 }
 
-.list-none {
-  list-style-type: none;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-row {
   flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
 }
 
 .content-center {
@@ -1094,16 +1066,8 @@ video {
   border-width: 2px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border {
   border-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-solid {
@@ -1115,32 +1079,19 @@ video {
   border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
-.border-davys-grey {
+.border-gray-300 {
   --tw-border-opacity: 1;
-  border-color: rgba(71, 71, 71, var(--tw-border-opacity));
+  border-color: rgba(209, 213, 219, var(--tw-border-opacity));
 }
 
-.border-eeire-black {
+.border-gray-500 {
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
-}
-
-.border-moss-green {
-  --tw-border-opacity: 1;
-  border-color: rgba(136, 142, 84, var(--tw-border-opacity));
+  border-color: rgba(107, 114, 128, var(--tw-border-opacity));
 }
 
 .focus\:border-black:focus {
   --tw-border-opacity: 1;
   border-color: rgba(0, 0, 0, var(--tw-border-opacity));
-}
-
-.border-opacity-30 {
-  --tw-border-opacity: 0.3;
-}
-
-.border-opacity-40 {
-  --tw-border-opacity: 0.4;
 }
 
 .bg-black {
@@ -1155,22 +1106,22 @@ video {
 
 .bg-gray-100 {
   --tw-bg-opacity: 1;
-  background-color: rgba(237, 237, 237, var(--tw-bg-opacity));
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
   --tw-bg-opacity: 1;
-  background-color: rgba(204, 204, 204, var(--tw-bg-opacity));
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
-.bg-gray-900 {
+.bg-gray-300 {
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
 }
 
-.bg-moss-green {
+.bg-gray-400 {
   --tw-bg-opacity: 1;
-  background-color: rgba(136, 142, 84, var(--tw-bg-opacity));
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -1180,11 +1131,12 @@ video {
 
 .hover\:bg-gray-200:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(204, 204, 204, var(--tw-bg-opacity));
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
-.bg-opacity-80 {
-  --tw-bg-opacity: 0.8;
+.hover\:bg-gray-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
 }
 
 .bg-contain {
@@ -1238,11 +1190,6 @@ video {
   padding-right: 3rem;
 }
 
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1268,11 +1215,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1292,10 +1234,6 @@ video {
 
 .pr-10 {
   padding-right: 2.5rem;
-}
-
-.pb-0 {
-  padding-bottom: 0px;
 }
 
 .pb-4 {
@@ -1343,7 +1281,7 @@ video {
 }
 
 .text-sm {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .text-base {
@@ -1386,16 +1324,8 @@ video {
   font-weight: 700;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
 .uppercase {
   text-transform: uppercase;
-}
-
-.capitalize {
-  text-transform: capitalize;
 }
 
 .normal-case {
@@ -1422,10 +1352,6 @@ video {
   line-height: 1.625;
 }
 
-.tracking-normal {
-  letter-spacing: 0em;
-}
-
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -1448,19 +1374,24 @@ video {
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
 .text-gray-700 {
   --tw-text-opacity: 1;
-  color: rgba(51, 51, 51, var(--tw-text-opacity));
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
-.text-gray-900 {
+.text-indigo-600 {
   --tw-text-opacity: 1;
-  color: rgba(31, 31, 31, var(--tw-text-opacity));
-}
-
-.text-eeire-black {
-  --tw-text-opacity: 1;
-  color: rgba(31, 31, 31, var(--tw-text-opacity));
+  color: rgba(79, 70, 229, var(--tw-text-opacity));
 }
 
 .hover\:text-black:hover {
@@ -1489,21 +1420,12 @@ video {
   text-decoration: underline;
 }
 
-.hover\:no-underline:hover {
-  text-decoration: none;
-}
-
 *, ::before, ::after {
   --tw-shadow: 0 0 #0000;
 }
 
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:shadow-xl:hover {
-  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1540,7 +1462,7 @@ video {
 
 .ring-gray-700 {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(51, 51, 51, var(--tw-ring-opacity));
+  --tw-ring-color: rgba(55, 65, 81, var(--tw-ring-opacity));
 }
 
 .focus\:ring-black:focus {
@@ -1553,6 +1475,11 @@ video {
   --tw-ring-color: rgba(255, 255, 255, var(--tw-ring-opacity));
 }
 
+.focus\:ring-indigo-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgba(99, 102, 241, var(--tw-ring-opacity));
+}
+
 .ring-opacity-5 {
   --tw-ring-opacity: 0.05;
 }
@@ -1561,18 +1488,8 @@ video {
   --tw-ring-offset-width: 2px;
 }
 
-.backdrop-blur-lg {
-  --tw-backdrop-blur: blur(16px);
-}
-
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.duration-100 {
-  transition-duration: 100ms;
+.focus\:ring-offset-gray-800:focus {
+  --tw-ring-offset-color: #1f2937;
 }
 
 #main{
@@ -1746,12 +1663,12 @@ input, input[placeholder] {
   width: 33%;
   margin-bottom: 0px !important;
   background: white;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .zenleaf-searchtools > div > form > div > label {
   width:100% !important;
-  color: #1f1f1f !important;
+  color: #000 !important;
   font-weight: 700;
 }
 
@@ -1763,11 +1680,11 @@ input, input[placeholder] {
 .zenleaf-searchtools > div > form > div > div.wpsl-dropdown {
   width: 100% !important;
   background-color: white;
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .zenleaf-searchtools > div > form > div > div.wpsl-dropdown .wpsl-selected-item {
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .zenleaf-searchtools > div > form > div > div.wpsl-dropdown .wpsl-selected-item:after {
@@ -1782,7 +1699,7 @@ input, input[placeholder] {
 
 .zenleaf-searchtools > div > form > div > div.wpsl-dropdown li:hover {
   background: #bdd5ba !important;
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .zenleaf-searchtools .wpsl-icon-direction {
@@ -1792,7 +1709,7 @@ input, input[placeholder] {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 @media screen and (max-width: 570px) {
@@ -1803,11 +1720,11 @@ input, input[placeholder] {
 }
 
 .zenleaf-searchtools p {
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .zenleaf-searchtools li {
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .zenleaf-top-z{
@@ -1823,20 +1740,20 @@ input, input[placeholder] {
 .blog-shortcode-post-title {
   font: normal normal normal 24px/26px FiraSansCondensed-Regular;
   letter-spacing: 0px;
-  color: #1f1f1f !important;
+  color: #000 !important;
   font-size: 24px !important;
 }
 
 .action_text_xl {
   font: normal normal bold 62px/77px FiraSansCondensed-Regular;
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .action_text {
   font: normal normal bold 58px/72px FiraSansCondensed-Regular;
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
   margin-top:24px;
   margin-bottom:24px;
 }
@@ -1850,25 +1767,25 @@ input, input[placeholder] {
 .vibe_text {
   font: normal normal bold 17px/21px FiraSansCondensed-Regular;
   letter-spacing: 3.4px;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .product_name_text {
   font: normal normal normal 22px/20px FiraSansCondensed-Regular;
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .learning_info_text {
   font: normal normal normal 18px/20px FiraSansCondensed-Regular;
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .product_info_text, .post-content p {
   font: normal normal normal 18px/24px FiraSansCondensed-Regular;
   letter-spacing: .05em;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .italicize {
@@ -1936,7 +1853,7 @@ li.menu-item-object-custom:first-child > ul.sub-menu {
 }
 
 li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium {
-  background: #1f1f1f 0% 0% no-repeat padding-box;
+  background: #000 0% 0% no-repeat padding-box;
   color: #ffffff !important;
   border-radius: 5px;
   opacity: 1;
@@ -1961,13 +1878,13 @@ li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-
 }
 
 #wpsl-widget-submit {
-  background-color: #1f1f1f;
+  background-color: #000;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color:#FFF !important;
   font: normal normal bold 18px/22px FiraSansCondensed-Regular;
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
   padding: 19.38px 52.20px;
   border: none;
   border-radius: 5px;
@@ -2093,6 +2010,12 @@ li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-
 
 .learn-icon-heights{
   position:relative;
+}
+
+.learn-icon-heights .fusion-imageframe img{
+  min-height:100px;
+  max-height:100px;
+  min-width:150px;
 }
 
 .learn-icon-heights .fusion-button.button-1{
@@ -2323,13 +2246,13 @@ p.breadcrumb-states>span.click-back {
 
 .state_faq_toggles .fusion-panel * {
   background-color: #F2F5F4;
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .fusion-load-more-button {
   background-color: #fff !important;
   border: 1px solid #A2C8C0;
-  color: #1f1f1f;
+  color: #000;
   width: 252px;
   height: 60px;
   margin-left: auto;
@@ -2549,7 +2472,7 @@ p.breadcrumb-states>span.click-back {
 }
 
 .zenleaf-map-marker::before {
-  color: #1f1f1f;
+  color: #000;
 }
 
 table.wpsl-opening-hours td:last-child {
@@ -2667,10 +2590,10 @@ table.wpsl-opening-hours time {
 }
 
 .fusion-filters .fusion-filter.fusion-active a{
-  color:#1f1f1f;
-  color:#1f1f1f;
-  border-color:#1f1f1f;
-  border-color:#1f1f1f;
+  color:#000000;
+  color:#000000;
+  border-color:#000000;
+  border-color:#000000;
 }
 
 .fusion-faq-shortcode .fusion-accordian .panel-title a .fa-fusion-box{
@@ -3125,7 +3048,7 @@ table.wpsl-opening-hours time {
 
   .fusion-tabs.vertical-tabs .nav-tabs > li.active > .tab-link{
     border-bottom:none;
-    border-left:3px solid #1f1f1f;
+    border-left:3px solid #000000;
     border-top:none;
     cursor:pointer;
   }
@@ -3205,7 +3128,7 @@ table.wpsl-opening-hours time {
 
 .fusion-body .fusion-button.button-3 {
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .fusion-body .fusion-button.button-3 .fusion-button-text {
@@ -3264,7 +3187,7 @@ table.wpsl-opening-hours time {
   border-color:#000 !important;
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .fusion-button.button-4:hover {
@@ -3306,55 +3229,48 @@ table.wpsl-opening-hours time {
 
 /* Deals button */
 
-a.fusion-button.button-1, .switchBtn {
+a.fusion-button.button-1 {
   border-width: 2px;
   --tw-border-opacity: 1;
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
-a.fusion-button.button-1:hover, .switchBtn:hover {
+a.fusion-button.button-1:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-a.fusion-button.button-1, .switchBtn {
+a.fusion-button.button-1 {
   padding: 10px 25px;
   border-radius: 5px;
   transition: all;
   transition-duration: 300ms;
   border-width:2px;
   line-height:30px;
-  background-color: #1F1F1F !important;
-  border-color: #1F1F1F !imnportant;
 }
 
-a.fusion-button.button-1 .fusion-button-text,
-    .switchBtn .fusion-button-text
+a.fusion-button.button-1 .fusion-button-text
     {
-  color:#FFF !important;
   font: normal normal bold 16px/20px FiraSansCondensed-Regular;
-}
-
-a.fusion-button.button-1 .fusion-button-text, .switchBtn .fusion-button-text {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
 
-a.fusion-button.button-1:hover, a.fusion-button.button-1:active, .switchBtn:hover, .switchBtn:active {
+a.fusion-button.button-1:hover, a.fusion-button.button-1:active {
   border-width: 2px 2px 2px 2px !important;
   color: black !important;
   border-color:#000 !important;
   background:#FFF !important;
 }
 
-a.fusion-button.button-1:hover .fusion-button-text,  a.fusion-button.button-1:active .fusion-button-text,  .switchBtn:hover .fusion-button-text,  .switchBtn:active .fusion-button-text  {
+a.fusion-button.button-1:hover .fusion-button-text,  a.fusion-button.button-1:active .fusion-button-text  {
   color: black !important;
 }
 
@@ -3363,7 +3279,7 @@ a.fusion-button.button-2 {
   --tw-border-opacity: 1;
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
   padding: 10px 25px;
@@ -3446,7 +3362,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .avada-text-sm {
-  font-size: 14px !important;
+  font-size: 12px !important;
 }
 
 .avada-text-xs {
@@ -3487,7 +3403,7 @@ h1, h2, h3, h4, h5, h6 {
 .product_info_text, .post-content p {
   font: normal normal normal 18px/24px FiraSansCondensed-Regular;
   letter-spacing: .05em;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .heading-b, .heading-3b {
@@ -3509,14 +3425,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Map text on about and state resources page. Only one admin variable for font color, so this overrides for light states to have black text. */
 
-#usvisns .idaho, #usvisns .tennessee, #usvisns .south-carolina, #usvisns .utah, #usvisns .nebraska, #usvisns .kansas, #usvisns .oklahoma, #usvisns .texas, #usvisns .iowa, #usvisns .wisconsin, #usvisns .indiana, #usvisns .kentucky, #usvisns .north-carolina, #usvisns .georgia, #usvisns .alabama, #usvisns .florida, #usvisns .wyoming, #usvisns .north-dakota, #usvisns .rhode-island, #usvisns .mississippi, #usvisns .louisiana, #usvisns .missouri, #usvisns .hawaii, #usvisns .delaware, #usvisns .minnesota, #usvisns .south-dakota  {
-  fill: #1f1f1f;
+#usvisns .idaho, #usvisns .tennessee, #usvisns .south-carolina, #usvisns .utah, #usvisns .nebraska, #usvisns .kansas, #usvisns .oklahoma, #usvisns .texas, #usvisns .iowa, #usvisns .wisconsin, #usvisns .indiana, #usvisns .kentucky, #usvisns .north-carolina, #usvisns .georgia, #usvisns .alabama, #usvisns .florida, #usvisns .wyoming, #usvisns .north-dakota, #usvisns .rhode-island, #usvisns .mississippi, #usvisns .louisiana, #usvisns .missouri, #usvisns .hawaii, #usvisns .delaware, #usvisns .vermont, #usvisns .minnesota, #usvisns .south-dakota, #usvisns .virginia, #usvisns .new-mexico   {
+  fill: #000;
 }
 
 .post-content h3, .post-content h3.product_title_text {
   /* used in admin methods page, also used in featured deal though - which is currently cancelled, so not checking affects */
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
   line-height: 1;
   margin-bottom:16px;
   margin-top:16px;
@@ -3530,7 +3446,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-content h4, .post-content h4.product_title_text {
-  font: normal normal bold 24px/28px "Fira Sans" !important;
+  font: normal normal bold 24px/28px Nourd-Bold !important;
   letter-spacing: 0 !important;
   text-transform: none;
   font-size: 24px !important;
@@ -3545,7 +3461,7 @@ h1, h2, h3, h4, h5, h6 {
 .paragraph {
   font: normal normal normal 18px/24px FiraSansCondensed-Regular;
   letter-spacing: .05em;
-  color: #1f1f1f;
+  color: #000;
 }
 
 body {
@@ -3562,7 +3478,7 @@ body {
   font-size:18px;
   letter-spacing:.05em;
   line-height:24px;
-  color:#1f1f1f;
+  color:#000;
 }
 
 /* Image Set as molecule to accomodate for captions, etc */
@@ -3630,7 +3546,7 @@ p.wp-caption-text {
   width:202px;
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .fusion-header li.menu-item-object-custom:last-child > a > span.menu-text.fusion-button.button-default.button-medium:hover {
@@ -3663,10 +3579,10 @@ p.wp-caption-text {
 }
 
 .fusion-header li.menu-item-object-custom:not(:last-child) > a > span.menu-text.fusion-button.button-default.button-medium {
-  border: 1px solid #1f1f1f;
+  border: 1px solid #000;
   border-radius: 5px;
   opacity: 1;
-  color: #1f1f1f;
+  color: #000;
   width: 140px;
   padding-right: 2px;
   margin-left:10px;
@@ -3680,7 +3596,7 @@ p.wp-caption-text {
   font: normal normal bold 30px/47px Nourd-Bold;
   text-transform: uppercase;
   letter-spacing: .0em;
-  color: #1f1f1f;
+  color: #000;
   margin-top: 20px;
   margin-bottom: 5px;
 }
@@ -3718,7 +3634,7 @@ p.wp-caption-text {
 
 .menu-subtext {
   font: normal normal normal 17px/38px FiraSansCondensed-Regular;
-  color: #1f1f1f;
+  color: #000;
   margin-top: 5px;
   margin-bottom: 5px;
   padding-left: 5px;
@@ -3774,7 +3690,7 @@ a.shop-here-button .grey-text {
 }
 
 a.shop-here-button i {
-  color:#1f1f1f;
+  color:#000;
 }
 
 a.shop-here-button::before {
@@ -3785,7 +3701,7 @@ a.shop-here-button::before {
 div.sub_order_now_menu p.shop-name {
   letter-spacing: 0em;
   --tw-text-opacity: 1;
-  color: rgba(31, 31, 31, var(--tw-text-opacity));
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
   font-size: 18px;
   line-height: 19px;
   margin-top: 0 !important;
@@ -3794,7 +3710,7 @@ div.sub_order_now_menu p.shop-name {
 
 .tiny-zen-url {
   --tw-text-opacity: 1;
-  color: rgba(31, 31, 31, var(--tw-text-opacity));
+  color: rgba(17, 24, 39, var(--tw-text-opacity));
   text-decoration: underline;
 }
 
@@ -3848,7 +3764,7 @@ div.sub_order_now_menu p.shop-name {
 }
 
 p.state_menu_option {
-  color: #1f1f1f;
+  color: #000;
   font-size: 18px;
 }
 
@@ -3857,7 +3773,7 @@ p.state_menu_option {
 }
 
 body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item a:hover {
-  background-color:#1f1f1f;
+  background-color:#000;
   color:#FFF;
 }
 
@@ -3905,7 +3821,7 @@ div.sub_order_now_menu>div.row>div.zen-column-shop-now {
 }
 
 p.state_menu_option {
-  color: #1f1f1f;
+  color: #000;
   width: 100%;
   display: block;
   margin-top: 20px !important;
@@ -4067,7 +3983,7 @@ nav .dropdown button svg {
 }
 
 .fusion-footer a.fusion-button.button-4, .fusion-footer a.fusion-button.button-3, .fusion-footer a.fusion-button.button-2, .fusion-footer a.fusion-button.button-1, .fusion-footer a.fusion-button.button-5, .fusion-footer .footer_action_button.inverse, .fusion-footer a.footer_action_button.inverse {
-  background-color: #1f1f1f !important;
+  background-color: #000 !important;
   color:#FFF !important;
   border-width:2px !important;
   border-color:#FFF !important;
@@ -4080,7 +3996,7 @@ nav .dropdown button svg {
 .fusion-footer a.fusion-button.button-4, .fusion-footer a.fusion-button.button-3, .fusion-footer a.fusion-button.button-2, .fusion-footer a.fusion-button.button-1, .fusion-footer a.fusion-button.button-5, .fusion-footer .footer_action_button.inverse, .fusion-footer a.footer_action_button.inverse {
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .fusion-footer a.fusion-button.button-4:hover, .fusion-footer a.fusion-button.button-3:hover, .fusion-footer a.fusion-button.button-2:hover, .fusion-footer a.fusion-button.button-1:hover, .fusion-footer a.fusion-button.button-5:hover, .fusion-footer .footer_action_button.inverse:hover, .fusion-footer a.footer_action_button.inverse:hover {
@@ -4093,7 +4009,7 @@ nav .dropdown button svg {
 }
 
 .fusion-footer a.fusion-button.button-4:hover .fusion-button-text, .fusion-footer a.fusion-button.button-3:hover .fusion-button-text, .fusion-footer a.fusion-button.button-2:hover .fusion-button-text, .fusion-footer a.fusion-button.button-1:hover .fusion-button-text, .fusion-footer a.fusion-button.button-5:hover .fusion-button-text, .fusion-footer .footer_action_button.inverse:hover .fusion-button-text, .fusion-footer a.footer_action_button.inverse:hover .fusion-button-text {
-  color:#1f1f1f !important;
+  color:#000 !important;
 }
 
 .fusion-footer .fusion-author .fusion-author-title, .fusion-footer .fusion-body #main .tribe-events .tribe-events-calendar-month__body .tribe-events-calendar-month__day, .fusion-footer .fusion-body #main .tribe-events .tribe-events-calendar-month__body .tribe-events-calendar-month__day-date, .fusion-footer .fusion-body #main .tribe-events .tribe-events-calendar-month__header-column-title, .fusion-footer .fusion-body .tooltipster-base h3, .fusion-footer .fusion-modal .modal-title, .fusion-footer .fusion-modal h3, .fusion-footer .fusion-tb-footer h3, .fusion-footer .fusion-tb-page-title-bar h3, .fusion-footer .fusion-widget-area h3, .fusion-footer .post-content h3, .fusion-footer .project-content h3, .fusion-footer .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-single-section-title, .fusion-footer .single-tribe_events .fusion-events-featured-image .fusion-events-single-title-content .tribe-events-schedule, .fusion-footer .single-tribe_events .fusion-events-featured-image .fusion-events-single-title-content .tribe-events-schedule h3, .fusion-footer .single-tribe_events .tribe-block__venue .tribe-block__venue__meta .tribe-block__venue__name h3{
@@ -4120,7 +4036,7 @@ nav .dropdown button svg {
 
 .fusion-footer .fusion-button.button-5:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .fusion-footer .fusion-button.button-5 {
@@ -4421,7 +4337,7 @@ Future will have these toggles applied to the render of components directly, and
   letter-spacing: 0.25em;
   font-weight:600;
   --tw-text-opacity: 1;
-  color: rgba(51, 51, 51, var(--tw-text-opacity));
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
 /* FIND YOUR ZEN */
@@ -4444,17 +4360,17 @@ Future will have these toggles applied to the render of components directly, and
   margin-top: 0.75rem;
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .zenleaf-hero-text-container .zen_button:hover {
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .zenleaf-hero-text-container .zen_button {
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .zenleaf-hero-text-container .zen_button:hover {
@@ -4471,7 +4387,7 @@ Future will have these toggles applied to the render of components directly, and
 
 .zenleaf-hero-text-container .zen_button:hover {
   --tw-text-opacity: 1;
-  color: rgba(31, 31, 31, var(--tw-text-opacity));
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
 .zenleaf-hero-text-container .zen_button {
@@ -4522,7 +4438,7 @@ Future will have these toggles applied to the render of components directly, and
 .trusted_brand_hl_1 h6::after {
   display: inline-block;
   content: "";
-  border-top: 2px solid #1f1f1f;
+  border-top: 2px solid #000;
   opacity: 1;
   width: 12rem;
   /* Firefox 3.6 and earlier */
@@ -4550,7 +4466,7 @@ Future will have these toggles applied to the render of components directly, and
 .trusted_brand_hl_1 h6::after {
   margin: 0 2rem;
   transform: translateY(-.6rem);
-  box-shadow: 0px 9px 0px #1f1f1f;
+  box-shadow: 0px 9px 0px #000;
 }
 
 .trusted_brand_hl_1 h6 {
@@ -4596,7 +4512,7 @@ Future will have these toggles applied to the render of components directly, and
 .featured-deal_wrapper .product_title_text {
   font: normal normal bold 40px/50px Norwester;
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
   font-size: 28px !important;
   line-height: 1;
   margin-bottom:16px;
@@ -4612,7 +4528,7 @@ Future will have these toggles applied to the render of components directly, and
 
 .featured-deal_wrapper .fusion-button:hover {
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .featured-deal_wrapper .fusion-button .fusion-button-text {
@@ -4666,12 +4582,12 @@ Future will have these toggles applied to the render of components directly, and
 .featured-deal_wrapper .product_name_text span {
   font: normal normal normal 20px/26px FiraSansCondensed-Regular;
   letter-spacing: 0px;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .fusion-button.button-1:hover, .fusion-button.button-1:active, .fusion-button.button-1:focus {
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
@@ -5025,7 +4941,7 @@ article.fusion-post-grid .fusion-post-content-container p a{
 
 .job_apply:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
 }
@@ -5067,7 +4983,7 @@ section .opening a:hover {
 }
 
 #wpsl-search-btn {
-  background-color: #1f1f1f !important;
+  background-color: #000 !important;
   font: normal normal  18px/18px FiraSansCondensed-Regular;
   margin-bottom: 10px;
   text-transform: uppercase !important;
@@ -5098,7 +5014,7 @@ section .opening a:hover {
 }
 
 .zenmap-container>#wpsl-result-list p, .zenmap-container>#wpsl-result-list li, .zenmap-container>#wpsl-result-list a {
-  color: #1f1f1f !important;
+  color: #000 !important;
   background-color: white;
 }
 
@@ -5139,7 +5055,7 @@ section .opening a:hover {
 }
 
 .zenmap-container #wpsl-stores .wpsl-store-details.wpsl-store-listing.wpsl-active-details:before, .zenmap-container #wpsl-stores .wpsl-store-details.wpsl-store-listing:before {
-  color:#1f1f1f;
+  color:#000;
   border-top: 5px solid #fff;
 }
 
@@ -5172,7 +5088,7 @@ section .opening a:hover {
   width:100%;
   font-size:18px;
   border-radius: 6px;
-  border: 2px solid #1f1f1f !important;
+  border: 2px solid #000 !important;
   padding-left: 20px;
 }
 
@@ -5196,7 +5112,7 @@ section .opening a:hover {
 
 @media screen and (max-width: 640px) {
   #menu-states {
-    border: 1px solid #1f1f1f  !important;
+    border: 1px solid #000  !important;
     border-radius: 0 0 6px 6px !important
   }
 }
@@ -5212,7 +5128,7 @@ section .opening a:hover {
 
 #menu-states .fusion-background-highlight {
   background:#FFF !important;
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 @media screen and (max-width: 640px) {
@@ -5232,7 +5148,7 @@ section .opening a:hover {
 }
 
 #menu-states a:hover .menu-text {
-  color: #1f1f1f;
+  color: #000;
   text-decoration: none !important;
   margin: 0 auto;
   text-align: left;
@@ -5246,13 +5162,13 @@ section .opening a:hover {
 
 #menu-states a .menu-text {
   font-size: 16px;
-  color:#1f1f1f;
+  color:#000;
   background-color: #FFF;
   text-decoration: none !important;
 }
 
 #menu-states a .menu-text:hover {
-  color:#1f1f1f;
+  color:#000;
   font-weight: bold;
 }
 
@@ -5282,7 +5198,7 @@ section .opening a:hover {
 }
 
 #state-menu.fusion-menu-element-wrapper .fusion-menu-element-list>li:not(.fusion-menu-item-button).current-menu-item>a{
-  color: #1f1f1f !important;
+  color: #000 !important;
   background-color: #fff !important;
 }
 
@@ -5319,7 +5235,7 @@ section .opening a:hover {
   --tw-border-opacity: 1;
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
   background-color:black !important;
   border-color:white !important;
 }
@@ -5328,7 +5244,7 @@ section .opening a:hover {
   --tw-border-opacity: 1;
   border-color: rgba(255, 255, 255, var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .heroLocation .fusion-button:hover {
@@ -5422,7 +5338,7 @@ section .opening a:hover {
   font-family: 'FiraSansCondensed-Regular';
   font-size: 16px;
   text-decoration: underline;
-  color: #1f1f1f;
+  color: #000;
 }
 
 .green-icon {
@@ -5439,7 +5355,7 @@ section .opening a:hover {
 }
 
 .green-icon>i::before {
-  color: #1f1f1f;
+  color: #000;
 }
 
 .NAP a.fusion-button.button-4, .NAP a.fusion-button.button-2, .NAP a.fusion-button.button-3 {
@@ -5469,7 +5385,7 @@ section .opening a:hover {
 .NAP a.fusion-button.button-4:hover, .NAP a.fusion-button.button-2:hover, .NAP a.fusion-button.button-3:hover {
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
   background-color:white !important;
@@ -5539,7 +5455,7 @@ section .opening a:hover {
 /* LEARN*/
 
 .learnPage-grid .button-custom {
-  background:#1f1f1f !important;
+  background:#000 !important;
   color:#FFF !important;
   padding: 10px 25px !important;
   border-radius: 5px !important;
@@ -5552,8 +5468,8 @@ section .opening a:hover {
 
 .learnPage-grid .button-custom:hover {
   background-color:#FFF !important;
-  color:#1f1f1f !important;
-  border-color:#1f1f1f;
+  color:#000 !important;
+  border-color:#000;
 }
 
 .learnPage-grid .button-custom .fusion-button-text
@@ -5643,9 +5559,9 @@ section .opening a:hover {
 .pageTitle-singleState .zen_button {
   margin-top:10px;
   --tw-border-opacity: 1;
-  border-color: rgba(31, 31, 31, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgba(31, 31, 31, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
   border-color:black !important;
@@ -5713,7 +5629,7 @@ section .opening a:hover {
 .grid-stateLocations .fusion-text .shop-the-menu-card-button {
   color: #FFF;
   text-transform:uppercase !important;
-  background-color: #1f1f1f !important;
+  background-color: #000000 !important;
   position: absolute;
   bottom: 20px !important;
   right:20px !important;
@@ -5725,7 +5641,7 @@ section .opening a:hover {
 
 .grid-stateLocations .fusion-text .shop-the-menu-card-button:hover {
   background-color: #FFF !important;
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 /* TEMPORARY FIX
@@ -5794,7 +5710,7 @@ We will need to remove this code and build logic for show/hide - but may do this
 }
 
 .faqs .faq-button {
-  background-color: #1f1f1f !important;
+  background-color: #000000 !important;
   cursor: pointer;
   padding: 10px 20px !important;
 }
@@ -5809,14 +5725,29 @@ We will need to remove this code and build logic for show/hide - but may do this
 
 .faqs .faq-button:hover {
   background-color: #FFF !important;
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .faqs .faq-button:hover .swap-faq-text {
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
-.infoBlock_resources {
+.infoBlock_resources h2 {
+  font-size:38px !important;
+  margin-bottom:20px;
+}
+
+@media screen and (max-width: 800px) {
+  .infoBlock_resources h2 {
+    font-size:24px !important
+  }
+}
+
+.infoBlock_resources h3, .infoBlock_resources h4, .infoBlock_resources h5, .infoBlock_resources h6 {
+  font-size: 20px;
+  font-family: 'Nourd-Bold';
+  margin-bottom: 10px;
+  line-height: 24px !important;
 }
 
 /* blogGrid.css already included above, here for notation */
@@ -5827,12 +5758,12 @@ We will need to remove this code and build logic for show/hide - but may do this
 
 [role="tab"].active {
   --tw-bg-opacity: 1;
-  background-color: rgba(237, 237, 237, var(--tw-bg-opacity));
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
 }
 
 [role="tab"].active svg {
   --tw-text-opacity: 1;
-  color: rgba(231, 211, 177, var(--tw-text-opacity));
+  color: rgba(251, 191, 36, var(--tw-text-opacity));
 }
 
 .nav-link{
@@ -5842,7 +5773,7 @@ We will need to remove this code and build logic for show/hide - but may do this
 
 .nav-link:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(204, 204, 204, var(--tw-bg-opacity));
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
 .nav-link {
@@ -5873,7 +5804,7 @@ We will need to remove this code and build logic for show/hide - but may do this
 
 .megamenu-button:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(204, 204, 204, var(--tw-bg-opacity));
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
 .megamenu-button {
@@ -5891,7 +5822,7 @@ We will need to remove this code and build logic for show/hide - but may do this
 
 .nav-sub-link:hover {
   --tw-bg-opacity: 1;
-  background-color: rgba(204, 204, 204, var(--tw-bg-opacity));
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
 }
 
 .nav-sub-link {
@@ -5924,7 +5855,7 @@ We will need to remove this code and build logic for show/hide - but may do this
   padding-bottom: 0.25rem;
   font-size: 18px;
   --tw-text-opacity: 1;
-  color: rgba(51, 51, 51, var(--tw-text-opacity));
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
 .nav-link-m:hover, .megamenu-button-m:hover {
@@ -5972,7 +5903,7 @@ We will need to remove this code and build logic for show/hide - but may do this
   font-size: 18px;
   text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgba(51, 51, 51, var(--tw-text-opacity));
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
 }
 
 a{
@@ -5983,7 +5914,7 @@ a{
 a:focus {
   outline-width: 2px;
   outline-style: dotted;
-  outline-color: #1f1f1f;
+  outline-color: #000;
 }
 
 gform_wrapper .button, .gform_wrapper .gform_button {
@@ -6108,7 +6039,7 @@ Age Gate
 
 .single-tribe_events #main .tribe-events .tribe-events-c-top-bar__datepicker .tribe-events-c-top-bar__datepicker-button,.post-type-archive-tribe_events #main .tribe-events .tribe-events-c-top-bar__datepicker .tribe-events-c-top-bar__datepicker-button{
   padding: 11px 20px 11px 20px;
-  background: #1f1f1f 0% 0% no-repeat padding-box;
+  background: #000 0% 0% no-repeat padding-box;
   color: #ffffff !important;
   border-radius: 5px !important;
   font-size: 18px !important;
@@ -6141,7 +6072,7 @@ tribe-common tribe-events tribe-events-view tribe-events-view--list tribe-common
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-common-c-btn.tribe-events-c-search__button{
   font-family:"FiraSansCondensed-Regular";
-  color:#1f1f1f !important;
+  color:#000 !important;
 }
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector--tabs .tribe-events-c-view-selector__list{
@@ -6149,13 +6080,13 @@ tribe-common tribe-events tribe-events-view tribe-events-view--list tribe-common
 }
 
 .single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title, .single-tribe_events main .fusion-content-widget-area .tribe-events-tickets-title, .single-tribe_events main .fusion-content-widget-area .widget .widget-title{
-  background:#1f1f1f !important;
+  background:#000 !important;
   color:#ffffff !important;
 }
 
 .tribe-recurring-event-parent{
   background-color:#ffffff !important;
-  color:#1f1f1f !important;
+  color:#000 !important;
 }
 
 .tribe-events-calendar-month__multiday-event-bar-inner {
@@ -6163,7 +6094,7 @@ tribe-common tribe-events tribe-events-view tribe-events-view--list tribe-common
 }
 
 .tribe-events-calendar-month__multiday-event-bar-title {
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 h3.tribe-events-calendar-month__multiday-event-hidden-title.tribe-common-h8{
@@ -6185,7 +6116,7 @@ div.tribe-events-calendar-month__calendar-event-tooltip-description.tribe-common
 .tooltipster-sidetip .tooltipster-box{
   background: #565656;
   border: 2px
-    solid #1f1f1f;
+    solid #000;
   border-radius: 4px;
 }
 
@@ -6295,7 +6226,7 @@ element.style {
 }
 
 .fusion-accordian #accordion-15774-1 .panel-title a .fa-fusion-box {
-  color: #1f1f1f;
+  color: #000;
 }
 
 .store-toggles.fusion-accordian .panel-title .fa-fusion-box:before {
@@ -6308,7 +6239,7 @@ element.style {
 }
 
 .fusion-accordian #accordion-15774-1 .panel-title a .fa-fusion-box {
-  color: #1f1f1f !important;
+  color: #000 !important;
 }
 
 .store-toggles span.fusion-toggle-icon-wrapper:hover {
@@ -6344,51 +6275,6 @@ element.style {
   }
 }
 
-#dealsApp .container:before {
-  display:none;
-}
-
-@media (min-width: 0px) {
-  #dealsApp .container {
-    padding-right: 0px;
-    padding-left: 0px;
-    width:auto;
-  }
-}
-
-#dealsApp h3 {
-  font-size:18px;
-}
-
-#dealsApp ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-#dealsApp a {
-  text-decoration: none;
-}
-
-#content a#dealsApp a {
-  text-decoration:none;
-  text-decoration:none;
-}
-
-#dealsApp h5 {
-  width:100px;
-  max-width:100px;
-  min-width:100px;
-}
-
-#dealsApp p {
-  font-size:14px;
-}
-
-#dealsApp .fusion-flex-container.fusion-builder-row-1 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 @media (min-width: 768px) {
   .sm\:block {
     display: block;
@@ -6396,10 +6282,6 @@ element.style {
 
   .sm\:w-96 {
     width: 24rem;
-  }
-
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .sm\:px-8 {
@@ -6412,7 +6294,7 @@ element.style {
   }
 
   .sm\:text-sm {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .sm\:text-base {
@@ -6421,14 +6303,6 @@ element.style {
 }
 
 @media (min-width: 768px) {
-  .md\:absolute {
-    position: absolute;
-  }
-
-  .md\:top-1\/2 {
-    top: 50%;
-  }
-
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -6479,10 +6353,6 @@ element.style {
     max-width: 24rem;
   }
 
-  .md\:-translate-y-1\/2 {
-    --tw-translate-y: -50%;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -6495,11 +6365,6 @@ element.style {
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .md\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .md\:pl-20 {
@@ -6565,24 +6430,8 @@ element.style {
     max-width: none;
   }
 
-  .lg\:max-w-sm {
-    max-width: 24rem;
-  }
-
-  .lg\:max-w-2xl {
-    max-width: 42rem;
-  }
-
-  .lg\:scale-x-105 {
-    --tw-scale-x: 1.05;
-  }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-stretch {
@@ -6593,17 +6442,9 @@ element.style {
     justify-content: flex-start;
   }
 
-  .lg\:p-16 {
-    padding: 4rem;
-  }
-
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .lg\:text-center {
-    text-align: center;
   }
 
   .lg\:text-base {
@@ -6612,15 +6453,6 @@ element.style {
 
   .lg\:text-xl {
     font-size: 28px;
-  }
-
-  .lg\:text-4xl {
-    font-size: 55px;
-  }
-
-  .lg\:shadow-xl {
-    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
 
@@ -6636,5 +6468,4 @@ element.style {
 }
 
 @media (min-width: 1536px) {
-}
- 
+} 
