@@ -171,7 +171,7 @@ jQuery(document).ready(function() {
                             <option value="AZ004" class="text-black text-base py-2">Gilbert</option>
                             <option value="AZ002" class="text-black text-base py-2">Local Joint by Zen Leaf</option>
                             <option value="AZ005" class="text-black text-base py-2">Mesa</option>
-                            <option value="AZ006" class="text-black text-base py-2">MÜV Dispensary Phoenix</option>
+                            <option value="AZ006" class="text-black text-base py-2">Phoenix (N Cave Creek)</option>
                             <option value="AZ001" class="text-black text-base py-2">Phoenix (W. Dunlap)</option>
                         </select>
                     </div>

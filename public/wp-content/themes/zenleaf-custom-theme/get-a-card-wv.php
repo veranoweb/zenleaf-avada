@@ -169,6 +169,7 @@ jQuery(document).ready(function() {
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
 
                             <option value="WV001" class="text-black text-base py-2">Morgantown</option>
+                            <option value="WV002" class="text-black text-base py-2">Westover</option>
                         </select>
                     </div>
                 </div>

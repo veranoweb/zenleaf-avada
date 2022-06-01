@@ -116,4 +116,9 @@
     @apply text-5xl;
 }
 
+@media screen and (max-width: 570px) {
+    .homeHero h1.action_text {
+        font-size: 36px !important;
+    }
 
+} 

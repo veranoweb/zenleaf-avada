@@ -4518,6 +4518,12 @@ Future will have these toggles applied to the render of components directly, and
   font-size: 68px;
 }
 
+@media screen and (max-width: 570px) {
+  .homeHero h1.action_text {
+    font-size: 36px !important;
+  }
+}
+
 .trusted_brand_hl_1 h6::before,
 .trusted_brand_hl_1 h6::after {
   display: inline-block;
