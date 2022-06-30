@@ -3203,6 +3203,20 @@ table.wpsl-opening-hours time {
   display:none;
 }
 
+.td-strain {
+  border: none;
+}
+
+.tr-strain {
+  border: none;
+  background-color: #fff;
+}
+
+.table-strain {
+  border: none;
+  background-color: #fff;
+}
+
 .zen_button, .zen_button_location, .fusion-button, .fusion-button-text {
   text-decoration: none;
 }
