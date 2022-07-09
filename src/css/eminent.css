@@ -995,3 +995,13 @@ table.wpsl-opening-hours time {
     background-color: #fff;
     }
     
+
+    
+.page-id-14973 .table-1 tr:nth-child(2n) {
+    background: #FFF !important;
+}
+.page-id-14973 .white-rows tr td {
+    border: 0 !important;
+}
+
+.page-id-14973 .table-1 table {border:0}
