@@ -3230,6 +3230,32 @@ table.wpsl-opening-hours time {
   display:none;
 }
 
+.td-strain {
+  border: none;
+}
+
+.tr-strain {
+  border: none;
+  background-color: #fff;
+}
+
+.table-strain {
+  border: none;
+  background-color: #fff;
+}
+
+.page-id-14973 .table-1 tr:nth-child(2n) {
+  background: #FFF !important;
+}
+
+.page-id-14973 .white-rows tr td {
+  border: 0 !important;
+}
+
+.page-id-14973 .table-1 table {
+  border:0
+}
+
 .zen_button, .zen_button_location, .fusion-button, .fusion-button-text {
   text-decoration: none;
 }
@@ -6474,6 +6500,10 @@ element.style {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .md\:mt-8 {
+    margin-top: 2rem;
   }
 
   .md\:mt-10 {

@@ -979,3 +979,29 @@ table.wpsl-opening-hours time {
 .search-field {
     display:none;
 }
+
+
+.td-strain {
+    border: none;
+    }
+    
+    .tr-strain {
+    border: none; 
+    background-color: #fff;
+    }
+    
+    .table-strain {
+    border: none; 
+    background-color: #fff;
+    }
+    
+
+    
+.page-id-14973 .table-1 tr:nth-child(2n) {
+    background: #FFF !important;
+}
+.page-id-14973 .white-rows tr td {
+    border: 0 !important;
+}
+
+.page-id-14973 .table-1 table {border:0}
