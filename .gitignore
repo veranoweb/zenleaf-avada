@@ -14,3 +14,4 @@ vendor/
 *.log
 *.sql
 *.sqlite
+public/wp-content/themes/zenleaf-custom-theme/assets/css/styles.css

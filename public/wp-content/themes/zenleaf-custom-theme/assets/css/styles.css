@@ -762,8 +762,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mb-20 {
@@ -896,6 +904,10 @@ video {
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.max-w-lg {
+  max-width: 32rem;
 }
 
 .max-w-2xl {
@@ -1073,6 +1085,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-visible {
+  overflow: visible;
+}
+
 .rounded-sm {
   border-radius: 0.125rem;
 }
@@ -1235,6 +1251,11 @@ video {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-12 {
@@ -1571,6 +1592,12 @@ video {
 
 .transition-all {
   transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -6520,6 +6547,10 @@ element.style {
     text-align: left;
   }
 
+  .md\:text-base {
+    font-size: 18px;
+  }
+
   .md\:text-xl {
     font-size: 28px;
   }
@@ -6534,6 +6565,15 @@ element.style {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .lg\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -6553,6 +6593,10 @@ element.style {
 
   .lg\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .lg\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .lg\:block {
@@ -6612,6 +6656,10 @@ element.style {
     padding-right: 2rem;
   }
 
+  .lg\:text-left {
+    text-align: left;
+  }
+
   .lg\:text-center {
     text-align: center;
   }
@@ -6639,9 +6687,30 @@ element.style {
     display: inline-block;
   }
 
+  .xl\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .xl\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .xl\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .xl\:text-left {
+    text-align: left;
+  }
+
+  .xl\:text-4xl {
+    font-size: 55px;
   }
 }
 
