@@ -170,6 +170,7 @@ jQuery(document).ready(function() {
 
                             <option value="WV001" class="text-black text-base py-2">Morgantown</option>
                             <option value="WV002" class="text-black text-base py-2">Westover</option>
+                            <option value="WV003" class="text-black text-base py-2">Wheeling</option>
                         </select>
                     </div>
                 </div>
