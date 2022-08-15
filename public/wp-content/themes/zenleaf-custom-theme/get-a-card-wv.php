@@ -167,10 +167,11 @@ jQuery(document).ready(function() {
                         <label for="location" class="uppercase">Preferred Location:</label>
                         <select name="location" id="location" class="block w-full pl-3 pr-10 py-2 text-base border-gray-500 focus:outline-none focus:ring-black focus:border-black sm:text-sm rounded-md" style="border:1px solid #747474; font-size:18px; color:black;" required>
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
-
+                            <option value="WV004" class="text-black text-base py-2">Clarksburg</option>
                             <option value="WV001" class="text-black text-base py-2">Morgantown</option>
                             <option value="WV002" class="text-black text-base py-2">Westover</option>
                             <option value="WV003" class="text-black text-base py-2">Wheeling</option>
+                            
                         </select>
                     </div>
                 </div>
