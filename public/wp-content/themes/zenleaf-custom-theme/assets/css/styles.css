@@ -443,11 +443,6 @@ input::-moz-placeholder, textarea::-moz-placeholder {
   color: #a1a1aa;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
-  color: #a1a1aa;
-}
-
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
@@ -674,6 +669,10 @@ video {
 
 .m-1 {
   margin: 0.25rem;
+}
+
+.m-4 {
+  margin: 1rem;
 }
 
 .m-8 {
@@ -1067,6 +1066,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -6527,6 +6532,10 @@ element.style {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -6625,12 +6634,22 @@ element.style {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:items-stretch {
     align-items: stretch;
   }
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:p-16 {
@@ -6644,6 +6663,10 @@ element.style {
 
   .lg\:text-center {
     text-align: center;
+  }
+
+  .lg\:text-right {
+    text-align: right;
   }
 
   .lg\:text-base {
