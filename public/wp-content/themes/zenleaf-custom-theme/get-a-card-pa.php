@@ -175,12 +175,12 @@ jQuery(document).ready(function() {
                             <option value="PA009" class="text-black text-base py-2">Malvern</option>
                             <option value="PA012" class="text-black text-base py-2">Monroeville</option>
                             <option value="PA018" class="text-black text-base py-2">New Kensington</option>
-                            <option value="PA017" class="text-black text-base py-2">Philadelphia</option>
+                            <option value="PA016" class="text-black text-base py-2">Philadelphia</option>
                             <option value="PA015" class="text-black text-base py-2">Pittsburgh / Robinson</option>
                             <option value="PA010" class="text-black text-base py-2">Sellersville</option>
                             <option value="PA013" class="text-black text-base py-2">Washington</option>
                             <option value="PA003" class="text-black text-base py-2">West Chester</option>
-                            <option value="PA016" class="text-black text-base py-2">Wynnewood</option>
+                            <option value="PA017" class="text-black text-base py-2">Wynnewood</option>
                             <option value="PA002" class="text-black text-base py-2">York</option>
                          </select>
                     </div>
