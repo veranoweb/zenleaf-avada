@@ -172,7 +172,7 @@ jQuery(document).ready(function() {
                             <option value="IL009" class="text-black text-base py-2">Chicago (West Loop)</option>
                             <option value="IL002" class="text-black text-base py-2">Evanston</option>
                             <option value="IL006" class="text-black text-base py-2">Highland Park</option>
-                            <option value="IL007" class="text-black text-base py-2">Lombard</option>
+                            <option value="IL008" class="text-black text-base py-2">Lombard</option>
                             <option value="IL005" class="text-black text-base py-2">Naperville</option>
                             <option value="IL007" class="text-black text-base py-2">Prospect Heights</option>
                             <option value="IL001" class="text-black text-base py-2">St. Charles</option>
