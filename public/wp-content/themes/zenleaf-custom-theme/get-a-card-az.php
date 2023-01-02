@@ -10,6 +10,14 @@
 
 get_header();
 
+// get the URL variable "source" and fill in the form below in the field #UsrLeadSourceString
+$source = $_GET['source'];
+if (isset($source)) {
+    echo '<script>jQuery(document).ready(function() {jQuery("#UsrLeadSourceString").val("' . $source . '");});</script>';
+}
+
+
+
 ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -44,6 +52,7 @@ get_header();
             "UsrHowCanWeHelp": "#UsrHowCanWeHelp",
             "UsrConsentDate": "#UsrConsentDate",
             "UsrConsentString": "#user_consent",
+            "UsrLeadSourceString": "#UsrLeadSourceString"
 
         },
         contactFields: {
@@ -199,6 +208,7 @@ jQuery(document).ready(function() {
                     </div>
                     <input type="hidden" name="user_consent" value="" id="user_consent">
                     <input type="hidden" name="UsrConsentDate" value="" id="UsrConsentDate">
+                    <input type="hidden" name="UsrLeadSourceString" value="" id="UsrLeadSourceString">
         </form>
     </div>
 </div>
