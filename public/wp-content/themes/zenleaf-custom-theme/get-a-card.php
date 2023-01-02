@@ -44,6 +44,7 @@ get_header();
             "UsrHowCanWeHelp": "#UsrHowCanWeHelp",
             "UsrConsentDate": "#UsrConsentDate",
             "UsrConsentString": "#user_consent",
+            "UsrLeadSourceString": "#UsrLeadSourceString",
 
         },
         contactFields: {
@@ -197,6 +198,7 @@ jQuery(document).ready(function() {
                     </div>
                     <input type="hidden" name="user_consent" value="" id="user_consent">
                     <input type="hidden" name="UsrConsentDate" value="" id="UsrConsentDate">
+                    <input type="hidden" name="UsrLeadSourceString" value="" id="UsrLeadSourceString"> 
         </form>
     </div>
 </div>

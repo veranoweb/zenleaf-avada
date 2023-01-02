@@ -16,8 +16,6 @@ if (isset($source)) {
     echo '<script>jQuery(document).ready(function() {jQuery("#UsrLeadSourceString").val("' . $source . '");});</script>';
 }
 
-
-
 ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -52,7 +50,8 @@ if (isset($source)) {
             "UsrHowCanWeHelp": "#UsrHowCanWeHelp",
             "UsrConsentDate": "#UsrConsentDate",
             "UsrConsentString": "#user_consent",
-            "UsrLeadSourceString": "#UsrLeadSourceString"
+            "UsrLeadSourceString": "#UsrLeadSourceString",
+            
 
         },
         contactFields: {
@@ -165,6 +164,7 @@ jQuery(document).ready(function() {
                             <option value=""  class="text-grey-800 text-base py-2" disabled selected>-- Please choose an option --</option>
 
                             <option value="New Patient" class="text-black text-base py-2">I need information on how to apply for my medical card</option>
+<option value="Caregiver" class="text-black text-base py-2">I need help applying as a Caregiver</option>
                             <option value="Renewal" class="text-black text-base py-2">I need help renewing my card</option>
                             <option value="Other" class="text-black text-base py-2">Other</option>
                         </select>
@@ -208,7 +208,7 @@ jQuery(document).ready(function() {
                     </div>
                     <input type="hidden" name="user_consent" value="" id="user_consent">
                     <input type="hidden" name="UsrConsentDate" value="" id="UsrConsentDate">
-                    <input type="hidden" name="UsrLeadSourceString" value="" id="UsrLeadSourceString">
+                    <input type="hidden" name="UsrLeadSourceString" value="" id="UsrLeadSourceString"> 
         </form>
     </div>
 </div>
