@@ -178,6 +178,7 @@ jQuery(document).ready(function() {
                             <option value="PA008" class="text-black text-base py-2">Abington</option>
                             <option value="PA004" class="text-black text-base py-2">Altoona</option>
                             <option value="PA014" class="text-black text-base py-2">Chester</option>
+                            <option value="PA019" class="text-black text-base py-2">Clifton Heights</option>
                             <option value="PA011" class="text-black text-base py-2">Cranberry Township</option>
                             <option value="PA001" class="text-black text-base py-2">Harrisburg</option>
                             <option value="PA009" class="text-black text-base py-2">Malvern</option>
