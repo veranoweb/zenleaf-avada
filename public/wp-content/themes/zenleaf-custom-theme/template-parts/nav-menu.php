@@ -59,8 +59,8 @@
             <div class="absolute inset-y-0 right-0 flex items-center pr-2">
                 <div class="relative">
                     <div class="flex space-x-4 ml-4">
-                        <a href="/locations" class="text-black px-3 py-2 rounded-md text-base font-medium uppercase tracking-widest hidden lg:block lg:text-base hover:bg-gray-200 hover:underline group" id="locations-megamenu-button" aria-haspopup="true">
-                            <span class="hidden xl:inline-block group-hover:underline">Store</span> Locations
+                        <a href="/store-locator" class="text-black px-3 py-2 rounded-md text-base font-medium uppercase tracking-widest hidden lg:block lg:text-base hover:bg-gray-200 hover:underline group" id="locations-megamenu-button" aria-haspopup="true">
+                            <span class="hidden xl:inline-block group-hover:underline">Store</span> Locator
                         </a>
                         <!-- Shop Button -->
                         <div class="dropdown">
@@ -86,7 +86,7 @@
         <div id="moble-menu-wrapper" class="block lg:hidden">
             <div class="mt-4 origin-top-left w-80 max-w-full absolute hidden z-50 uppercase tracking-wide md:hidden" id="mobile-menu" style="width:calc(100vw-40px)">
                 <div class="w-full rounded-sm shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none py-4 " role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1" id="mobile-menu-root">
-                    <a href="/locations" class="nav-link-m" role="menuitem" tabindex="-1">Locations</a>
+                    <a href="/store-locator/" class="nav-link-m" role="menuitem" tabindex="-1">Locator</a>
                     <button type="button" class="megamenu-button-m" role="menuitem" tabindex="-1" id="mobile-menu-about-button">
                         <span class="float-left w-full text-left">
                             About
