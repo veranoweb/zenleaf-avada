@@ -29,6 +29,45 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 */
 	echo apply_filters( 'avada_space_head', Avada()->settings->get( 'space_head' ) ); // phpcs:ignore WordPress.Security.EscapeOutput
 	?>
+
+<script id="ga-script">
+        
+          const receiveMessage = (event) => {
+            var payload = event.data && event.data.payload
+
+            if (!payload || event.data.messageType !== 'analyticsEvent') return
+
+            if (payload.name === 'checkout') {
+              var subtotal = payload.properties && payload.properties.estimatedTotal
+              var cartId = payload.properties && payload.properties.cartId
+              var products = payload.properties && payload.properties.products
+
+              var items = products.map(({product_id, name, brand, category, kind, unit_price, count, special_id, special_title}) => ({
+                id: product_id,
+                name: name,
+                brand: brand,
+                category: kind,
+                variant: category,
+                quantity: count,
+                price: unit_price
+              }))
+
+              // do something with payload
+              console.log(subtotal, cartId, products)
+
+              gtag('event', 'purchase', {
+                transaction_id: cartId,
+                value: subtotal,
+                currency: 'USD',
+                items: items
+              })
+            }
+          }
+
+          window.addEventListener("message", receiveMessage, false);
+        
+      </Script>
+
 </head>
 
 <?php
