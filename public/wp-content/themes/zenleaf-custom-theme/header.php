@@ -66,7 +66,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
           window.addEventListener("message", receiveMessage, false);
         
-      </script>
+      </Script>
 
 </head>
 
