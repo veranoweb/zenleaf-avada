@@ -1,0 +1,261 @@
+:root {
+  font-size: 18px;
+  --colors-social-facebook: 53, 81, 141;
+  --colors-social-twitter: 29, 161, 242;
+  --colors-social-google: 66, 132, 244;
+  --colors-link-light: 96, 151, 219;
+  --colors-link: 23, 108, 212;
+  --colors-link-dark: 20, 51, 89;
+  --colors-link-visited: 151, 44, 212;
+  --colors-button-primary: 31, 31, 31;
+  --colors-button-on-primary: 255, 255, 255;
+  --colors-button-primary-hover: 136, 142, 84;
+  --colors-button-on-primary-hover: 255, 255, 255;
+  --colors-button-secondary: 255, 255, 255;
+  --colors-button-on-secondary: 31, 31, 31;
+  --colors-button-on-secondary-hover: 31, 31, 31;
+  --colors-foreground: 255, 255, 255;
+  --colors-background: 249, 249, 249;
+  --colors-secondary: 255, 255, 255;
+  --colors-primary: 0, 0, 0;
+  --colors-primary-dark: 0, 0, 0;
+  --colors-white: 255, 255, 255;
+  --colors-trueBlack: 0, 0, 0;
+  --colors-gray-lighter: 237, 237, 237;
+  --colors-gallery: 237, 237, 237;
+  --colors-gray-light: 204, 204, 204;
+  --colors-silver: 204, 204, 204;
+  --colors-gray: 137, 137, 137;
+  --colors-davys-grey: 71, 71, 71;
+  --colors-gray-dark: 71, 71, 71;
+  --colors-jet-black: 51, 51, 51;
+  --colors-gray-darker: 51, 51, 51;
+  --colors-eeire-black: 31, 31, 31;
+  --colors-black: 31, 31, 31;
+  --colors-green-lightest: 231, 232, 217;
+  --colors-green-lighter: 214, 216, 192;
+  --colors-green-light: 198, 201, 166;
+  --colors-green: 165, 172, 113;
+  --colors-green-dark: 136, 142, 84;
+  --colors-green-darker: 85, 89, 48;
+  --colors-blue-lighter: 237, 244, 253;
+  --colors-blue-light: 200, 221, 249;
+  --colors-blue: 163, 200, 245;
+  --colors-blue-dark: 126, 178, 241;
+  --colors-blue-darker: 90, 156, 237;
+  --colors-blue-darkest: 23, 108, 212;
+  --colors-red-lighter: 245, 227, 221;
+  --colors-red-light: 236, 200, 189;
+  --colors-red: 234, 168, 153;
+  --colors-red-dark: 218, 145, 120;
+  --colors-red-darker: 210, 120, 88;
+  --colors-brown-lighter: 245, 236, 222;
+  --colors-brown-light: 231, 211, 177;
+  --colors-brown: 222, 178, 124;
+  --colors-brown-dark: 212, 154, 75;
+  --colors-brown-darker: 181, 121, 46;
+  --fontSize-xs-0: .79rem;
+  --fontSize-xs-1: 150%;
+  --fontSize-sm-0: .889rem;
+  --fontSize-sm-1: 150%;
+  --fontSize-base-0: 1rem;
+  --fontSize-base-1: 150%;
+  --fontSize-lg-0: 1.125rem;
+  --fontSize-lg-1: 140%;
+  --fontSize-xl-0: 1.266rem;
+  --fontSize-xl-1: 140%;
+  --fontSize-2xl-0: 1.424rem;
+  --fontSize-2xl-1: 130%;
+  --fontSize-3xl-0: 1.602rem;
+  --fontSize-3xl-1: 120%;
+  --fontSize-4xl-0: 1.802rem;
+  --fontSize-4xl-1: 120%;
+  --fontSize-5xl-0: 2.027rem;
+  --fontSize-5xl-1: 120%;
+  --fontSize-6xl-0: 2.281rem;
+  --fontSize-6xl-1: 120%;
+  --fontSize-7xl-0: 2.566rem;
+  --fontSize-7xl-1: 120%;
+  --fontSize-8xl-0: 2.887rem;
+  --fontSize-8xl-1: 120%;
+  --fontSize-9xl-0: 3.247rem;
+  --fontSize-9xl-1: 120%;
+  --fontFamily-tagline-0: Norwester;
+  --fontFamily-heading-0: Fira Sans;
+  --fontFamily-heading-1: sans-serif;
+  --fontFamily-body-0: Fira Sans;
+  --fontFamily-body-1: sans-serif;
+  --borderRadius-none: 0;
+  --borderRadius-sm: 2px;
+  --borderRadius: 4px;
+  --borderRadius-lg: 8px;
+  --borderRadius-xl: 24px;
+  --borderRadius-full: 9999px;
+}
+
+@font-face {
+  font-family: Norwester;
+  src: url('https://admin.zenleafdispensaries.com/wp-content/uploads/fonts/norwester.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sohne';
+  src: url('https://admin.zenleafdispensaries.com/wp-content/uploads/fonts/sohne-fettkursiv-webfont.woff2') format('woff2'), url('https://admin.zenleafdispensaries.com/wp-content/uploads/fonts/sohne-fettkursiv-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TVCD';
+  src: url('https://admin.zenleafdispensaries.com/wp-content/uploads/fonts/tvcd-regular-webfont.woff2') format('woff2'), url('https://admin.zenleafdispensaries.com/wp-content/uploads/fonts/tvcd-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.drop-shadow-\[2px_3px_0px_rgba\(79\2c 67\2c 134\2c 1\)\] {
+  filter: drop-shadow(2px 3px 0px rgba(79, 67, 134, 1));
+}
+
+.font-sohne {
+  font-family: 'Sohne';
+}
+
+.font-tvcd {
+  font-family: 'TVCD';
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgba(var(--colors-white), var(--tw-text-opacity));
+}
+
+.text-xs {
+  font-size: var(--fontSize-xs-0);
+  line-height: var(--fontSize-xs-1);
+}
+
+.bg-eeire-black {
+  --tw-bg-opacity: 1;
+  background-color: rgba(var(--colors-eeire-black), var(--tw-bg-opacity));
+}
+
+.space-x-2>:not([hidden])~:not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.rounded-sm {
+  border-radius: var(--borderRadius-sm);
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-\[36px\] {
+  width: 36px;
+}
+
+.h-\[24px\] {
+  height: 24px;
+}
+
+@media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:drop-shadow-\[2px_4px_0px_rgba\(79\2c 67\2c 134\2c 1\)\] {
+    filter: drop-shadow(2px 4px 0px rgba(79, 67, 134, 1));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:rounded {
+    border-radius: var(--borderRadius);
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:w-\[50px\] {
+    width: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-\[30px\] {
+    height: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:text-base {
+    font-size: var(--fontSize-base-0);
+    line-height: var(--fontSize-base-1);
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:space-x-3 >:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+    margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:space-x-8 >:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:space-x-4 >:not([hidden])~:not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:h-\[48px\] {
+    height: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:text-lg {
+    font-size: var(--fontSize-lg-0);
+    line-height: var(--fontSize-lg-1);
+  }
+}

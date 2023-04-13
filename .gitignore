@@ -5,6 +5,9 @@ public/wp-content/*
 !public/wp-content/themes/
 public/wp-content/themes/*
 !public/wp-content/themes/zenleaf-custom-theme
+!public/wp-content/plugins/
+public/wp-content/plugins/*
+!public/wp-content/plugins/fallback-countdown
 
 # ignore node dependency directories
 node_modules/
